@@ -1,0 +1,178 @@
+{
+  "selected_area.size": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 12,
+    "confused_with": {
+      "position.destination": 5,
+      "position.source": 5
+    }
+  },
+  "selected_area.length": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "value.width": 2
+    }
+  },
+  "position.source": {
+    "precision": 0.919431279620853,
+    "recall": 1.0,
+    "f1-score": 0.9580246913580247,
+    "support": 194,
+    "confused_with": {}
+  },
+  "object.size": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "value.size": 1
+    }
+  },
+  "value.move": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "value.change": {
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1-score": 0.967741935483871,
+    "support": 16,
+    "confused_with": {
+      "position.source": 1
+    }
+  },
+  "object.color": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 18,
+    "confused_with": {}
+  },
+  "value.width": {
+    "precision": 0.2962962962962963,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.41025641025641024,
+    "support": 12,
+    "confused_with": {
+      "value.length": 4
+    }
+  },
+  "value.color": {
+    "precision": 1.0,
+    "recall": 0.9428571428571428,
+    "f1-score": 0.9705882352941176,
+    "support": 35,
+    "confused_with": {
+      "object.color": 2
+    }
+  },
+  "value.length": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444445,
+    "support": 8,
+    "confused_with": {
+      "value.width": 4
+    }
+  },
+  "value.angle": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "value.width": 1
+    }
+  },
+  "change_action": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "position.destination": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 15,
+    "confused_with": {
+      "position.source": 5
+    }
+  },
+  "value.orientation": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1,
+    "confused_with": {}
+  },
+  "object.shape": {
+    "precision": 0.9459459459459459,
+    "recall": 0.9210526315789473,
+    "f1-score": 0.9333333333333332,
+    "support": 38,
+    "confused_with": {}
+  },
+  "value.size": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "selected_area.width": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "value.width": 2
+    }
+  },
+  "selected_area.shape": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "value.height": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "value.width": 10,
+      "value.length": 2
+    }
+  },
+  "micro avg": {
+    "precision": 0.8666666666666667,
+    "recall": 0.8753117206982544,
+    "f1-score": 0.8709677419354839,
+    "support": 401
+  },
+  "macro avg": {
+    "precision": 0.6009903357371553,
+    "recall": 0.5948110407597942,
+    "f1-score": 0.5685405877922273,
+    "support": 401
+  },
+  "weighted avg": {
+    "precision": 0.8532828125765214,
+    "recall": 0.8753117206982544,
+    "f1-score": 0.8508211780412366,
+    "support": 401
+  },
+  "accuracy": 0.9298642533936652
+}

@@ -1,0 +1,70 @@
+# The config recipe.
+# https://rasa.com/docs/rasa/model-configuration/
+recipe: default.v1
+
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: vi
+
+pipeline:
+# No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
+# If you'd like to customize it, uncomment and adjust the pipeline.
+# See https://rasa.com/docs/rasa/tuning-your-model for more information.
+- name: tokenizer.vi_tokenizer.VietnameseTokenizer
+# - name: tokenizer.new_vi_tokenizer.NewVietnameseTokenizer
+# - name: LexicalSyntacticFeaturizer
+
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+
+- name: featurizer.phobert_v2_featurizer.PhobertFeaturizer
+# - name: LanguageModelFeaturizer
+#   model_name: "bert"
+#   model_weights: "rasa/LaBSE" 
+# - name: CountVectorsFeaturizer
+
+- name: DIETClassifier
+  transformer_size: 100
+  batch_size: [16, 16]
+  hidden_layers_sizes: 
+    text: [768]
+    label: []
+  dense_dimension:
+    text: 768
+  concat_dimension:
+    text: 768
+  epochs: 100
+  constrain_similarities: true
+  tensorboard_log_directory: /workspace/nlplab/quannd/scada-full-stack/chatbot-scada/tensorboard_log
+  # use_key_relative_attention: true
+  # use_value_relative_attention: true
+  # use_masked_language_model: true
+- name: EntitySynonymMapper
+- name: ResponseSelector
+  constrain_similarities: true
+- name: FallbackClassifier
+  threshold: 0.5
+  ambiguity_threshold: 0.2
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+# No configuration for policies was provided. The following default policies were used to train your model.
+# If you'd like to customize them, uncomment and adjust the policies.
+# See https://rasa.com/docs/rasa/policies for more information.
+- name: MemoizationPolicy
+- name: RulePolicy
+- name: UnexpecTEDIntentPolicy
+  max_history: 5
+  epochs: 100
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+  constrain_similarities: true
+# assistant_id: 20230815-213807-blocky-torpedo
+# assistant_id: 20230909-154722-orange-hardball
+# assistant_id: 20231114-065741-either-hand

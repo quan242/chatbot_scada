@@ -1,0 +1,1728 @@
+[
+  {
+    "text": "Paste đối tượng đã được copy từ clipboard vào tọa độ (200, 150).",
+    "entities": [
+      {
+        "start": 53,
+        "end": 63,
+        "value": "(200, 150)",
+        "entity": "position",
+        "role": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 53,
+        "end": 63,
+        "confidence_entity": 0.9556728601455688,
+        "role": "source",
+        "confidence_role": 0.8114724159240723,
+        "value": "(200, 150)",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dán hình chữ nhật đã copy từ clipboard vào góc dưới bên phải tại tọa độ (500, 400).",
+    "entities": [
+      {
+        "start": 72,
+        "end": 82,
+        "value": "(500, 400)",
+        "entity": "position",
+        "role": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object",
+        "start": 4,
+        "end": 17,
+        "confidence_entity": 0.9785283207893372,
+        "role": "shape",
+        "confidence_role": 0.9875232577323914,
+        "value": "hình chữ nhật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 43,
+        "end": 60,
+        "confidence_entity": 0.737564206123352,
+        "role": "source",
+        "confidence_role": 0.8842918872833252,
+        "value": "góc dưới bên phải",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 72,
+        "end": 82,
+        "confidence_entity": 0.802410364151001,
+        "role": "destination",
+        "confidence_role": 0.42174163460731506,
+        "value": "(500, 400)",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thay đổi màu nền thành màu vàng ở toàn màn hình.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "value": "màu vàng",
+        "entity": "value",
+        "role": "color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "value",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.5400009751319885,
+        "role": "color",
+        "confidence_role": 0.7345836758613586,
+        "value": "màu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.7933422327041626,
+        "role": "color",
+        "confidence_role": 0.9761894941329956,
+        "value": "màu vàng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thay đổi màu toàn bộ đối tượng hình oval thành màu vàng ở góc dưới bên phải.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 40,
+        "value": "hình oval",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "value": "màu vàng",
+        "entity": "value",
+        "role": "color"
+      },
+      {
+        "start": 58,
+        "end": 75,
+        "value": "góc dưới bên phải",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "value",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.43958261609077454,
+        "role": "color",
+        "confidence_role": 0.8365020155906677,
+        "value": "màu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 31,
+        "end": 40,
+        "confidence_entity": 0.9760945439338684,
+        "role": "shape",
+        "confidence_role": 0.9890095591545105,
+        "value": "hình oval",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 47,
+        "end": 55,
+        "confidence_entity": 0.5960438847541809,
+        "role": "color",
+        "confidence_role": 0.9786831140518188,
+        "value": "màu vàng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 58,
+        "end": 75,
+        "confidence_entity": 0.8735508322715759,
+        "role": "source",
+        "confidence_role": 0.9073300361633301,
+        "value": "góc dưới bên phải",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Di chuyển hình vật thể hình chữ nhật ở giữa về bên trái 5 đơn vị",
+    "entities": [
+      {
+        "start": 23,
+        "end": 36,
+        "value": "hình chữ nhật",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "value": "giữa",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "value": "5 đơn vị",
+        "entity": "value",
+        "role": "move"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9290645122528076,
+        "role": "shape",
+        "confidence_role": 0.9762503504753113,
+        "value": "hình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 23,
+        "end": 36,
+        "confidence_entity": 0.9936147928237915,
+        "role": "shape",
+        "confidence_role": 0.9891378283500671,
+        "value": "hình chữ nhật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.7185958623886108,
+        "role": "source",
+        "confidence_role": 0.9211577773094177,
+        "value": "giữa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 56,
+        "end": 64,
+        "confidence_entity": 0.9775736927986145,
+        "role": "move",
+        "confidence_role": 0.8201858401298523,
+        "value": "5 đơn vị",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Làm di chuyển hình vật thể tam giác ở vị trí (20, 30) sang phải 20 cm",
+    "entities": [
+      {
+        "start": 27,
+        "end": 35,
+        "value": "tam giác",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "value": "(20, 30)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 64,
+        "end": 69,
+        "value": "20 cm",
+        "entity": "value",
+        "role": "move"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9442920684814453,
+        "role": "shape",
+        "confidence_role": 0.9704020023345947,
+        "value": "hình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.9972264170646667,
+        "role": "shape",
+        "confidence_role": 0.9938204884529114,
+        "value": "tam giác",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 45,
+        "end": 53,
+        "confidence_entity": 0.968924343585968,
+        "role": "source",
+        "confidence_role": 0.9749569892883301,
+        "value": "(20, 30)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 64,
+        "end": 69,
+        "confidence_entity": 0.9679473042488098,
+        "role": "move",
+        "confidence_role": 0.5172353386878967,
+        "value": "20 cm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chọn hình vuông lớn ở phía bên phải trên.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "hình vuông",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "value": "lớn",
+        "entity": "object",
+        "role": "size"
+      },
+      {
+        "start": 22,
+        "end": 40,
+        "value": "phía bên phải trên",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object",
+        "start": 5,
+        "end": 15,
+        "confidence_entity": 0.9883042573928833,
+        "role": "shape",
+        "confidence_role": 0.9923036694526672,
+        "value": "hình vuông",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.6210732460021973,
+        "role": "size",
+        "confidence_role": 0.8138360977172852,
+        "value": "lớn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 27,
+        "end": 40,
+        "confidence_entity": 0.48521688580513,
+        "role": "source",
+        "confidence_role": 0.6881132125854492,
+        "value": "bên phải trên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xác định khu vực ở góc trái bên trên màn hình và có kích thước (100, 150)",
+    "entities": [
+      {
+        "start": 19,
+        "end": 36,
+        "value": "góc trái bên trên",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 63,
+        "end": 73,
+        "value": "(100, 150)",
+        "entity": "selected_area",
+        "role": "size"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 19,
+        "end": 36,
+        "confidence_entity": 0.5529934763908386,
+        "role": "source",
+        "confidence_role": 0.7062368988990784,
+        "value": "góc trái bên trên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 63,
+        "end": 73,
+        "confidence_entity": 0.8861088156700134,
+        "role": "source",
+        "confidence_role": 0.5668932795524597,
+        "value": "(100, 150)",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xóa các vật thể tại điểm (23, 65) và có kích thước 100x100 thuộc lớp đối tượng được chọn.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "(23, 65)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "value": "100x100",
+        "entity": "selected_area",
+        "role": "size"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.9499857425689697,
+        "role": "source",
+        "confidence_role": 0.958543062210083,
+        "value": "(23, 65)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "selected_area",
+        "start": 51,
+        "end": 58,
+        "confidence_entity": 0.9616200923919678,
+        "role": "size",
+        "confidence_role": 0.9516214728355408,
+        "value": "100x100",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 65,
+        "end": 68,
+        "confidence_entity": 0.3833751678466797,
+        "role": "size",
+        "confidence_role": 0.4887975752353668,
+        "value": "lớp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thay đổi màu sắc của vùng chọn hình ellipse tại (14, 41) với bán trục 12 cm và 20 cm thành màu tím.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 43,
+        "value": "hình ellipse",
+        "entity": "selected_area",
+        "role": "shape"
+      },
+      {
+        "start": 48,
+        "end": 56,
+        "value": "(14, 41)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 70,
+        "end": 75,
+        "value": "12 cm",
+        "entity": "value",
+        "role": "width"
+      },
+      {
+        "start": 79,
+        "end": 84,
+        "value": "20 cm",
+        "entity": "value",
+        "role": "length"
+      },
+      {
+        "start": 91,
+        "end": 98,
+        "value": "màu tím",
+        "entity": "value",
+        "role": "color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object",
+        "start": 31,
+        "end": 43,
+        "confidence_entity": 0.9505455493927002,
+        "role": "shape",
+        "confidence_role": 0.9801787734031677,
+        "value": "hình ellipse",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 48,
+        "end": 56,
+        "confidence_entity": 0.9609887003898621,
+        "role": "source",
+        "confidence_role": 0.9596538543701172,
+        "value": "(14, 41)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 70,
+        "end": 75,
+        "confidence_entity": 0.8862324953079224,
+        "role": "length",
+        "confidence_role": 0.3609735667705536,
+        "value": "12 cm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 79,
+        "end": 84,
+        "confidence_entity": 0.8211458325386047,
+        "role": "width",
+        "confidence_role": 0.3811538517475128,
+        "value": "20 cm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 91,
+        "end": 98,
+        "confidence_entity": 0.8395947813987732,
+        "role": "color",
+        "confidence_role": 0.9617038369178772,
+        "value": "màu tím",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đặt màu xanh cho các đối tượng chọn xuất phát từ vị trí (41, 54) với chiều rộng 40 cm và chiều dài 50 cm.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "màu xanh",
+        "entity": "value",
+        "role": "color"
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "value": "(41, 54)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 80,
+        "end": 85,
+        "value": "40 cm",
+        "entity": "selected_area",
+        "role": "width"
+      },
+      {
+        "start": 99,
+        "end": 104,
+        "value": "50 cm",
+        "entity": "selected_area",
+        "role": "length"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "value",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.5720868706703186,
+        "role": "color",
+        "confidence_role": 0.7534379363059998,
+        "value": "xanh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 56,
+        "end": 64,
+        "confidence_entity": 0.9528387784957886,
+        "role": "source",
+        "confidence_role": 0.9012149572372437,
+        "value": "(41, 54)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 80,
+        "end": 85,
+        "confidence_entity": 0.807684063911438,
+        "role": "length",
+        "confidence_role": 0.5177075266838074,
+        "value": "40 cm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 99,
+        "end": 104,
+        "confidence_entity": 0.6154649257659912,
+        "role": "length",
+        "confidence_role": 0.5,
+        "value": "50 cm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thay đổi chiều rộng của đối tượng hình thoi tăng thêm 15 cm tại tọa độ (13, 21).",
+    "entities": [
+      {
+        "start": 34,
+        "end": 43,
+        "value": "hình thoi",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "value": "tăng",
+        "entity": "change_action"
+      },
+      {
+        "start": 54,
+        "end": 59,
+        "value": "15 cm",
+        "entity": "value",
+        "role": "change"
+      },
+      {
+        "start": 71,
+        "end": 79,
+        "value": "(13, 21)",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.8122103810310364,
+        "role": "shape",
+        "confidence_role": 0.9439879059791565,
+        "value": "hình thoi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "change_action",
+        "start": 44,
+        "end": 48,
+        "confidence_entity": 0.974378764629364,
+        "value": "tăng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 54,
+        "end": 59,
+        "confidence_entity": 0.9669209718704224,
+        "role": "move",
+        "confidence_role": 0.34667426347732544,
+        "value": "15 cm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 71,
+        "end": 79,
+        "confidence_entity": 0.9512238502502441,
+        "role": "source",
+        "confidence_role": 0.8948888778686523,
+        "value": "(13, 21)",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tăng chiều cao của hình thoi lên 50 pixel tại vị trí (20, 30).",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "Tăng",
+        "entity": "change_action"
+      },
+      {
+        "start": 19,
+        "end": 28,
+        "value": "hình thoi",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "value": "50 pixel",
+        "entity": "value",
+        "role": "change"
+      },
+      {
+        "start": 53,
+        "end": 61,
+        "value": "(20, 30)",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "change_action",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.942448616027832,
+        "value": "Tăng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.6613168120384216,
+        "role": "shape",
+        "confidence_role": 0.8947551846504211,
+        "value": "hình thoi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 33,
+        "end": 41,
+        "confidence_entity": 0.978950023651123,
+        "role": "length",
+        "confidence_role": 0.36655041575431824,
+        "value": "50 pixel",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 53,
+        "end": 61,
+        "confidence_entity": 0.9671636819839478,
+        "role": "source",
+        "confidence_role": 0.944482147693634,
+        "value": "(20, 30)",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Làm dài hình vuông lên 12% tại vị trí giữa màn hình.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Làm dài",
+        "entity": "change_action"
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "value": "hình vuông",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 23,
+        "end": 26,
+        "value": "12%",
+        "entity": "value",
+        "role": "change"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "value": "giữa",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "change_action",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8305984139442444,
+        "value": "Làm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 8,
+        "end": 18,
+        "confidence_entity": 0.9936262369155884,
+        "role": "shape",
+        "confidence_role": 0.9904745221138,
+        "value": "hình vuông",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 23,
+        "end": 26,
+        "confidence_entity": 0.9267401099205017,
+        "role": "change",
+        "confidence_role": 0.7854582667350769,
+        "value": "12%",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 38,
+        "end": 42,
+        "confidence_entity": 0.6881306767463684,
+        "role": "source",
+        "confidence_role": 0.9223353862762451,
+        "value": "giữa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Làm ngắn bán kính của hình tròn xuống 25% tại vị trí chính giữa màn hình.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Làm ngắn",
+        "entity": "change_action"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "value": "hình tròn",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 38,
+        "end": 41,
+        "value": "25%",
+        "entity": "value",
+        "role": "change"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "value": "chính giữa",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "change_action",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.6653643846511841,
+        "value": "Làm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.9901784658432007,
+        "role": "shape",
+        "confidence_role": 0.9843703508377075,
+        "value": "hình tròn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 38,
+        "end": 41,
+        "confidence_entity": 0.9456451535224915,
+        "role": "change",
+        "confidence_role": 0.6271343231201172,
+        "value": "25%",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 53,
+        "end": 63,
+        "confidence_entity": 0.5124365091323853,
+        "role": "source",
+        "confidence_role": 0.872166097164154,
+        "value": "chính giữa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Vẽ một hình tròn có bán kính 18 cm màu xanh lá ở góc dưới bên trái màn hình.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "18 cm",
+        "entity": "value",
+        "role": "width"
+      },
+      {
+        "start": 35,
+        "end": 46,
+        "value": "màu xanh lá",
+        "entity": "value",
+        "role": "color"
+      },
+      {
+        "start": 49,
+        "end": 66,
+        "value": "góc dưới bên trái",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "value",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.944373369216919,
+        "role": "height",
+        "confidence_role": 0.3061172366142273,
+        "value": "18 cm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 35,
+        "end": 46,
+        "confidence_entity": 0.4116414785385132,
+        "role": "color",
+        "confidence_role": 0.6261082887649536,
+        "value": "màu xanh lá",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 49,
+        "end": 66,
+        "confidence_entity": 0.5679880976676941,
+        "role": "source",
+        "confidence_role": 0.7213729023933411,
+        "value": "góc dưới bên trái",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tạo một hình tròn với bán kính 30 pixel.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 39,
+        "value": "30 pixel",
+        "entity": "value",
+        "role": "width"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "value",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9877884984016418,
+        "role": "length",
+        "confidence_role": 0.3125501573085785,
+        "value": "30 pixel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tạo một hình chữ nhật lớn màu trắng ở góc dưới bên phải.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "lớn",
+        "entity": "value",
+        "role": "size"
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "value": "màu trắng",
+        "entity": "value",
+        "role": "color"
+      },
+      {
+        "start": 38,
+        "end": 55,
+        "value": "góc dưới bên phải",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object",
+        "start": 8,
+        "end": 21,
+        "confidence_entity": 0.7670498490333557,
+        "role": "shape",
+        "confidence_role": 0.8998122811317444,
+        "value": "hình chữ nhật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 22,
+        "end": 25,
+        "confidence_entity": 0.9137212634086609,
+        "role": "size",
+        "confidence_role": 0.9052494168281555,
+        "value": "lớn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.795735239982605,
+        "role": "color",
+        "confidence_role": 0.9891751408576965,
+        "value": "màu trắng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 38,
+        "end": 55,
+        "confidence_entity": 0.764991044998169,
+        "role": "source",
+        "confidence_role": 0.9101089239120483,
+        "value": "góc dưới bên phải",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Vẽ một hình bình hành màu cam ở góc trên bên trái có chiều dài cơ sở 23 cm và chiều cao 12 cm.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "màu cam",
+        "entity": "value",
+        "role": "color"
+      },
+      {
+        "start": 32,
+        "end": 49,
+        "value": "góc trên bên trái",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 69,
+        "end": 74,
+        "value": "23 cm",
+        "entity": "value",
+        "role": "length"
+      },
+      {
+        "start": 88,
+        "end": 93,
+        "value": "12 cm",
+        "entity": "value",
+        "role": "height"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "value",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.8938679099082947,
+        "role": "color",
+        "confidence_role": 0.9640631079673767,
+        "value": "màu cam",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 32,
+        "end": 49,
+        "confidence_entity": 0.5507081151008606,
+        "role": "source",
+        "confidence_role": 0.8850240707397461,
+        "value": "góc trên bên trái",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 69,
+        "end": 74,
+        "confidence_entity": 0.8834218978881836,
+        "role": "width",
+        "confidence_role": 0.32269105315208435,
+        "value": "23 cm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 88,
+        "end": 93,
+        "confidence_entity": 0.8181862235069275,
+        "role": "width",
+        "confidence_role": 0.46667972207069397,
+        "value": "12 cm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tạo đoạn đường thẳng từ điểm (53, 54) với độ dài 35 cm và góc nghiêng 45 độ.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 37,
+        "value": "(53, 54)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 49,
+        "end": 54,
+        "value": "35 cm",
+        "entity": "value",
+        "role": "length"
+      },
+      {
+        "start": 70,
+        "end": 75,
+        "value": "45 độ",
+        "entity": "value",
+        "role": "angle"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 29,
+        "end": 37,
+        "confidence_entity": 0.9583407044410706,
+        "role": "source",
+        "confidence_role": 0.9531190991401672,
+        "value": "(53, 54)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 49,
+        "end": 54,
+        "confidence_entity": 0.884870707988739,
+        "role": "width",
+        "confidence_role": 0.28005391359329224,
+        "value": "35 cm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 58,
+        "end": 61,
+        "confidence_entity": 0.8019872903823853,
+        "role": "source",
+        "confidence_role": 0.7607402801513672,
+        "value": "góc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 70,
+        "end": 72,
+        "confidence_entity": 0.9352412223815918,
+        "role": "length",
+        "confidence_role": 0.4560506343841553,
+        "value": "45",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tạo hình trụ có tọa độ (43, 21) và độ cao 140 pixel, bán kính 50 pixel.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "value": "(43, 21)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "value": "140 pixel",
+        "entity": "value",
+        "role": "height"
+      },
+      {
+        "start": 62,
+        "end": 70,
+        "value": "50 pixel",
+        "entity": "value",
+        "role": "width"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.9529715180397034,
+        "role": "source",
+        "confidence_role": 0.9683679938316345,
+        "value": "(43, 21)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 42,
+        "end": 51,
+        "confidence_entity": 0.9755662083625793,
+        "role": "width",
+        "confidence_role": 0.29892465472221375,
+        "value": "140 pixel",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 62,
+        "end": 70,
+        "confidence_entity": 0.9307214021682739,
+        "role": "length",
+        "confidence_role": 0.4911889135837555,
+        "value": "50 pixel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Vẽ vật thể hình trụ ở (24, 42) với chiều cao 54 pixel và bán kính đáy 50 pixel.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "value": "(24, 42)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "value": "54 pixel",
+        "entity": "value",
+        "role": "height"
+      },
+      {
+        "start": 70,
+        "end": 78,
+        "value": "50 pixel",
+        "entity": "value",
+        "role": "width"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.949196994304657,
+        "role": "source",
+        "confidence_role": 0.9706558585166931,
+        "value": "(24, 42)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 45,
+        "end": 53,
+        "confidence_entity": 0.9289237856864929,
+        "role": "length",
+        "confidence_role": 0.2757307291030884,
+        "value": "54 pixel",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 70,
+        "end": 78,
+        "confidence_entity": 0.938755452632904,
+        "role": "length",
+        "confidence_role": 0.5236379504203796,
+        "value": "50 pixel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tạo hình cube tại vị trí (123, 243) với kích thước cạnh 20 cm và có màu đen.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "(123, 243)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 56,
+        "end": 61,
+        "value": "20 cm",
+        "entity": "value",
+        "role": "height"
+      },
+      {
+        "start": 68,
+        "end": 75,
+        "value": "màu đen",
+        "entity": "value",
+        "role": "color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.9501427412033081,
+        "role": "source",
+        "confidence_role": 0.9652316570281982,
+        "value": "(123, 243)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 56,
+        "end": 61,
+        "confidence_entity": 0.9132790565490723,
+        "role": "width",
+        "confidence_role": 0.2633841037750244,
+        "value": "20 cm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 68,
+        "end": 75,
+        "confidence_entity": 0.9125368595123291,
+        "role": "color",
+        "confidence_role": 0.9858383536338806,
+        "value": "màu đen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Vẽ lập phương 3D tại điểm (12, 32) với kích thước cạnh 23 cm và có màu đỏ.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "(12, 32)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 55,
+        "end": 60,
+        "value": "23 cm",
+        "entity": "value",
+        "role": "height"
+      },
+      {
+        "start": 67,
+        "end": 73,
+        "value": "màu đỏ",
+        "entity": "value",
+        "role": "color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.9497794508934021,
+        "role": "source",
+        "confidence_role": 0.9650709629058838,
+        "value": "(12, 32)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 55,
+        "end": 60,
+        "confidence_entity": 0.8867143988609314,
+        "role": "width",
+        "confidence_role": 0.325488418340683,
+        "value": "23 cm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 67,
+        "end": 73,
+        "confidence_entity": 0.9313620924949646,
+        "role": "color",
+        "confidence_role": 0.9775649309158325,
+        "value": "màu đỏ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sao chép hình bình hành màu xám ở tọa độ (100, 300) và lưu lại.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "value": "hình bình hành",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "value": "màu xám",
+        "entity": "object",
+        "role": "color"
+      },
+      {
+        "start": 41,
+        "end": 51,
+        "value": "(100, 300)",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.5361310243606567,
+        "role": "color",
+        "confidence_role": 0.9827788472175598,
+        "value": "màu xám",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 41,
+        "end": 51,
+        "confidence_entity": 0.9505791068077087,
+        "role": "source",
+        "confidence_role": 0.9552623629570007,
+        "value": "(100, 300)",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Lật theo phương thẳng đứng hình chữ nhật màu đen",
+    "entities": [
+      {
+        "start": 27,
+        "end": 40,
+        "value": "hình chữ nhật",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "value": "màu đen",
+        "entity": "object",
+        "role": "color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "value",
+        "start": 16,
+        "end": 26,
+        "confidence_entity": 0.8847461342811584,
+        "role": "orientation",
+        "confidence_role": 0.8626535534858704,
+        "value": "thẳng đứng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 27,
+        "end": 40,
+        "confidence_entity": 0.9529802799224854,
+        "role": "shape",
+        "confidence_role": 0.9642108082771301,
+        "value": "hình chữ nhật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 41,
+        "end": 48,
+        "confidence_entity": 0.701475203037262,
+        "role": "color",
+        "confidence_role": 0.9863818883895874,
+        "value": "màu đen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tạo một hình vuông với cạnh 50 pixel.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 36,
+        "value": "50 pixel",
+        "entity": "value",
+        "role": "height"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "value",
+        "start": 28,
+        "end": 36,
+        "confidence_entity": 0.9879262447357178,
+        "role": "length",
+        "confidence_role": 0.4002605080604553,
+        "value": "50 pixel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Quay hình ê-líp ở giữa sang trái",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "hình ê-líp",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 18,
+        "end": 22,
+        "value": "giữa",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.6702249050140381,
+        "role": "shape",
+        "confidence_role": 0.9020276069641113,
+        "value": "hình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.7691493630409241,
+        "role": "source",
+        "confidence_role": 0.9363574385643005,
+        "value": "giữa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "xoay trái các vật thể trong vùng bắt đầu từ tọa độ (24, 40) và có kích thước (543, 242) khoảng 45 độ.",
+    "entities": [
+      {
+        "start": 51,
+        "end": 59,
+        "value": "(24, 40)",
+        "entity": "position",
+        "role": "source"
+      },
+      {
+        "start": 77,
+        "end": 87,
+        "value": "(543, 242)",
+        "entity": "selected_area",
+        "role": "size"
+      },
+      {
+        "start": 95,
+        "end": 100,
+        "value": "45 độ",
+        "entity": "value",
+        "role": "angle"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 51,
+        "end": 59,
+        "confidence_entity": 0.9583439826965332,
+        "role": "source",
+        "confidence_role": 0.8677160143852234,
+        "value": "(24, 40)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 77,
+        "end": 87,
+        "confidence_entity": 0.8304540514945984,
+        "role": "destination",
+        "confidence_role": 0.5200095772743225,
+        "value": "(543, 242)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "value",
+        "start": 95,
+        "end": 100,
+        "confidence_entity": 0.7463871240615845,
+        "role": "angle",
+        "confidence_role": 0.55,
+        "value": "45 độ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "xoay trái tất cả hình vuông màu đen ở góc trên bên phải.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "value": "hình vuông",
+        "entity": "object",
+        "role": "shape"
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "value": "màu đen",
+        "entity": "object",
+        "role": "color"
+      },
+      {
+        "start": 38,
+        "end": 55,
+        "value": "góc trên bên phải",
+        "entity": "position",
+        "role": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "position",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.42266932129859924,
+        "role": "source",
+        "confidence_role": 0.43733876943588257,
+        "value": "trái",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 17,
+        "end": 27,
+        "confidence_entity": 0.994512677192688,
+        "role": "shape",
+        "confidence_role": 0.9898374676704407,
+        "value": "hình vuông",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.8578169345855713,
+        "role": "color",
+        "confidence_role": 0.988021969795227,
+        "value": "màu đen",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "position",
+        "start": 38,
+        "end": 50,
+        "confidence_entity": 0.6915616989135742,
+        "role": "source",
+        "confidence_role": 0.8960732817649841,
+        "value": "góc trên bên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

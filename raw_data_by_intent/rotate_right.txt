@@ -1,0 +1,11 @@
+<i> Kính mong quý vị vui lòng xoay hình tam giác đã chọn sang phải 90 độ .
+<i> Xin hãy thực hiện xoay đối tượng chữ nhật tại vị trí có toạ độ ( 12 , 8 ) sang phải 50 độ , với sự cẩn trọng và chính xác .
+<i> Thưa ngài , làm ơn xoay hình tròn hiện tại sang phải 180 độ để tạo ra một hiệu ứng ngược chiều kim đồng hồ , xin vui lòng .
+<i> Với sự ân cần , xin vui lòng thực hiện xoay hình vuông đang chọn sang phải 45 độ .
+<i> Xin mời ngài xoay đối tượng hình elip đang được chọn sang phải 30 độ , với sự tỉ mỉ và chính xác .
+<i> Hãy thực hiện xoay hình chữ nhật tại vị trí hiện tại sang phải 60 độ , với tinh thần lịch sự và quyết đoán .
+<i> Kính mong quý vị xoay đối tượng hình vuông sang phải 90 độ , với sự cẩn trọng và chính xác .
+<i> Xin hãy thực hiện xoay đối tượng hình tròn tại vị trí tương đối so với hình vuông sang phải 120 độ , với sự cẩn thận và kiên nhẫn .
+<i> Thưa ngài , làm ơn xoay hình tam giác đang chọn sang phải 45 độ , với vẻ ngoài nhã nhặn và lịch lãm .
+<i> Với sự ân cần , xin vui lòng thực hiện xoay hình bát giác đang được chọn sang phải 60 độ .
+<i> Kính mong quý vị xoay hình học tại vị trí toạ độ ( 10 , 20 ) sang phải 30 độ , với sự tỉ mỉ và chính xác .

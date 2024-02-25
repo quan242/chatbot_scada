@@ -1,0 +1,641 @@
+version: "3.1"
+stories:
+
+# - story: rotate left
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: rotate_left
+#   - action: action_rotate_left
+
+# - story: rotate right
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: rotate_right
+#   - action: action_rotate_right
+
+# - story: horizontal flip
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: horizontal_flip
+#   - action: action_horizontal_flip
+
+# - story: vertical flip
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: vertical_flip
+#   - action: action_vertical_flip
+
+# - story: move down
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: move_down
+#   - action: action_move_down
+
+# - story: move left
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: move_left
+#   - action: action_move_left
+
+# - story: move right
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: move_right
+#   - action: action_move_right
+
+# - story: move up
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: move_up
+#   - action: action_move_up
+
+# # - story: select object
+# #   steps:
+# #   - intent: greet
+# #   - action: utter_greet
+# #   - intent: select_object
+# #   - action: action_select_object
+
+# # - story: select area
+# #   steps:
+# #   - intent: greet
+# #   - action: utter_greet
+# #   - intent: select_area
+# #   - action: action_select_area
+
+# # - story: select all object
+# #   steps:
+# #   - intent: greet
+# #   - action: utter_greet
+# #   - intent: select_all_object
+# #   - action: action_select_all_object
+
+# - story: change top
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: change_top
+#   - action: action_change_top
+  
+# - story: change left
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: change_left
+#   - action: action_change_left
+  
+# - story: change right
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: change_right
+#   - action: action_change_right
+
+# - story: change bottom
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: change_bottom
+#   - action: action_change_bottom
+
+# - story: draw arrow
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: draw_arrow
+#   - action: action_draw_arrow
+
+# - story: copy selected objects
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: copy_selected_objects
+#   - action: action_copy_selected_objects
+
+# - story: cut selected objects
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: cut_selected_objects
+#   - action: action_cut_selected_objects
+
+# - story: exit select
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: exit_select
+#   - action: action_exit_select
+
+# - story: delete selected objects
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: delete_selected_objects
+#   - action: action_delete_selected_objects
+
+# - story: color background
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: color_background
+#   - action: action_color_background
+
+# - story: color foreground
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: color_foreground
+#   - action: action_color_foreground
+
+
+# - story: change width
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: change_width
+#   - action: action_change_width
+
+# - story: change height
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: change_height
+#   - action: action_change_height
+
+# - story: change length
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: change_length
+#   - action: action_change_length
+
+# - story: change radius
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: change_radius
+#   - action: action_change_radius
+
+# - story: draw circle
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: draw_circle
+#   - action: action_draw_circle
+
+# - story: draw ellipse
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: draw_ellipse
+#   - action: action_draw_ellipse
+
+# - story: draw rectangle
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: draw_rectangle
+#   - action: action_draw_rectangle
+
+# - story: draw square
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: draw_square
+#   - action: action_draw_square
+
+# - story: draw rhombus
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: draw_rhombus
+#   - action: action_draw_rhombus
+
+# - story: draw parallelogram
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: draw_parallelogram
+#   - action: action_draw_parallelogram
+
+# - story: draw trapezoid
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: draw_trapezoid
+#   - action: action_draw_trapezoid
+
+# - story: draw line
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: draw_line
+#   - action: action_draw_line
+
+# - story: paste 
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: paste
+#   - action: action_paste
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: rotate_left
+#   - action: rotate_left_form
+#   - active_loop: rotate_left_form
+#   - slot_was_set:
+#     - requested_slot: object
+#   - intent: bot_challenge
+#   - action: utter_iamabot
+#   - action: rotate_left_form
+#   - slot_was_set:
+#     - requested_slot: object
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: góc trên bên phải
+#   - slot_was_set:
+#     - color_value: màu đen
+#   - slot_was_set:
+#     - object: null
+#   - slot_was_set:
+#     - source_position: góc trên bên phải
+#   - slot_was_set:
+#     - requested_slot: object
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - requested_slot: source_color
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - color_value: màu vàng
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - requested_slot: source_color
+#   - intent: rotate_left
+#     entities:
+#     - object: hình vuông
+#     - color: màu đen
+#     - value: 45 độ
+#   - action: validate_rotate_left_form
+
+# - story: User doesn't want to continue form
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: rotate_left
+#   - action: rotate_left_form
+#   - active_loop: rotate_left_form
+#   - intent: stop
+#   - action: utter_ask_continue
+#   - or:
+#     - intent: stop
+#     - intent: affirm
+#   - action: action_deactivate_loop
+#   - active_loop: null
+    
+# - story: interactive_story_1
+#   steps:
+#   - intent: rotate_right
+#     entities:
+#     - object: hình vuông
+#   - action: rotate_right_form
+#   - active_loop: rotate_right_form
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - requested_slot: source_position
+#   - intent: rotate_right
+#     entities:
+#     - object: hình vuông
+#     - position: (20, 30)
+#     - value: 45 độ
+#   - action: rotate_right_form
+#   - slot_was_set:
+#     - requested_slot: source_position
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: rotate_left
+#     entities:
+#     - object: hình chữ nhật
+#     - color: màu hồng
+#   - action: rotate_left_form
+#   - active_loop: rotate_left_form
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - source_color: màu hồng
+#   - slot_was_set:
+#     - requested_slot: source_position
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - source_position: (40, 50)
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - source_position: (40, 50)
+#   - slot_was_set:
+#     - requested_slot: rotate_value
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: action_rotate_left
+#   - intent: rotate_right
+#     entities:
+#     - object: hình vuông
+#     - color: màu đen
+#   - action: rotate_right_form
+#   - active_loop: rotate_right_form
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: (40, 50)
+#   - slot_was_set:
+#     - source_color: màu đen
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: rotate_left
+#     entities:
+#     - object: hình chữ nhật
+#     - value: 13 độ
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - rotate_value: 13 độ
+#   - action: rotate_left_form
+#   - active_loop: rotate_left_form
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - rotate_value: 13 độ
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - rotate_value: 13 độ
+#   - slot_was_set:
+#     - requested_slot: source_position
+#   - intent: bot_challenge
+#   - action: utter_iamabot
+#   - action: rotate_left_form
+#   - slot_was_set:
+#     - requested_slot: source_position
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - source_position: giữa
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - source_position: giữa
+#   - slot_was_set:
+#     - requested_slot: source_color
+#   - intent: stop
+#   - action: utter_ask_continue
+#   - intent: affirm
+#   - action: action_deactivate_loop
+#   - intent: goodbye
+#   - action: utter_goodbye
+
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: rotate_right
+#   - action: rotate_right_form
+#   - active_loop: rotate_right_form
+#   - slot_was_set:
+#     - requested_slot: object
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - requested_slot: source_position
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: góc trên bên phải
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: góc trên bên phải
+#   - slot_was_set:
+#     - requested_slot: source_color
+#   - intent: rotate_right
+#     entities:
+#     - object: hình vuông
+#     - color: màu đen
+#     - position: góc trên bên phải
+#   - intent: rotate_right
+#     entities:
+#     - object: hình vuông
+#     - color: màu đen
+#     - position: góc trên bên phải
+
+# - story: interactive_story_2
+#   steps:
+#   - intent: rotate_right
+#     entities:
+#     - object: hình vuông
+#     - object: chính
+#     - position: giữa
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: giữa
+#   - action: rotate_right_form
+#   - active_loop: rotate_right_form
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: giữa
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: giữa
+#   - slot_was_set:
+#     - requested_slot: source_color
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: giữa
+#   - slot_was_set:
+#     - source_color: màu vàng
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: giữa
+#   - slot_was_set:
+#     - source_color: null
+#   - slot_was_set:
+#     - requested_slot: source_color
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: giữa
+#   - slot_was_set:
+#     - source_color: màu đen
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: giữa
+#   - slot_was_set:
+#     - source_color: màu đen
+#   - slot_was_set:
+#     - requested_slot: rotate_value
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: action_rotate_right
+#   - intent: rotate_right
+#   - action: rotate_right_form
+#   - active_loop: rotate_right_form
+#   - slot_was_set:
+#     - object: hình vuông
+#   - slot_was_set:
+#     - source_position: giữa
+#   - slot_was_set:
+#     - source_color: màu đen
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: rotate_left
+#     entities:
+#     - object: hình chữ nhật
+#     - color: màu xám
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - source_color: màu xám
+#   - action: rotate_left_form
+#   - active_loop: rotate_left_form
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - source_color: màu xám
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - source_color: màu xám
+#   - slot_was_set:
+#     - requested_slot: source_position
+#   - slot_was_set:
+#     - source_position: (100, 100)
+#   - slot_was_set:
+#     - source_position: (100, 100)
+#   - slot_was_set:
+#     - requested_slot: rotate_value
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - object: hình chữ nhật
+#   - slot_was_set:
+#     - rotate_value: 45 độ
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: action_rotate_left
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: rotate_left
+#     entities:
+#     - object: vuông
+#     - aspect: vị trí
+#     - position: góc trái trên
+#   - slot_was_set:
+#     - object_shape: vuông
+#   - slot_was_set:
+#     - source_position: góc trái trên
+#   - action: rotate_left_form
+#   - active_loop: rotate_left_form
+#   - slot_was_set:
+#     - object_shape: vuông
+#   - slot_was_set:
+#     - source_position: góc trái trên
+#   - slot_was_set:
+#     - object_shape: vuông
+#   - slot_was_set:
+#     - source_position: góc trái trên
+#   - slot_was_set:
+#     - requested_slot: object_color
+#   - slot_was_set:
+#     - object_shape: vuông
+#   - slot_was_set:
+#     - object_color: hồng
+#   - slot_was_set:
+#     - object_shape: vuông
+#   - slot_was_set:
+#     - object_color: hồng
+#   - slot_was_set:
+#     - requested_slot: value_angle
+#   - slot_was_set:
+#     - object_shape: vuông
+#   - slot_was_set:
+#     - value_angle: 45 độ
+#   - slot_was_set:
+#     - object_shape: vuông
+#   - slot_was_set:
+#     - value_angle: 45 độ
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: action_rotate_left
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: rotate_left
+#     entities:
+#     - object: chữ nhật
+#     - object: đen
+#   - action: rotate_left_form
+#   - active_loop: rotate_left_form
+#   - slot_was_set:
+#     - object_shape: chữ nhật
+#   - slot_was_set:
+#     - object_color: đen
+#   - slot_was_set:
+#     - requested_slot: source_position
+#   - intent: rotate_left
+#     entities:
+#     - aspect: vị trí
+#     - position: góc trái trên

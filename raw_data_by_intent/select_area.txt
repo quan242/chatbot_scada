@@ -1,0 +1,12 @@
+<i> Chọn tất cả những gì nằm trong hình chữ nhật ở góc trên bên trái , rộng 60 và dài 100 , nhưng hãy cẩn thận đừng quên bàn tay trái đấy .
+<i> Đánh dấu những thứ nằm trong vùng hình chữ nhật màu đen , rộng 150 và dài 80 , nhưng hãy chắc chắn đó không phải là một cái hộp ma .
+<i> Chọn tất cả những gì nằm ở trung tâm trang , rộng 200 và dài 120 , nhưng hãy nhớ kiểm tra xem có ai đang ẩn mình đằng sau không .
+<i> Đánh dấu toàn bộ vật thể ở góc dưới bên phải , rộng 100 và dài 70 , nhưng đừng làm phiền chuột con đang nghỉ ngơi đấy .
+<i> Xin vui lòng lựa chọn những thứ nằm trong hình chữ nhật ở phía trên bên trái , có chiều rộng 60 và chiều dài 100 , nhưng nhớ giữ lịch sự , đó là tinh thần tiểu thư .
+<i> Xin hãy đánh dấu tất cả các vật phẩm trong vùng hình chữ nhật , với màu đen nhấn nhá , chiều rộng 150 và chiều dài 80 , để tránh phá vỡ bức tranh tinh tế của chúng ta .
+<i> Vui lòng chọn tất cả các đối tượng nằm ở trung tâm của trang , có kích thước rộng 200 và dài 120 , nhưng nhớ giữ phong cách lịch lãm như một tiểu thư đích thực .
+<i> Hãy chọn toàn bộ những gì ở góc dưới bên phải , với chiều rộng 100 và chiều dài 70 , nhưng xin hãy nhớ rằng sự tinh tế là chìa khoá .
+<i> Kính mong quý vị vui lòng chọn những vật thể nằm trong khu vực hình chữ nhật , bắt đầu từ góc trên bên trái , với chiều rộng là 60 và chiều dài là 100 , nhẹ nhàng nhưng chắc chắn .
+<i> Thưa ngài , xin vui lòng đánh dấu các đối tượng trong vùng hình chữ nhật , chúng ta có chiều rộng 150 và chiều dài 80 , với tinh thần lịch sự và tôn trọng .
+<i> Xin mời ngài lựa chọn những vật thể nằm ở trung tâm của trang , có kích thước rộng 200 và dài 120 , một cách nhẹ nhàng và tinh tế như một người quý tộc .
+<i> Kính mong quý vị hãy chọn toàn bộ các đối tượng ở góc dưới bên phải , với chiều rộng 100 và chiều dài 70 , với vẻ ngoài tinh tế và lịch lãm của một người quý tộc .

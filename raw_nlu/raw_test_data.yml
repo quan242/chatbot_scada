@@ -1,0 +1,207 @@
+bot_challenge:
+- cậu là sinh viên trường nào thế ?
+change_bottom:
+- Cứu chiếc hình oval này khỏi góc trái dưới ( 50 , 350 ) , đưa nó lên trên ( 200
+  , 500
+- Chiếc chữ L ơi , đừng lo lắng , chỉ là dịch chuyển đôi chút , từ ( 400 , 400 ) đến
+  ( 550 , 550 ) . Góc dưới
+- Chữ X , bạn có thể đi chơi xa hơn chút không ? Đến ( 550 , 400 ) chẳng hạn , góc
+  dưới nơi đó sẽ làm bạn hạnh phúc hơn
+change_height:
+- Giảm chiều cao của tất cả các hình ellips xuống 20% tại vị trí góc trên bên phải.
+- Tăng chiều cao của hình thoi lên 50 pixel tại vị trí (20, 30).
+- Đặt chiều cao của hình vuông thành 50 pixel tại vị trí (20, 30).
+change_left:
+- Này bạn , anh ơi , anh giúp em di chuyển cái vật thể sao cho góc trái của nó nằm
+  ở vị trí ( 30 , 40 ) được không ? Nó đang ở vị trí ( - 100 , 100
+- Cái vật thể ở vị trí ( 100 , 200 ) có thể chuyển đến vị trí ( - 100 , 100 ) dựa
+  trên góc trái của nó được không ? Nó đang hơi lạc lõng ở vị trí
+- Cái vật thể ở vị trí ( - 100 , 100 ) có thể chuyển đến vị trí ( 30 , 40 ) dựa trên
+  góc trái của hình này được không ? Nó đang che khuất cái thứ quan trọng hơn
+change_length:
+- Làm dài hình vuông lên 12% tại vị trí giữa màn hình.
+- Giảm chiều dài của hình thoi xuống 20% tại vị trí (20, 14).
+- Đặt lại chiều dài của hình chữ nhật bằng 100 pixel tại vị trí (13, 53).
+change_radius:
+- Tăng bán kính của hình tròn lên 10% tại vị trí góc trên bên trái.
+- Làm ngắn bán kính của hình tròn xuống 25% tại vị trí chính giữa màn hình.
+- Giảm bán kính của hình tròn xuống 123 pixel tại vị trí góc trên bên phải màn hình.
+change_right:
+- '" Chọc tức " chiếc chữ L với bề dài và chiều rộng là 80 từ vị trí hiện tại ( 100
+  , 400 ) đến ( 300 , 100 ) dựa trên góc phải'
+- '" Đóng gói lại " hình elip với bán kính lớn 30 và bán kính nhỏ 20 , và hãy đặt
+  nó ở vị trí mới " như kiểu mới " ( 600 , 200 ) dựa trên góc phải'
+- Cho chiếc tứ giác đều với cạnh 70 một chuyến phiêu lưu từ trung tâm màn hình đến
+  vị trí mới " đi đâu cũng được " ( 400 , 400 ) dựa trên góc phải
+change_top:
+- Bạn hãy thúc hình tam giác màu tím ngỗ ngược , có cạnh đáy 100 pixel , độ cao 80
+  pixel , đang ở vị trí ( 250 , 350 ) , đến vị trí ( 100 , 200 ) sao cho góc trên
+  trùng với vị trí đích
+- Bạn có thể lật hình bầu dục màu cam ngốc nghếch , có trục ngang 120 pixel , trục
+  dọc 80 pixel , đang ở chính giữa màn hình , đến vị trí ( 500 , 600 ) sao cho góc
+  trên trùng với vị trí đích
+- Hãy kéo hình vuông màu đỏ xinh xắn , có kích thước 100x100 pixel , đang nằm ở góc
+  trên bên phải màn hình , vị trí ( 200 , 300
+change_width:
+- Thay đổi chiều rộng của đối tượng hình chữ nhật tăng thêm 10 cm tại tọa độ (42,
+  13).
+- Làm cho chiều rộng của hình thoi có kích thước 150x100 tăng thêm 15 cm tại tọa độ
+  (13, 21).
+- Tăng chiều rộng của hình chữ nhật lên 10% tại vị trí góc trên bên trái.
+color_background:
+- Đặt màu đen cho toàn bộ bề mặt ở toàn màn hình.
+- Thay đổi màu nền thành màu vàng ở toàn màn hình.
+- Tô màu đỏ cho toàn màn hình.
+color_foreground:
+- Thay đổi màu toàn bộ đối tượng hình oval thành màu vàng ở góc dưới bên phải.
+- Tô màu xanh cho tất cả hình tam giác có màu đen.
+- Đặt màu cho hình vuông nằm ở tọa độ ( 15 , 20 ) thành màu xanh da trời
+color_selected_area:
+- Thay đổi màu sắc của vùng chọn hình ellipse tại (14, 41) với kích thước 2 bán trục
+  là 12 cm và 20 cm thành màu tím.
+- Đặt màu xanh cho các đối tượng chọn xuất phát từ vị trí (41, 54) với chiều rộng
+  40 cm và chiều dài 50 cm.
+- Tô vùng chọn hình chữ nhật tại (14, 51) với chiều rộng 432 và chiều dài 712 bằng
+  màu đỏ.
+copy_selected_objects:
+- Sao chép chúng với tốc độ ánh sáng !
+- Nhân bản chúng đi , bạn ơi !
+- Trợ lý , chúng ta cần một bản sao ngay bây giờ .
+cut_selected_objects:
+- Cut các đối tượng hiện tại và lưu vào bộ nhớ tạm thời
+- Thực hiện cut để xóa và lưu thông tin của đối tượng đang chọn
+- Cut các đối tượng được chọn và lưu vào bộ nhớ tạm
+delete_selected_objects:
+- Xóa nhanh chóng , nhưng không có mất mát , nhé !
+- Loại bỏ hình chữ nhật màu đỏ ở vị trí giữa màn hình.
+- Xóa bỏ hình vuông màu tím ở vị trí giữa bên trên màn hình.
+- Loại bỏ các hình ellipse ở trong vùng chọn bắt đầu từ điểm (123, 453) đến điểm (234,
+  763)
+- Xóa các vật thể tại điểm (23, 65) và có kích thước 100x100 thuộc lớp đối tượng được
+  chọn.
+- Xóa bỏ các hình có trong phạm vi xuất phát từ điểm (23, 65) và có kích thước 242x652.
+draw_arrow:
+- Tạo mũi tên màu đen tại tọa độ ( 200 , 300 ) với chiều dài 80 pixel , chiều cao
+  60 pixel , để tạo ra một chiếc mũi tên
+- Vẽ mũi tên màu hồng ở góc trên cùng , chiều cao 80 pixel , chiều dài 120
+- Tạo mũi tên màu đen tại tọa độ ( 400 , 100 ) với chiều rộng 80 pixel , chiều dài
+  120
+draw_circle:
+- Vẽ một đường tròn có bán kính 18 cm màu xanh lá ở góc dưới bên trái màn hình.
+- Tạo một hình tròn với bán kính 30 pixel.
+- Vị trí ở giữa màn hình , đường kính 35 pixel , vẽ hình tròn màu xanh nước biển
+draw_ellipse:
+- Tạo một hình ellipse có trục chính 60 pixel và trục phụ 40 pixel.
+- Vẽ một elip màu hồng nằm dọc ở góc trên bên trái.
+- Trợ lý , hãy vẽ một hình ê-líp màu đen , trục lớn là 45 và trục nhỏ là 27 ở tọa
+  độ ( 80 , 120 ) để tạo ra một điểm
+draw_line:
+- Vẽ đường thẳng từ (43, 36) với hướng và chiều dài mặc định.
+- Tạo đoạn đường thẳng từ điểm (53, 54) với độ dài 35 cm và góc nghiêng 45 độ.-
+- Vẽ một đường dọc màu vàng dài 50 cm có tâm ở tọa độ (100, 50) và có độ dày 0.25
+draw_parallelogram:
+- Tạo một hình bình hành lớn màu đỏ ở góc dưới bên phải.
+- Vẽ một hình bình hành màu cam ở góc trên bên trái có chiều dài cơ sở 23 cm và chiều
+  cao 12 cm.
+- Tạo hình bình hành có chiều rộng 12 , chiều cao 16 , màu nâu ấm áp , vị trí tại
+  điểm ( 45 , 60 ) , và góc xuất phát nhọn từ phía trên cùng bên phải
+draw_rectangle:
+- Tạo một hình chữ nhật lớn màu trắng ở góc dưới bên phải.
+- Vẽ một hình chữ nhật nhỏ màu đen ở góc trên bên trái.
+- Tạo hình chữ nhật màu nâu , chiều dài 60 , chiều rộng 35 , đường viền màu đen ,
+  ở vị trí ( 150 , 220
+draw_rhombus:
+- Tạo một hình thoi lớn màu cam ở góc dưới bên phải.
+- Vẽ một hình thoi màu vàng nằm ở giữa màn hình.
+- Vẽ hình thoi màu vàng óng , chiều dài 30 pixel , chiều rộng 30 pixel , hướng nghiêng
+  60 độ , tại vị trí ( 120 , 100 ) . Trông như một chiếc dây chuyền hình thoi
+draw_square:
+- Tạo một hình vuông với cạnh 50 pixel.
+- Hãy vẽ một hình vuông ở tọa độ (100, 300).
+- Vẽ hình vuông màu hồng với chiều cao 77 pixel ở góc dưới bên phải
+draw_trapezoid:
+- Vẽ một hình thang nằm ở góc trên bên trái màn hình.
+- Tạo một hình thang lớn màu xanh lá cây ở góc dưới bên phải.
+- Trợ lý ơi , vui lòng tạo hình thang với góc xuất phát 15 độ , đáy lớn 45 pixel ,
+  màu xám , đặt giữa
+exit_select:
+- Vui lòng không chọn nữa các bình hành
+- Bỏ chọn tất cả đường thẳng
+- Em / chị ơi , đừng chọn thêm đường cong
+goodbye:
+- tạm biệt
+greet:
+- hello
+horizontal_flip:
+- Lật ngang
+- Flip theo chiều ngang vật thể hình vuông màu hồng
+- Hãy lật hình trái tim ở vị trí ( 20, 32) theo phương ngang, và nhớ phải giữ nguyên
+  được màu hồng của nó nhé
+move_down:
+- Điều chỉnh vị trí xuống dưới của hình ảnh vật thể hình ngôi sao khoảng 50 pixel
+- Kéo vật thể hình vuông xuống dưới 30 điểm ảnh
+- Kéo hình chữ nhật có chiều dài 40 và chiều rộng30 xuống dưới 40 pixel
+move_left:
+- Move vật thể hình vuông tại tọa độ (50, 70) qua bên trái 30 điểm ảnh.
+- Di chuyển hình vật thể hình chữ nhật ở giữa về bên trái 5 đơn vị.
+- 'Di chuyển hình tam giác ở giữa phía dưới về bên trái 5 đơn vị.    '
+move_right:
+- Làm di chuyển hình vật thể tam giác ở vị trí (20, 30) sang phải 20 cm
+- Dời hình tròn ở góc trái dưới qua bên phải 10 pixel
+- Dịch chuyển hình chữ nhật màu đỏ và có kích thước(100, 150) lên trên 120 pixel
+move_up:
+- Làm di chuyển lên vật thể tam giác ở vị trí (20, 30)
+- Move hình ảnh vật thể hình vuông ở vị trí (20, 50) lên trên 30 điểm ảnh
+- Dịch chuyển hình trái tim ở góc trên bên phải lên trên 120 pixel
+paste:
+- Paste đối tượng đã được copy từ clipboard vào tọa độ (200, 150).
+- Dán hình chữ nhật đã copy từ clipboard vào góc dưới bên phải tại tọa độ (500, 400).
+- Hãy dán hình đã được copy lên vị trí góc trên bên trái.
+redo:
+- Hãy redo lại hành động đã undo trước đó .
+- Làm lại bước cuối cùng vừa được undo .
+- Quay lại trạng thái trước khi thực hiện hành động undo . s
+rotate_left:
+- Quay hình ê-líp ở giữa sang trái
+- xoay trái các vật thể trong vùng bắt đầu từ tọa độ (24, 40) và có kích thước (543,
+  242) khoảng 45 độ.
+- xoay trái tất cả hình vuông màu đen ở góc trên bên phải.
+- xoay tất cả các hình chữ nhật màu xám sang trái.
+rotate_right:
+- xoay phải hình chữ nhật ở vị trí chính giữa màn hình
+- Quay đối tượng hình tròn ở giữa sang phải
+- xoay phải
+select_all_object:
+- Tôi cần bạn chọn tất cả các mục hiện có , bạn có thể làm được không ?
+- Hãy bắt đầu bằng việc chọn toàn bộ và sau đó chúng ta sẽ điều chỉnh cần thiết .
+- Chọn tất cả để đảm bảo bạn không bỏ sót bất kỳ đối tượng nào trên màn hình .
+select_area:
+- Xác định khu vực ở góc trái bên trên màn hình và có kích thước (100, 150)
+- Chọn vùng chứa đối tượng có kích thước 650x650 tại vị trí (100, 250).
+- Khoanh vùng kéo dài từ chính giữa màn hình đến vị trí (144, 532)
+select_object:
+- Chọn hình chữ nhật màu tím ở chính giữa màn hình.
+- Chọn hình vuông lớn ở [vị trí] (513, 721).
+- Chọn hình tam giác có kích thước (100, 102) ở phía bên phải trên.
+- Chọn tam giác có đáy dài 100 pixels , chiều cao là 70 pixels và màu cam , nằm ở
+  giữa
+- Tìm tam giác có đáy ngắn 120 pixels , chiều cao là 90 pixels và màu hồng , ở phía
+  trên cùng
+- Chọn tam giác có đáy dài 80 pixels , chiều cao là 50 pixels và màu nâu , nằm dọc
+  giữa
+- Tìm tam giác có đáy ngắn 100 pixels , chiều cao là 60 pixels và màu đen , ở góc
+  trên cùng bên phải
+- Chọn tam giác có đáy dài 130 pixels , chiều cao là 80 pixels và màu xám , nằm ngang
+  giữa
+- Tìm tam giác có đáy ngắn 110 pixels , chiều cao là 70 pixels và màu trắng , ở góc
+  dưới cùng bên trái
+stop:
+- hủy bỏ tác vụ
+undo:
+- Làm ơn hoàn tác lại , không giữ lại bất kỳ sự thay đổi nào
+- Quay về lúc chưa thay đổi gì , undo hết đi
+- Trở lại trạng thái trước đó , không giữ lại thay đổi nào
+vertical_flip:
+- Đảo chiều dọc của vật thể hình ngôi sao ở giữa
+- Lật theo phương thẳng đứng hình chữ nhật màu đen
+- Lật dọc hình hiện tại để tạo hiệu ứng phản chiếu .

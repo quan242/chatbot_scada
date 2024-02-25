@@ -1,0 +1,6016 @@
+[
+  {
+    "text": "<i> tô màu đỏ",
+    "id": 4,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 13,
+        "text": "màu đỏ",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 4,
+    "created_at": "2024-01-04T07:28:27.894527Z",
+    "updated_at": "2024-01-04T07:29:18.535116Z",
+    "lead_time": 65.93
+  },
+  {
+    "text": "<i> sơn vàng",
+    "id": 5,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 12,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5,
+    "created_at": "2024-01-04T07:29:40.911744Z",
+    "updated_at": "2024-01-04T07:29:40.911786Z",
+    "lead_time": 11.635
+  },
+  {
+    "text": "<i> sơn tất cả màu vàng",
+    "id": 6,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "text": "màu vàng",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 6,
+    "created_at": "2024-01-04T07:29:54.390058Z",
+    "updated_at": "2024-01-04T07:29:54.390101Z",
+    "lead_time": 11.796
+  },
+  {
+    "text": "<i> những gì đã chọn sơn nó màu xanh",
+    "id": 7,
+    "label": [
+      {
+        "start": 28,
+        "end": 36,
+        "text": "màu xanh",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 7,
+    "created_at": "2024-01-04T07:30:14.140436Z",
+    "updated_at": "2024-01-04T07:30:14.140478Z",
+    "lead_time": 17.673
+  },
+  {
+    "text": "<i> bạn đổ màu xanh cho tôi nhé",
+    "id": 8,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 19,
+        "text": "màu xanh",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 8,
+    "created_at": "2024-01-04T07:30:57.990249Z",
+    "updated_at": "2024-01-04T07:30:57.990290Z",
+    "lead_time": 39.518
+  },
+  {
+    "text": "<i> oke bạn hãy tô màu tím cho tôi",
+    "id": 9,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "text": "màu tím",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 9,
+    "created_at": "2024-01-04T07:31:13.121467Z",
+    "updated_at": "2024-01-04T07:31:13.121509Z",
+    "lead_time": 12.492
+  },
+  {
+    "text": "<i> tô tím",
+    "id": 10,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 10,
+        "text": "tím",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 10,
+    "created_at": "2024-01-04T07:31:34.484903Z",
+    "updated_at": "2024-01-04T07:31:34.484944Z",
+    "lead_time": 13.991
+  },
+  {
+    "text": "<i> trăng tô màu",
+    "id": 11,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 9,
+        "text": "trăng",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 12,
+    "created_at": "2024-01-04T07:32:17.510653Z",
+    "updated_at": "2024-01-04T07:32:17.510696Z",
+    "lead_time": 13.669
+  },
+  {
+    "text": "<i> tô màu cam cho toàn bộ",
+    "id": 12,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "text": "màu cam",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 11,
+    "created_at": "2024-01-04T07:32:13.424104Z",
+    "updated_at": "2024-01-04T07:32:13.424147Z",
+    "lead_time": 24.178
+  },
+  {
+    "text": "<i> chọn màu tim tô lên đó",
+    "id": 13,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_foreground"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "text": "màu tim",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 13,
+    "created_at": "2024-01-04T07:32:32.114767Z",
+    "updated_at": "2024-01-04T07:32:32.114808Z",
+    "lead_time": 12.231
+  },
+  {
+    "text": "<i> tô màu nền xanh",
+    "id": 14,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 14,
+        "text": "nền",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 19,
+        "text": "xanh",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 14,
+    "created_at": "2024-01-04T07:37:27.583909Z",
+    "updated_at": "2024-01-04T07:37:27.583948Z",
+    "lead_time": 246.606
+  },
+  {
+    "text": "<i> tô nền xanh",
+    "id": 15,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "text": "xanh",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 10,
+        "text": "nền",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 15,
+    "created_at": "2024-01-04T07:37:46.691347Z",
+    "updated_at": "2024-01-04T07:37:46.691390Z",
+    "lead_time": 17.372
+  },
+  {
+    "text": "<i> nền tô đỏ",
+    "id": 16,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 7,
+        "text": "nền",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "text": "đỏ",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 16,
+    "created_at": "2024-01-04T07:38:07.246505Z",
+    "updated_at": "2024-01-04T07:38:07.246549Z",
+    "lead_time": 18.87
+  },
+  {
+    "text": "<i> background đổ màu đỏ",
+    "id": 17,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "text": "màu đỏ",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 14,
+        "text": "background",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 17,
+    "created_at": "2024-01-04T07:38:22.418945Z",
+    "updated_at": "2024-01-04T07:38:22.418988Z",
+    "lead_time": 13.632
+  },
+  {
+    "text": "<i> sơn phông nền màu vàng",
+    "id": 18,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "text": "màu vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 17,
+        "text": "phông nền",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 18,
+    "created_at": "2024-01-04T07:38:46.947589Z",
+    "updated_at": "2024-01-04T07:38:46.947631Z",
+    "lead_time": 22.9
+  },
+  {
+    "text": "<i> bạn tô màu vàng trên cả nền cho tôi nhé",
+    "id": 19,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 19,
+        "text": "màu vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 31,
+        "text": "nền",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 19,
+    "created_at": "2024-01-04T07:39:04.136964Z",
+    "updated_at": "2024-01-04T07:39:04.137007Z",
+    "lead_time": 15.568
+  },
+  {
+    "text": "<i> tôi cần phông màu tím",
+    "id": 20,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "text": "màu tím",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 17,
+        "text": "phông",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 20,
+    "created_at": "2024-01-04T07:39:21.188756Z",
+    "updated_at": "2024-01-04T07:39:21.188799Z",
+    "lead_time": 15.457
+  },
+  {
+    "text": "<i> tôi màu đỏ cam cho tôi trên toàn bộ phông nền",
+    "id": 21,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "text": "đỏ cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 49,
+        "text": "phông nền",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 21,
+    "created_at": "2024-01-04T07:40:02.939068Z",
+    "updated_at": "2024-01-04T07:40:02.939111Z",
+    "lead_time": 40.132
+  },
+  {
+    "text": "<i> bạn trợ lý tô cho tôi nền màu xanh dương ",
+    "id": 22,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "text": "xanh dương",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "text": "nền",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 22,
+    "created_at": "2024-01-04T07:40:23.353788Z",
+    "updated_at": "2024-01-04T07:40:23.353834Z",
+    "lead_time": 18.756
+  },
+  {
+    "text": "<i> nền xanh lục",
+    "id": 23,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_backround"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "text": "xanh lục",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 7,
+        "text": "nền",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 23,
+    "created_at": "2024-01-04T07:40:41.364689Z",
+    "updated_at": "2024-01-04T07:40:41.364733Z",
+    "lead_time": 16.55
+  },
+  {
+    "text": "<i> Vẽ hình tròn có bán kính 50 pixel ở giữa màn hình màu đỏ.",
+    "id": 24,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "text": "bán kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "text": "50 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 60,
+        "text": "màu đỏ",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 53,
+        "text": "giữa màn hình",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 24,
+    "created_at": "2024-01-04T08:19:48.904180Z",
+    "updated_at": "2024-01-04T08:19:48.904236Z",
+    "lead_time": 94.011
+  },
+  {
+    "text": "<i> Vẽ hình tròn màu đỏ.",
+    "id": 25,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "text": "màu đỏ",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 16,
+        "text": "hình tròn",
+        "labels": [
+          "value|shape"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 25,
+    "created_at": "2024-01-04T08:20:40.237917Z",
+    "updated_at": "2024-01-04T08:20:40.237959Z",
+    "lead_time": 49.718
+  },
+  {
+    "text": "<i> Bán kính 25 pixel, vẽ hình tròn màu cam.",
+    "id": 26,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 12,
+        "text": "Bán kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "text": "25 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "text": "hình tròn",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "text": "màu cam",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 26,
+    "created_at": "2024-01-04T08:21:13.597886Z",
+    "updated_at": "2024-01-04T08:21:13.597928Z",
+    "lead_time": 31.657
+  },
+  {
+    "text": "<i> Vị trí góc trên bên trái, hãy vẽ hình tròn màu xanh lam có bán kính 30 pixel.",
+    "id": 27,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "text": "hình tròn",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 59,
+        "text": "màu xanh lam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 71,
+        "text": "bán kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 10,
+        "text": "Vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 28,
+        "text": "góc trên bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 80,
+        "text": "30 pixel",
+        "labels": [
+          "value|width"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 27,
+    "created_at": "2024-01-04T08:22:12.774677Z",
+    "updated_at": "2024-01-04T08:22:12.774719Z",
+    "lead_time": 57.752
+  },
+  {
+    "text": "<i> Bán kính 25 pixel, vẽ hình tròn màu cam tại x = 50, y = 75.",
+    "id": 28,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "text": "hình tròn",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 12,
+        "text": "Bán kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "text": "25 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 54,
+        "text": "50",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 62,
+        "text": "75",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "text": "màu cam",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 28,
+    "created_at": "2024-01-04T08:23:10.143369Z",
+    "updated_at": "2024-01-04T08:23:10.143412Z",
+    "lead_time": 55.81
+  },
+  {
+    "text": "<i> Vẽ hình tròn màu cam bán kính 25 pixel.",
+    "id": 29,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 16,
+        "text": "hình tròn",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "text": "bán kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "text": "màu cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "text": "25 pixel",
+        "labels": [
+          "value|width"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 29,
+    "created_at": "2024-01-04T08:23:50.534100Z",
+    "updated_at": "2024-01-04T08:23:50.534144Z",
+    "lead_time": 38.831
+  },
+  {
+    "text": "<i> Vị trí góc dưới bên phải, bán kính 55 pixel, vẽ hình tròn màu tím.",
+    "id": 30,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 30,
+        "end": 38,
+        "text": "bán kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 61,
+        "text": "hình tròn",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "text": "màu tím",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "text": "55 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 10,
+        "text": "Vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 28,
+        "text": "góc dưới bên phải",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 30,
+    "created_at": "2024-01-04T08:24:41.648417Z",
+    "updated_at": "2024-01-04T08:24:41.648460Z",
+    "lead_time": 49.655
+  },
+  {
+    "text": "<i> Vẽ hình tròn màu đen bán kính 45 pixel tại vị trí trung tâm màn hình.",
+    "id": 31,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 16,
+        "text": "hình tròn",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "text": "màu đen",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "text": "45 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 72,
+        "text": "trung tâm màn hình",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 31,
+    "created_at": "2024-01-04T08:25:20.450501Z",
+    "updated_at": "2024-01-04T08:25:20.450544Z",
+    "lead_time": 37.318
+  },
+  {
+    "text": "<i> Vẽ hình tròn tại x = 700, y = 500 màu nâu có bán kính 50 pixel.",
+    "id": 32,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "text": "700",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "text": "500",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "text": "50 pixel",
+        "labels": [
+          "value|width"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 32,
+    "created_at": "2024-01-04T08:26:12.131198Z",
+    "updated_at": "2024-01-04T08:26:12.131239Z",
+    "lead_time": 50.214
+  },
+  {
+    "text": "<i> Vẽ hình tròn màu đen có bán kính 45 pixel tại x = 400, y = 300.",
+    "id": 33,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_circle"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 57,
+        "text": "400",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 66,
+        "text": "300",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "text": "45 pixel",
+        "labels": [
+          "value|width"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 33,
+    "created_at": "2024-01-04T08:26:37.174948Z",
+    "updated_at": "2024-01-04T08:26:37.174991Z",
+    "lead_time": 23.57
+  },
+  {
+    "text": "<i> Trợ lý ơi, vẽ một hình ê-líp màu đỏ, chiều rộng 50 và chiều cao 30 ở giữa trang.",
+    "id": 34,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 54,
+        "text": "50",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 70,
+        "text": "30",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 83,
+        "text": "giữa trang",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "text": "màu đỏ",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 34,
+    "created_at": "2024-01-04T08:27:45.134956Z",
+    "updated_at": "2024-01-04T08:27:45.134997Z",
+    "lead_time": 43.107
+  },
+  {
+    "text": "<i> Vui lòng vẽ một hình ê-líp màu xanh, chiều rộng 60 và chiều cao 35 ở toạ độ (100, 150).",
+    "id": 35,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 54,
+        "text": "60",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 70,
+        "text": "35",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 81,
+        "end": 84,
+        "text": "100",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 89,
+        "text": "150",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "text": "màu xanh",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 35,
+    "created_at": "2024-01-04T08:28:34.216830Z",
+    "updated_at": "2024-01-04T08:28:34.216871Z",
+    "lead_time": 47.572
+  },
+  {
+    "text": "<i> Bạn trợ lý tài năng, tôi muốn chiếc ê-líp màu vàng, chiều rộng 55 và chiều cao 30, nằm ở bên trái phải của giấy đó, đừng làm mờ chú nó đi đâu!",
+    "id": 36,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "text": "màu vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 69,
+        "text": "55",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 85,
+        "text": "30",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 101,
+        "text": "bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 82,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "text": "chiếc ê-líp",
+        "labels": [
+          "value|shape"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 36,
+    "created_at": "2024-01-04T08:29:45.635523Z",
+    "updated_at": "2024-01-04T08:29:45.635567Z",
+    "lead_time": 70.036
+  },
+  {
+    "text": "<i> Bạn trợ lý dễ thương, hãy làm một hình ê-líp màu hồng, chiều rộng 55 và chiều cao 30, để cho nó nổi bật như một bông hoa trong sân vườn ấy.",
+    "id": 37,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 48,
+        "text": "hình ê-líp",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 57,
+        "text": "màu hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 69,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 85,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 70,
+        "end": 73,
+        "text": "55 ",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 88,
+        "text": "30",
+        "labels": [
+          "value|height"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 37,
+    "created_at": "2024-01-04T11:14:33.097791Z",
+    "updated_at": "2024-01-04T11:14:33.097835Z",
+    "lead_time": 43.275
+  },
+  {
+    "text": "<i> Anh trợ lý tốt bụng, hãy vẽ một hình ê-líp màu cam, chiều rộng 52 và chiều cao 28, có lẽ ở giữa trang sẽ thú vị hơn.",
+    "id": 38,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "text": "hình ê-líp",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 54,
+        "text": "màu cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 69,
+        "text": "52",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 85,
+        "text": "28",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 95,
+        "end": 105,
+        "text": "giữa trang",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 82,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 38,
+    "created_at": "2024-01-04T11:15:51.451685Z",
+    "updated_at": "2024-01-04T11:15:51.451728Z",
+    "lead_time": 73.448
+  },
+  {
+    "text": "<i> Hãy tạo một hình ê-líp màu xám ở bên phải trang, chiều rộng 40 và chiều cao 25.",
+    "id": 39,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 66,
+        "text": "40",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 80,
+        "end": 82,
+        "text": "25",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 70,
+        "end": 79,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "text": "hình ê-líp",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "text": "màu xám",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "text": "bên phải",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 39,
+    "created_at": "2024-01-04T11:16:47.806460Z",
+    "updated_at": "2024-01-04T11:16:47.806500Z",
+    "lead_time": 52.226
+  },
+  {
+    "text": "<i> Anh trợ lý đẹp trai ơi, hãy vẽ một hình ê-líp màu xanh dương, chiều rộng 60 và chiều cao 40, chỗ nào anh cảm thấy hợp lý nhất đi.",
+    "id": 40,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 64,
+        "text": "màu xanh dương",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "text": "hình ê-líp",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 66,
+        "end": 76,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 92,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 79,
+        "text": "60",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 95,
+        "text": "40",
+        "labels": [
+          "value|height"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 40,
+    "created_at": "2024-01-04T11:20:14.678934Z",
+    "updated_at": "2024-01-04T11:20:14.678977Z",
+    "lead_time": 53.632
+  },
+  {
+    "text": "<i> Em trợ lý dễ thương, hãy bơi vào hồ nước trắng và vẽ một hình ê-líp màu hồng, chiều rộng 40 và chiều cao 25, ngay chính giữa đấy nhé.",
+    "id": 41,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 71,
+        "text": "hình ê-líp",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 80,
+        "text": "màu hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 92,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 99,
+        "end": 108,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 95,
+        "text": "40",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 111,
+        "text": "25",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 113,
+        "end": 128,
+        "text": "ngay chính giữa",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 41,
+    "created_at": "2024-01-04T11:21:12.955073Z",
+    "updated_at": "2024-01-04T11:21:12.955119Z",
+    "lead_time": 55.856
+  },
+  {
+    "text": "<i> Trợ lý ơi, hãy vẽ một hình ê-líp màu nâu, chiều rộng 48 và chiều cao 32 ở toạ độ (120, 180).",
+    "id": 42,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 36,
+        "text": " hình ê-líp",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "text": "màu nâu",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 56,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 72,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 75,
+        "text": "32",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 59,
+        "text": "48",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 89,
+        "text": "120",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 94,
+        "text": "180",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 78,
+        "end": 84,
+        "text": "toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 42,
+    "created_at": "2024-01-04T11:22:00.903919Z",
+    "updated_at": "2024-01-04T11:22:00.903963Z",
+    "lead_time": 43.411
+  },
+  {
+    "text": "<i> Vẽ một hình ê-líp ở giữa trang, chiều rộng 55 và chiều cao 28.",
+    "id": 43,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_ellipse"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 21,
+        "text": "hình ê-líp",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 34,
+        "text": "ở giữa trang",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 62,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 49,
+        "text": "55",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 65,
+        "text": "28",
+        "labels": [
+          "value|height"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 43,
+    "created_at": "2024-01-04T11:22:40.008690Z",
+    "updated_at": "2024-01-04T11:22:40.008733Z",
+    "lead_time": 37.252
+  },
+  {
+    "text": "<i> Vẽ bình hành có chiều cao 20, màu sắc cam, đáy dài 15, và góc xuất phát tù và ở vị trí (12, 3).",
+    "id": 44,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 29,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "text": "màu sắc",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 16,
+        "text": "bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 30,
+        "end": 32,
+        "text": "20",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 45,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 57,
+        "text": "15",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 50,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 75,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 78,
+        "text": "tù",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 90,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 94,
+        "text": "12",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 97,
+        "text": "3",
+        "labels": [
+          "position|source_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 44,
+    "created_at": "2024-01-04T11:24:51.115604Z",
+    "updated_at": "2024-01-04T11:24:51.115654Z",
+    "lead_time": 96.551
+  },
+  {
+    "text": "<i> Vẽ bình hành có đáy dài 15, góc xuất phát nhọn ở bên phải dưới, chiều cao 20, màu đen tại vị trí (8, 6).",
+    "id": 45,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 23,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 45,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 77,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 85,
+        "text": "màu",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 16,
+        "text": "bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 30,
+        "text": "15",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 78,
+        "end": 80,
+        "text": "20",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 89,
+        "text": "đen",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 100,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "text": "nhọn",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 66,
+        "text": "bên phải dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 103,
+        "text": "8",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 106,
+        "text": "6",
+        "labels": [
+          "position|source_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 45,
+    "created_at": "2024-01-04T11:26:31.150866Z",
+    "updated_at": "2024-01-04T11:26:31.150911Z",
+    "lead_time": 90.236
+  },
+  {
+    "text": "<i> Tạo một hình bình hành với độ lớn góc xuất phát là 45 độ, vị trí ở giữa, và đáy 20, chiều dài 15, màu sắc xanh dương.",
+    "id": 46,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 26,
+        "text": "hình bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 51,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 60,
+        "text": "45 độ",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 75,
+        "text": "ở giữa",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 80,
+        "end": 83,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 86,
+        "text": "20",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 100,
+        "text": "15",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 88,
+        "end": 97,
+        "text": "chiều dài",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 109,
+        "text": "màu sắc",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 110,
+        "end": 120,
+        "text": "xanh dương",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 46,
+    "created_at": "2024-01-04T11:27:33.511817Z",
+    "updated_at": "2024-01-04T11:27:33.511861Z",
+    "lead_time": 60.21
+  },
+  {
+    "text": "<i> Tạo hình bình hành với đáy là 15, chiều cao 20, góc xuất phát tù, vị trí ở giữa, và màu sắc đỏ.",
+    "id": 47,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 22,
+        "text": "hình bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 47,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 36,
+        "text": "15",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 50,
+        "text": "20",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 65,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 66,
+        "end": 68,
+        "text": "tù",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 70,
+        "end": 76,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 83,
+        "text": "ở giữa",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 88,
+        "end": 95,
+        "text": "màu sắc",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 98,
+        "text": "đỏ",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 47,
+    "created_at": "2024-01-04T11:28:28.827830Z",
+    "updated_at": "2024-01-04T11:28:28.827876Z",
+    "lead_time": 52.637
+  },
+  {
+    "text": "<i> Vẽ hình bình hành màu hồng có đáy 20, chiều cao 16, góc xuất phát 50 độ, vị trí (200, 100). ",
+    "id": 48,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 21,
+        "text": "hình bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 25,
+        "text": "màu",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 69,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 40,
+        "text": "20",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 54,
+        "text": "16",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 70,
+        "end": 75,
+        "text": "50 độ",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 83,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 88,
+        "text": "200",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 93,
+        "text": "100",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "text": "hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 48,
+    "created_at": "2024-01-04T11:29:22.274454Z",
+    "updated_at": "2024-01-04T11:29:34.037889Z",
+    "lead_time": 61.827999999999996
+  },
+  {
+    "text": "<i> Tạo hình bình hành có đáy 13, chiều cao 9, góc xuất phát 25 độ, màu nâu, vị trí (150, 75). ",
+    "id": 49,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 30,
+        "end": 32,
+        "text": "13",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "text": "9",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 60,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 75,
+        "text": "nâu",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 71,
+        "text": "màu",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 83,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 88,
+        "text": "150",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 92,
+        "text": "75",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 22,
+        "text": "hình bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "text": "25 độ",
+        "labels": [
+          "value|angle"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 49,
+    "created_at": "2024-01-04T11:31:23.232736Z",
+    "updated_at": "2024-01-04T11:31:23.232780Z",
+    "lead_time": 105.461
+  },
+  {
+    "text": "<i> Vẽ hình bình hành có đáy 20, chiều cao 16, màu hồng, vị trí (200, 100). ",
+    "id": 50,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 21,
+        "text": "hình bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 31,
+        "text": "20",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "text": "màu hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 45,
+        "text": "16",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 68,
+        "text": "200",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 70,
+        "end": 73,
+        "text": "100",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 42,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 50,
+    "created_at": "2024-01-04T11:32:08.342574Z",
+    "updated_at": "2024-01-04T11:32:08.342618Z",
+    "lead_time": 43.106
+  },
+  {
+    "text": "<i> Vẽ hình bình hành có đáy 15, chiều cao 20, góc xuất phát 30 độ, vị trí (100, 50). ",
+    "id": 51,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 21,
+        "text": "hình bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 31,
+        "text": "15",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 45,
+        "text": "20",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 42,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 60,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "text": "30 độ",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 74,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 79,
+        "text": "100",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 81,
+        "end": 83,
+        "text": "50",
+        "labels": [
+          "position|source_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 51,
+    "created_at": "2024-01-04T11:32:58.189801Z",
+    "updated_at": "2024-01-04T11:32:58.189844Z",
+    "lead_time": 48.145
+  },
+  {
+    "text": "<i> Vẽ hình bình hành màu xanh lá cây có đáy 10, chiều cao 8, góc xuất phát 45 độ, vị trí ở góc trên bên trái của khung vẽ. ",
+    "id": 52,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 21,
+        "text": "hình bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 37,
+        "text": "xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 122,
+        "text": "góc trên bên trái của khung vẽ",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "text": "10",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 60,
+        "text": "8",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 58,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 75,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 81,
+        "text": "45 độ",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 89,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 52,
+    "created_at": "2024-01-04T11:34:14.573075Z",
+    "updated_at": "2024-01-04T11:34:14.573120Z",
+    "lead_time": 74.461
+  },
+  {
+    "text": "<i> Vẽ hình bình hành có đáy 10, chiều cao 8, góc xuất phát 45 độ, màu xanh lá cây. ",
+    "id": 53,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_parallelogram"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 21,
+        "text": "hình bình hành",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "text": "đáy",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "text": "8",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 31,
+        "text": "10",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 42,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 59,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 65,
+        "text": "45 độ",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 70,
+        "text": "màu",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 82,
+        "text": "xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 53,
+    "created_at": "2024-01-04T11:35:46.951188Z",
+    "updated_at": "2024-01-04T11:35:46.951232Z",
+    "lead_time": 88.387
+  },
+  {
+    "text": "<i> Hãy vẽ một hình chữ nhật màu xanh dương, có kích thước 120x60, nằm ở vị trí (150, 200).",
+    "id": 54,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 28,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 81,
+        "end": 84,
+        "text": "150",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 89,
+        "text": "200",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 62,
+        "text": "120",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 65,
+        "text": "60",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "text": "kích thước",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 43,
+        "text": "màu xanh dương",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 79,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 64,
+    "created_at": "2024-01-04T14:38:39.360280Z",
+    "updated_at": "2024-01-04T14:38:39.360325Z",
+    "lead_time": 67.67
+  },
+  {
+    "text": "<i> Vẽ hình chữ nhật màu vàng có độ dày đường viền 3 pixel, chiều rộng 75 và chiều cao 50 ở toạ độ (200, 200).",
+    "id": 55,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 20,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "text": "màu vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "text": "3 pixel",
+        "labels": [
+          "value|thickness"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "text": "đường viền",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 103,
+        "text": "200",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 108,
+        "text": "200",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 89,
+        "text": "50",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 73,
+        "text": "75",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 70,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 86,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 98,
+        "text": "toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 54,
+    "created_at": "2024-01-04T11:37:49.467632Z",
+    "updated_at": "2024-01-04T11:37:49.467674Z",
+    "lead_time": 71.293
+  },
+  {
+    "text": "<i> Vẽ hình chữ nhật màu xanh lá cây có độ dày đường viền 3 pixel, chiều rộng 75 và chiều cao 50 ở toạ độ (150, 150).",
+    "id": 56,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 20,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 24,
+        "text": "màu",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 36,
+        "text": "xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 57,
+        "text": "đường viền",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 65,
+        "text": "3 pixel",
+        "labels": [
+          "value|thickness"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 96,
+        "text": "50",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 78,
+        "end": 80,
+        "text": "75",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 77,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 93,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 99,
+        "end": 105,
+        "text": "toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 110,
+        "text": "150",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 115,
+        "text": "150",
+        "labels": [
+          "position|source_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 55,
+    "created_at": "2024-01-04T11:39:12.607563Z",
+    "updated_at": "2024-01-04T11:39:12.607605Z",
+    "lead_time": 81.87
+  },
+  {
+    "text": "<i> Vui lòng vẽ một hình chữ nhật màu cam, có kích thước 70x30, ở phía trên bên phải.",
+    "id": 57,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "text": "màu",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 33,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 62,
+        "text": "30",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 59,
+        "text": "70",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 56,
+        "text": "kích thước",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 66,
+        "end": 84,
+        "text": "phía trên bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 41,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 56,
+    "created_at": "2024-01-04T11:39:57.441031Z",
+    "updated_at": "2024-01-04T11:39:57.441075Z",
+    "lead_time": 43.416
+  },
+  {
+    "text": "<i> Vẽ hình chữ nhật màu vàng có độ dày đường viền 3 pixel, chiều rộng 75 và chiều cao 50 ở toạ độ (200, 200).",
+    "id": 58,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 20,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 24,
+        "text": "màu",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 29,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "text": "đường viền",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "text": "3 pixel",
+        "labels": [
+          "value|thickness"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 89,
+        "text": "50",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 73,
+        "text": "75",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 103,
+        "text": "200",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 108,
+        "text": "200",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 98,
+        "text": "toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 70,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 86,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 57,
+    "created_at": "2024-01-04T11:41:14.880046Z",
+    "updated_at": "2024-01-04T11:41:14.880088Z",
+    "lead_time": 76.022
+  },
+  {
+    "text": "<i> Hãy vẽ hình chữ nhật màu tím có chiều rộng 80, chiều cao 60.",
+    "id": 59,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 24,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 32,
+        "text": "tím",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "text": "màu",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 49,
+        "text": "80",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 63,
+        "text": "60",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 60,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 58,
+    "created_at": "2024-01-04T11:41:47.343459Z",
+    "updated_at": "2024-01-04T11:41:47.343500Z",
+    "lead_time": 31.095
+  },
+  {
+    "text": "<i> Vẽ hình chữ nhật có chiều rộng 55, màu xanh lá cây, đường viền màu xám ở giữa màn hình.",
+    "id": 60,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 6,
+        "end": 20,
+        "text": " hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 42,
+        "text": "màu",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 54,
+        "text": "xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "text": "đường viền",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 74,
+        "text": "màu xám",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 90,
+        "text": "giữa màn hình",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 59,
+    "created_at": "2024-01-04T11:42:32.491665Z",
+    "updated_at": "2024-01-04T11:42:32.491710Z",
+    "lead_time": 43.708
+  },
+  {
+    "text": "<i> Tạo hình chữ nhật có chiều rộng 55, màu tím, đường viền đen tại vị trí bên phải màn hình.",
+    "id": 61,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 21,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 38,
+        "text": "55",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "text": "màu tím",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 74,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 75,
+        "end": 92,
+        "text": "bên phải màn hình",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 60,
+    "created_at": "2024-01-04T14:34:22.613137Z",
+    "updated_at": "2024-01-04T14:34:22.613179Z",
+    "lead_time": 10308.943
+  },
+  {
+    "text": "<i> Tạo một hình chữ nhật màu đỏ, kích thước 90x50, nằm ở vị trí (200, 250).",
+    "id": 62,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 25,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "text": "kích thước",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 50,
+        "text": "50",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "text": "90",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "text": "màu đỏ",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 66,
+        "end": 69,
+        "text": "200",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 74,
+        "text": "250",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 64,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 61,
+    "created_at": "2024-01-04T14:36:21.038731Z",
+    "updated_at": "2024-01-04T14:36:21.038775Z",
+    "lead_time": 117.02
+  },
+  {
+    "text": "<i> Tạo hình chữ nhật có chiều rộng 55, chiều cao 45, màu hồng, đường viền màu xanh dương, ở vị trí (350, 150).",
+    "id": 63,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 21,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 52,
+        "text": "45",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 38,
+        "text": "55",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 49,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 62,
+        "text": "màu hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 99,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 104,
+        "text": "350",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 109,
+        "text": "150",
+        "labels": [
+          "position|source_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 62,
+    "created_at": "2024-01-04T14:37:04.625523Z",
+    "updated_at": "2024-01-04T14:37:04.625566Z",
+    "lead_time": 42.334
+  },
+  {
+    "text": "<i> Tạo hình chữ nhật với chiều rộng 60, chiều cao 10, màu xanh lục, đường viền màu đen, ở giữa trang.",
+    "id": 64,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_rectangle"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 21,
+        "text": "hình chữ nhật",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 39,
+        "text": "60",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 53,
+        "text": "10",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 67,
+        "text": "xanh lục",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 101,
+        "text": "giữa trang",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 63,
+    "created_at": "2024-01-04T14:37:44.576719Z",
+    "updated_at": "2024-01-04T14:37:44.576765Z",
+    "lead_time": 38.377
+  },
+  {
+    "text": "<i> Tạo hình vuông với chiều cao 70 pixel, màu xanh lá cây ở bên phải trang.",
+    "id": 65,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_square"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "text": "70 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 58,
+        "text": "màu xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 75,
+        "text": "bên phải trang",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 90,
+    "created_at": "2024-01-04T14:47:30.390492Z",
+    "updated_at": "2024-01-04T14:47:30.390537Z",
+    "lead_time": 65.742
+  },
+  {
+    "text": "<i> Tạo hình vuông màu xanh lá cây tại điểm (200, 100) với chiều cao 70 pixel.",
+    "id": 66,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_square"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 34,
+        "text": "màu xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "text": "điểm",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 48,
+        "text": "200",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 53,
+        "text": "100",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 77,
+        "text": "70 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 68,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 91,
+    "created_at": "2024-01-04T14:48:06.463082Z",
+    "updated_at": "2024-01-04T14:48:06.463125Z",
+    "lead_time": 34.197
+  },
+  {
+    "text": "<i> Vui lòng vẽ một hình vuông màu xanh nước biển chiều cao 55 pixel ở điểm (250, 250).",
+    "id": 67,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_square"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 59,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 68,
+        "text": "55 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 80,
+        "text": "250",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 85,
+        "text": "250",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 49,
+        "text": "màu xanh nước biển",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 92,
+    "created_at": "2024-01-04T14:48:50.538567Z",
+    "updated_at": "2024-01-04T14:48:50.538613Z",
+    "lead_time": 41.877
+  },
+  {
+    "text": "<i> Tạo một hình vuông màu cam với chiều cao 80 pixel, toạ độ x = 300, y = 200.",
+    "id": 68,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_square"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "text": "màu cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "text": "80 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "text": "toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 66,
+        "end": 69,
+        "text": "300",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 75,
+        "end": 78,
+        "text": "200",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 22,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 35,
+        "end": 44,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 93,
+    "created_at": "2024-01-04T14:49:28.439881Z",
+    "updated_at": "2024-01-04T14:49:28.439925Z",
+    "lead_time": 35.598
+  },
+  {
+    "text": "<i> Vui lòng vẽ một hình vuông màu tím ở góc trên bên phải, chiều rộng 75 pixel.",
+    "id": 69,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_square"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 79,
+        "text": "75 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 70,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "text": "góc trên bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "text": "màu tím",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 94,
+    "created_at": "2024-01-04T14:49:57.635425Z",
+    "updated_at": "2024-01-04T14:49:57.635469Z",
+    "lead_time": 27.401
+  },
+  {
+    "text": "<i> Vẽ hình vuông màu nâu chiều cao 65 pixel ở giữa trang.",
+    "id": 70,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_square"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 17,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "text": "màu nâu",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "text": "65 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 57,
+        "text": "giữa trang",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 95,
+    "created_at": "2024-01-04T14:51:02.108750Z",
+    "updated_at": "2024-01-04T14:51:02.108793Z",
+    "lead_time": 62.811
+  },
+  {
+    "text": "<i> Tạo hình vuông màu cam ở giữa trang với chiều cao 80 pixel.",
+    "id": 71,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_square"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "text": "màu cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "text": "giữa trang",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 53,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 62,
+        "text": "80 pixel",
+        "labels": [
+          "value|height"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 96,
+    "created_at": "2024-01-04T14:51:35.811817Z",
+    "updated_at": "2024-01-04T14:51:35.811862Z",
+    "lead_time": 27.827
+  },
+  {
+    "text": "<i> Vẽ hình vuông có chiều rộng 50 pixel ở giữa trang và màu đỏ.",
+    "id": 72,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|copy_selected_objects"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "text": "50 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 31,
+        "text": "chiều rộng",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 53,
+        "text": "giữa trang",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "text": "màu đỏ",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 17,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 97,
+    "created_at": "2024-01-04T14:52:16.276946Z",
+    "updated_at": "2024-01-04T14:52:16.276992Z",
+    "lead_time": 38.105
+  },
+  {
+    "text": "<i> Vui lòng vẽ một hình vuông màu xám chiều cao 50 pixel ở góc trên bên trái trang.",
+    "id": 73,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_square"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "text": "màu xám",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 48,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 57,
+        "text": "50 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 83,
+        "text": "góc trên bên trái trang",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 98,
+    "created_at": "2024-01-04T14:52:49.832818Z",
+    "updated_at": "2024-01-04T14:52:49.832860Z",
+    "lead_time": 31.937
+  },
+  {
+    "text": "<i> Tạo hình vuông màu xanh nước biển ở giữa trang, chiều cao 55 pixel.",
+    "id": 74,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_square"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "text": "hình vuông",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 37,
+        "text": "màu xanh nước biển",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "text": "giữa trang",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 61,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 70,
+        "text": "55 pixel",
+        "labels": [
+          "value|height"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 99,
+    "created_at": "2024-01-04T14:53:21.965283Z",
+    "updated_at": "2024-01-04T14:53:21.965326Z",
+    "lead_time": 30.405
+  },
+  {
+    "text": "<i> Trợ lý ơi, hãy vẽ một hình thang với đáy lớn là 80 pixel, đảy nhỏ là 40 pixel, chiều cao là 60 pixel, góc xuất phát ở toạ độ (100, 200), màu đỏ tươi.",
+    "id": 75,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "text": "đáy lớn",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 60,
+        "text": "80 pixel",
+        "labels": [
+          "value|length"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "text": "đảy nhỏ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 81,
+        "text": "40 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 104,
+        "text": "60 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 92,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 119,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 122,
+        "end": 128,
+        "text": "toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 130,
+        "end": 133,
+        "text": "100",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 138,
+        "text": "200",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 141,
+        "end": 152,
+        "text": "màu đỏ tươi",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 100,
+    "created_at": "2024-01-04T14:54:31.583343Z",
+    "updated_at": "2024-01-04T14:54:31.583387Z",
+    "lead_time": 67.68
+  },
+  {
+    "text": "<i> Có thể bạn vẽ một hình thang với đáy lớn là 130 pixel, chiều cao là 55 pixel, màu đen, ở toạ độ (500, 300) không?",
+    "id": 76,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "text": "đáy lớn",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "text": "130 pixel",
+        "labels": [
+          "value|length"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 68,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 80,
+        "text": "55 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 99,
+        "text": "toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 89,
+        "text": "màu đen",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 104,
+        "text": "500",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 109,
+        "text": "300",
+        "labels": [
+          "position|source_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 101,
+    "created_at": "2024-01-04T14:55:12.982445Z",
+    "updated_at": "2024-01-04T14:55:12.982489Z",
+    "lead_time": 39.894
+  },
+  {
+    "text": "<i> Tạo hình thang với đáy lớn là 70 pixel, đảy nhỏ là 30 pixel, chiều cao là 45 pixel, màu xanh da trời, ở toạ độ (200, 400).",
+    "id": 77,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "text": "đáy lớn",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "text": "70 pixel",
+        "labels": [
+          "value|length"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 63,
+        "text": "30 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "text": "đảy nhỏ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 78,
+        "end": 86,
+        "text": "45 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 74,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 88,
+        "end": 104,
+        "text": "màu xanh da trời",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 114,
+        "text": " toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 119,
+        "text": "200",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 124,
+        "text": "400",
+        "labels": [
+          "position|source_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 102,
+    "created_at": "2024-01-04T14:56:09.891402Z",
+    "updated_at": "2024-01-04T14:56:09.891447Z",
+    "lead_time": 53.166
+  },
+  {
+    "text": "<i> Tạo một hình thang có đáy nhỏ là 18, chiều cao là 25, màu tím, vị trí ở điểm (5, 10). ",
+    "id": 78,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 22,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "text": "đáy nhỏ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 39,
+        "text": "18",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 56,
+        "text": "25",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 65,
+        "text": "màu tím",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 73,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 83,
+        "text": "5",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 87,
+        "text": "10",
+        "labels": [
+          "position|source_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 103,
+    "created_at": "2024-01-04T14:56:58.859359Z",
+    "updated_at": "2024-01-04T14:56:58.859403Z",
+    "lead_time": 44.862
+  },
+  {
+    "text": "<i> Tạo hình thang có góc xuất phát 20 độ, đáy lớn là 22, màu xanh dương, chiều cao 28. ",
+    "id": 79,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 35,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "text": "20 độ",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 56,
+        "text": "22",
+        "labels": [
+          "value|length"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "text": "đáy lớn",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 72,
+        "text": "màu xanh dương",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 74,
+        "end": 83,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 86,
+        "text": "28",
+        "labels": [
+          "value|height"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 104,
+    "created_at": "2024-01-04T14:57:55.972191Z",
+    "updated_at": "2024-01-04T14:57:55.972245Z",
+    "lead_time": 53.979
+  },
+  {
+    "text": "<i> Hãy tạo hình thang với chiều cao là 15, đáy lớn là 28, góc xuất phát 40 độ, vị trí ở giữa, màu đen. ",
+    "id": 80,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 22,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 42,
+        "text": "15",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "text": "đáy lớn",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 57,
+        "text": "28",
+        "labels": [
+          "value|length"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 72,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 78,
+        "text": "40 độ",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 80,
+        "end": 86,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 93,
+        "text": "ở giữa",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 95,
+        "end": 102,
+        "text": "màu đen",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 105,
+    "created_at": "2024-01-04T14:58:52.168655Z",
+    "updated_at": "2024-01-04T14:58:52.168700Z",
+    "lead_time": 54.815
+  },
+  {
+    "text": "<i> Vẽ hình thang với đáy lớn là 25, đáy nhỏ là 15, chiều cao là 30, góc xuất phát 45 độ, tọa độ (10, 20), màu đỏ. ",
+    "id": 81,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 17,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "text": "đáy lớn",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 35,
+        "text": "25",
+        "labels": [
+          "value|length"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 50,
+        "text": "15",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "text": "đáy nhỏ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 67,
+        "text": "30",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 61,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 82,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 88,
+        "text": "45 độ",
+        "labels": [
+          "value|angle"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 96,
+        "text": "tọa độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 100,
+        "text": "10",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 104,
+        "text": "20",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 113,
+        "text": "màu đỏ",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 106,
+    "created_at": "2024-01-04T14:59:40.214004Z",
+    "updated_at": "2024-01-04T14:59:40.214049Z",
+    "lead_time": 43.631
+  },
+  {
+    "text": "<i> Hãy vẽ hình thang với đáy nhỏ là 12, chiều cao 18, màu xanh lá cây, đặt ở bên phải. ",
+    "id": 82,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 21,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 39,
+        "text": "12",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 53,
+        "text": "18",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "text": "màu xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 78,
+        "end": 86,
+        "text": "bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "text": "đáy nhỏ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 107,
+    "created_at": "2024-01-04T15:00:14.369516Z",
+    "updated_at": "2024-01-04T15:00:14.369562Z",
+    "lead_time": 31.493
+  },
+  {
+    "text": "<i> Hãy tạo một hình thang với đáy lớn là 80 pixel, màu nâu, góc xuất phát ở toạ độ (350, 100), được không?",
+    "id": 83,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "text": "đáy lớn",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 88,
+        "text": "350",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 93,
+        "text": "100",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "text": "80 pixel",
+        "labels": [
+          "value|length"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 59,
+        "text": "màu nâu",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 74,
+        "text": "góc xuất phát",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 83,
+        "text": "toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 108,
+    "created_at": "2024-01-04T15:00:55.272106Z",
+    "updated_at": "2024-01-04T15:00:55.272152Z",
+    "lead_time": 39.227
+  },
+  {
+    "text": "<i> Có thể bạn vẽ một hình thang có đáy lớn là 100 pixel, đảy nhỏ là 30 pixel, chiều cao là 50 pixel, ở toạ độ (50, 100), màu xanh lá cây không?",
+    "id": 84,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|draw_trapezoid"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 65,
+        "text": "đảy nhỏ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 77,
+        "text": "30 pixel",
+        "labels": [
+          "value|width"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 100,
+        "text": "50 pixel",
+        "labels": [
+          "value|height"
+        ]
+      },
+      {
+        "start": 79,
+        "end": 88,
+        "text": "chiều cao",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "text": "hình thang",
+        "labels": [
+          "value|shape"
+        ]
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "text": " đáy lớn",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 56,
+        "text": "100 pixel",
+        "labels": [
+          "value|length"
+        ]
+      },
+      {
+        "start": 104,
+        "end": 110,
+        "text": "toạ độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 114,
+        "text": "50",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 119,
+        "text": "100",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 122,
+        "end": 137,
+        "text": "màu xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 109,
+    "created_at": "2024-01-04T15:01:40.460185Z",
+    "updated_at": "2024-01-04T15:01:40.460255Z",
+    "lead_time": 42.655
+  },
+  {
+    "text": "<i> dán vào giữa trang",
+    "id": 94,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 22,
+        "text": "giữa trang",
+        "labels": [
+          "position|destination"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 89,
+    "created_at": "2024-01-04T14:45:23.323161Z",
+    "updated_at": "2024-01-04T14:45:29.257873Z",
+    "lead_time": 15.609
+  },
+  {
+    "text": "<i> dán",
+    "id": 95,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 88,
+    "created_at": "2024-01-04T14:45:10.370361Z",
+    "updated_at": "2024-01-04T14:45:10.370404Z",
+    "lead_time": 2.116
+  },
+  {
+    "text": "<i> paste",
+    "id": 96,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 87,
+    "created_at": "2024-01-04T14:45:06.040169Z",
+    "updated_at": "2024-01-04T14:45:06.040214Z",
+    "lead_time": 4.371
+  },
+  {
+    "text": "<i> in những cái đã copy",
+    "id": 97,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 86,
+    "created_at": "2024-01-04T14:44:59.920062Z",
+    "updated_at": "2024-01-04T14:44:59.920102Z",
+    "lead_time": 6.945
+  },
+  {
+    "text": "<i> bên phải trên ấy dán vào đấy",
+    "id": 98,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 17,
+        "text": "bên phải trên",
+        "labels": [
+          "position|destination"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 85,
+    "created_at": "2024-01-04T14:44:51.335978Z",
+    "updated_at": "2024-01-04T14:44:51.336022Z",
+    "lead_time": 8.048
+  },
+  {
+    "text": "<i> oke dán vào bên dưới cho em nhé",
+    "id": 99,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "text": "bên dưới",
+        "labels": [
+          "position|destination"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 84,
+    "created_at": "2024-01-04T14:44:39.156100Z",
+    "updated_at": "2024-01-04T14:44:39.156145Z",
+    "lead_time": 11.455
+  },
+  {
+    "text": "<i> in vào (23, 54)",
+    "id": 100,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 14,
+        "text": "23",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 18,
+        "text": "54",
+        "labels": [
+          "position|destination_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 83,
+    "created_at": "2024-01-04T14:44:24.844672Z",
+    "updated_at": "2024-01-04T14:44:24.844716Z",
+    "lead_time": 7.653
+  },
+  {
+    "text": "<i> dán lên bên trên",
+    "id": 101,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 20,
+        "text": "bên trên",
+        "labels": [
+          "position|destination"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 82,
+    "created_at": "2024-01-04T14:44:15.428965Z",
+    "updated_at": "2024-01-04T14:44:15.429009Z",
+    "lead_time": 11.979
+  },
+  {
+    "text": "<i> chắc bạn dán vào trung tâm cho tôi",
+    "id": 102,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "text": "trung tâm",
+        "labels": [
+          "position|destination"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 81,
+    "created_at": "2024-01-04T14:43:48.631503Z",
+    "updated_at": "2024-01-04T14:43:48.631547Z",
+    "lead_time": 10.91
+  },
+  {
+    "text": "<i> oke bạn dán vào bên phải nhé",
+    "id": 103,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|paste"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "text": "bên phải",
+        "labels": [
+          "position|destination"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 80,
+    "created_at": "2024-01-04T14:42:18.869384Z",
+    "updated_at": "2024-01-04T14:44:01.520494Z",
+    "lead_time": 22.070999999999998
+  },
+  {
+    "text": "<i> ối đừng undo mà quay lại trạng thái đã thực hiện",
+    "id": 104,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|redo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 79,
+    "created_at": "2024-01-04T14:42:13.418702Z",
+    "updated_at": "2024-01-04T14:42:13.418747Z",
+    "lead_time": 2.679
+  },
+  {
+    "text": "<i> làm lại bước mới nhất",
+    "id": 105,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|redo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 78,
+    "created_at": "2024-01-04T14:42:07.825831Z",
+    "updated_at": "2024-01-04T14:42:07.825875Z",
+    "lead_time": 5.392
+  },
+  {
+    "text": "<i> làm lại hành động vừa xong đi",
+    "id": 106,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|redo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 77,
+    "created_at": "2024-01-04T14:42:00.245880Z",
+    "updated_at": "2024-01-04T14:42:00.245924Z",
+    "lead_time": 2.077
+  },
+  {
+    "text": "<i> không cần undo nữa, vẫn làm động tác như lúc nãy",
+    "id": 107,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|redo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 76,
+    "created_at": "2024-01-04T14:41:56.696686Z",
+    "updated_at": "2024-01-04T14:41:56.696728Z",
+    "lead_time": 2.707
+  },
+  {
+    "text": "<i> bạn ctrl + Y cho tôi nhé",
+    "id": 108,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|redo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 75,
+    "created_at": "2024-01-04T14:41:51.374387Z",
+    "updated_at": "2024-01-04T14:41:51.374431Z",
+    "lead_time": 17.205
+  },
+  {
+    "text": "<i> hoàn tác",
+    "id": 109,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 74,
+    "created_at": "2024-01-04T14:41:31.149001Z",
+    "updated_at": "2024-01-04T14:41:31.149045Z",
+    "lead_time": 3.751
+  },
+  {
+    "text": "<i> quay lại bước trước",
+    "id": 110,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 73,
+    "created_at": "2024-01-04T14:41:22.022846Z",
+    "updated_at": "2024-01-04T14:41:22.022889Z",
+    "lead_time": 2.385
+  },
+  {
+    "text": "<i> trở về trạng thái trước",
+    "id": 111,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 72,
+    "created_at": "2024-01-04T14:41:17.679675Z",
+    "updated_at": "2024-01-04T14:41:17.679718Z",
+    "lead_time": 4.6979999999999995
+  },
+  {
+    "text": "<i> undo",
+    "id": 112,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 71,
+    "created_at": "2024-01-04T14:41:07.312280Z",
+    "updated_at": "2024-01-04T14:41:07.312326Z",
+    "lead_time": 2.027
+  },
+  {
+    "text": "<i> quay trở về lúc nãy",
+    "id": 113,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 70,
+    "created_at": "2024-01-04T14:41:03.695812Z",
+    "updated_at": "2024-01-04T14:41:03.695857Z",
+    "lead_time": 2.326
+  },
+  {
+    "text": "<i> undo lại cho tôi",
+    "id": 114,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 69,
+    "created_at": "2024-01-04T14:40:58.841516Z",
+    "updated_at": "2024-01-04T14:40:58.841559Z",
+    "lead_time": 5.499
+  },
+  {
+    "text": "<i> trợ lý ơi trạng thái trước đó ấy, quay lại cho tôi nhé",
+    "id": 115,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 68,
+    "created_at": "2024-01-04T14:40:51.709846Z",
+    "updated_at": "2024-01-04T14:40:51.709892Z",
+    "lead_time": 3.043
+  },
+  {
+    "text": "<i> trở về bước vừa xong",
+    "id": 116,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 67,
+    "created_at": "2024-01-04T14:40:46.892747Z",
+    "updated_at": "2024-01-04T14:40:46.892791Z",
+    "lead_time": 2.502
+  },
+  {
+    "text": "<i> từ từ undo lại đi đã",
+    "id": 117,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 66,
+    "created_at": "2024-01-04T14:40:41.242501Z",
+    "updated_at": "2024-01-04T14:40:41.242545Z",
+    "lead_time": 3.488
+  },
+  {
+    "text": "<i> ôi không tôi cần quay lại bước lúc nãy",
+    "id": 118,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|undo"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 65,
+    "created_at": "2024-01-04T14:40:36.082156Z",
+    "updated_at": "2024-01-04T14:40:36.082201Z",
+    "lead_time": 15.986
+  }
+]

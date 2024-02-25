@@ -1,0 +1,122 @@
+[
+  {
+    "text": "hủy bỏ tác vụ",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "delete_object",
+      "confidence": 0.3236742615699768
+    }
+  },
+  {
+    "text": "Làm di chuyển hình vật thể tam giác ở vị trí (20, 30) sang phải 20 cm",
+    "intent": "move_right",
+    "intent_prediction": {
+      "name": "move_left",
+      "confidence": 0.680038332939148
+    }
+  },
+  {
+    "text": "Dịch chuyển hình chữ nhật màu đỏ và có kích thước(100, 150) lên trên 120 pixel",
+    "intent": "move_right",
+    "intent_prediction": {
+      "name": "move_up",
+      "confidence": 0.9399081468582153
+    }
+  },
+  {
+    "text": "Thay đổi màu sắc của vùng chọn hình ellipse tại (14, 41) với kích thước 2 bán trục là 12 cm và 20 cm thành màu tím.",
+    "intent": "color_selected_area",
+    "intent_prediction": {
+      "name": "select_area",
+      "confidence": 0.3222687840461731
+    }
+  },
+  {
+    "text": "Đặt màu xanh cho các đối tượng chọn xuất phát từ vị trí (41, 54) với chiều rộng 40 cm và chiều dài 50 cm.",
+    "intent": "color_selected_area",
+    "intent_prediction": {
+      "name": "select_area",
+      "confidence": 0.599610447883606
+    }
+  },
+  {
+    "text": "Tô vùng chọn hình chữ nhật tại (14, 51) với chiều rộng 432 và chiều dài 712 bằng màu đỏ.",
+    "intent": "color_selected_area",
+    "intent_prediction": {
+      "name": "select_area",
+      "confidence": 0.8152596950531006
+    }
+  },
+  {
+    "text": "Giảm chiều cao từ phía trên của hình bình hành màu xám ở chính giữa màn hình xuống 8 pixel, không thay đổi các thông số khác.",
+    "intent": "change_top",
+    "intent_prediction": {
+      "name": "change_height",
+      "confidence": 0.3782881796360016
+    }
+  },
+  {
+    "text": "Tôi muốn tăng chiều dài ở phía bên phải của một hình thoi màu đỏ có kích thước 340x325, độ dày đường viền 2 pixel, nằm ở vị trí (10, 10) thêm 150 pixel",
+    "intent": "change_right",
+    "intent_prediction": {
+      "name": "change_left",
+      "confidence": 0.5202543139457703
+    }
+  },
+  {
+    "text": "Giảm mức độ thay đổi kích thước chiều cao ở phía bên dưới cho hình bình hành màu cam ở chính giữa màn hình xuống 20 pixel, không thay đổi các thông số khác.",
+    "intent": "change_bottom",
+    "intent_prediction": {
+      "name": "change_top",
+      "confidence": 0.2773934304714203
+    }
+  },
+  {
+    "text": "Tạo một hình thang lớn màu xanh lá cây ở góc dưới bên phải.",
+    "intent": "draw_trapezoid",
+    "intent_prediction": {
+      "name": "draw_square",
+      "confidence": 0.4150942862033844
+    }
+  },
+  {
+    "text": "Sao chép hình bình hành màu xám ở tọa độ (100, 300) và lưu lại.",
+    "intent": "copy_object",
+    "intent_prediction": {
+      "name": "draw_parallelogram",
+      "confidence": 0.658850371837616
+    }
+  },
+  {
+    "text": "Lật theo phương thẳng đứng hình chữ nhật màu đen",
+    "intent": "vertical_flip",
+    "intent_prediction": {
+      "name": "horizontal_flip",
+      "confidence": 0.7706213593482971
+    }
+  },
+  {
+    "text": "Quay hình ê-líp ở giữa sang trái",
+    "intent": "rotate_left",
+    "intent_prediction": {
+      "name": "rotate_right",
+      "confidence": 0.5962864756584167
+    }
+  },
+  {
+    "text": "xoay trái các vật thể trong vùng bắt đầu từ tọa độ (24, 40) và có kích thước (543, 242) khoảng 45 độ.",
+    "intent": "rotate_left",
+    "intent_prediction": {
+      "name": "delete_selected_objects",
+      "confidence": 0.7032150626182556
+    }
+  },
+  {
+    "text": "xoay trái tất cả hình vuông màu đen ở góc trên bên phải.",
+    "intent": "rotate_left",
+    "intent_prediction": {
+      "name": "rotate_right",
+      "confidence": 0.7188910245895386
+    }
+  }
+]

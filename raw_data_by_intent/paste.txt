@@ -1,0 +1,18 @@
+<i> Dán vật phẩm đã chọn vào vị trí mới .
+<i> Thực hiện thao tác dán cho đối tượng hiện tại .
+<i> Hãy dán mục đã sao chép vào vị trí mong muốn .
+<i> Tạo ra hành động dán một cách nhẹ nhàng và chính xác .
+<i> Dán nội dung đã copy tới điểm đến mới .
+<i> Vui lòng thực hiện lệnh dán để hoàn thành hành động .
+<i> Dán vật phẩm vào vị trí mới nhất .
+<i> Thực hiện dán vật thể đã chọn vào vị trí tương ứng .
+<i> Dán nội dung đã chép vào vị trí đích .
+<i> Thực hiện thao tác dán một cách chính xác và nhanh chóng .
+<i> Dán vật phẩm đã copy vào vị trí mới .
+<i> Vui lòng di chuyển và thực hiện lệnh dán .
+<i> Dán vật phẩm như chấm phải đến chấm trái , tạo ra một hiệu ứng " di chuyển trong chớp mắt " .
+<i> Hãy thực hiện lệnh " dán " để vật phẩm không biến mất nhưng lại bí mật xuất hiện ở nơi mới .
+<i> Dán đại ca ! Đợi chờ gì nữa , hãy bắt đầu lên kế hoạch dán đồ xanh !
+<i> Lệnh " dán " sẽ giúp bạn biến đổi không gian một cách kỳ diệu , đến mức bạn có thể nghĩ rằng đó là phép màu .
+<i> Dán đồ ở chỗ mới , rồi nó sẽ " nhảy múa " vui vẻ nhưng không báo trước !
+<i> Bấm vào " dán " và xem kỳ tích diễn ra - một bức tranh đầy màu sắc sẽ được tạo ra !

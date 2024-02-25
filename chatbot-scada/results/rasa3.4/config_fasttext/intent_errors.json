@@ -1,0 +1,98 @@
+[
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.22675810754299164
+    }
+  },
+  {
+    "text": "Làm di chuyển hình vật thể tam giác ở vị trí (20, 30) sang phải 20 cm",
+    "intent": "move_right",
+    "intent_prediction": {
+      "name": "move_left",
+      "confidence": 0.5820416212081909
+    }
+  },
+  {
+    "text": "Chọn hình vuông lớn ở phía bên phải trên.",
+    "intent": "select_object",
+    "intent_prediction": {
+      "name": "select_area",
+      "confidence": 0.25858646631240845
+    }
+  },
+  {
+    "text": "Xóa các vật thể tại điểm (23, 65) và có kích thước 100x100 thuộc lớp đối tượng được chọn.",
+    "intent": "delete_selected_objects",
+    "intent_prediction": {
+      "name": "color_selected_area",
+      "confidence": 0.3572274446487427
+    }
+  },
+  {
+    "text": "Thay đổi màu sắc của vùng chọn hình ellipse tại (14, 41) với bán trục 12 cm và 20 cm thành màu tím.",
+    "intent": "color_selected_area",
+    "intent_prediction": {
+      "name": "select_area",
+      "confidence": 0.5044476985931396
+    }
+  },
+  {
+    "text": "Đặt màu xanh cho các đối tượng chọn xuất phát từ vị trí (41, 54) với chiều rộng 40 cm và chiều dài 50 cm.",
+    "intent": "color_selected_area",
+    "intent_prediction": {
+      "name": "select_area",
+      "confidence": 0.45796358585357666
+    }
+  },
+  {
+    "text": "Vẽ một hình thoi màu vàng nằm ở giữa màn hình.",
+    "intent": "draw_rhombus",
+    "intent_prediction": {
+      "name": "draw_trapezoid",
+      "confidence": 0.31743499636650085
+    }
+  },
+  {
+    "text": "Tạo một hình thang lớn màu xanh lá cây ở góc dưới bên phải.",
+    "intent": "draw_trapezoid",
+    "intent_prediction": {
+      "name": "draw_square",
+      "confidence": 0.5087110996246338
+    }
+  },
+  {
+    "text": "Sao chép hình bình hành màu xám ở tọa độ (100, 300) và lưu lại.",
+    "intent": "copy_object",
+    "intent_prediction": {
+      "name": "draw_parallelogram",
+      "confidence": 0.3602161109447479
+    }
+  },
+  {
+    "text": "Lật theo phương thẳng đứng hình chữ nhật màu đen",
+    "intent": "vertical_flip",
+    "intent_prediction": {
+      "name": "horizontal_flip",
+      "confidence": 0.5631874799728394
+    }
+  },
+  {
+    "text": "xoay trái các vật thể trong vùng bắt đầu từ tọa độ (24, 40) và có kích thước (543, 242) khoảng 45 độ.",
+    "intent": "rotate_left",
+    "intent_prediction": {
+      "name": "delete_selected_objects",
+      "confidence": 0.6703972816467285
+    }
+  },
+  {
+    "text": "xoay trái tất cả hình vuông màu đen ở góc trên bên phải.",
+    "intent": "rotate_left",
+    "intent_prediction": {
+      "name": "rotate_right",
+      "confidence": 0.9419394135475159
+    }
+  }
+]

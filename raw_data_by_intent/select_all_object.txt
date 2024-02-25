@@ -1,0 +1,12 @@
+<i> Xin vui lòng chọn tất cả các đối tượng có trên màn hình .
+<i> Vui lòng chọn tất cả các vật thể hiện có trong phạm vi .
+<i> Đề nghị chọn tất cả các mục trên giao diện .
+<i> Xin hãy bôi đen tất cả các đối tượng có trên bức tranh .
+<i> Vui lòng thực hiện việc chọn tất cả các đối tượng hiện có .
+<i> Hãy chọn toàn bộ các vật phẩm có trên giao diện làm việc .
+<i> Đề xuất lựa chọn tất cả các đối tượng hiện tại trên màn hình .
+<i> Xin vui lòng bôi đen toàn bộ các đối tượng hiện đang có .
+<i> Vui lòng chọn tất cả các mục hiện đang có trên bản vẽ .
+<i> Thực hiện chọn tất cả các đối tượng nằm trong phạm vi cho trước .
+<i> Hãy đánh dấu tất cả các vật thể hiện đang hiển thị .
+<i> Xin hãy chọn toàn bộ các đối tượng trên màn hình làm việc .

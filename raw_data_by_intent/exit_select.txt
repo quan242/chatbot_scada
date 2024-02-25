@@ -1,0 +1,12 @@
+<i> Xin hãy bỏ chọn tất cả các đối tượng đang được chọn .
+<i> Vui lòng huỷ chọn tất cả các vật thể đang được chọn .
+<i> Đề nghị thực hiện việc huỷ chọn các đối tượng hiện tại trên giao diện .
+<i> Hãy loại bỏ chọn của tất cả các đối tượng đang được chọn .
+<i> Xin vui lòng bỏ chọn toàn bộ các vật phẩm hiện đang được chọn .
+<i> Vui lòng thực hiện việc loại bỏ chọn của tất cả các mục đã chọn .
+<i> Đề xuất huỷ chọn toàn bộ các đối tượng hiện đang được chọn trên màn hình .
+<i> Hãy loại bỏ toàn bộ các đối tượng đang được chọn khỏi bản vẽ .
+<i> Xin hãy bỏ chọn toàn bộ các vật thể trên giao diện làm việc .
+<i> Thực hiện việc huỷ chọn tất cả các đối tượng đã được chọn trước đó .
+<i> Đề nghị bạn thực hiện lệnh để bỏ chọn tất cả các đối tượng hiện đang được chọn .
+<i> Hãy loại bỏ lựa chọn của tất cả các vật thể hiện đang được chọn trên màn hình .

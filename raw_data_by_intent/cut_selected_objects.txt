@@ -1,0 +1,30 @@
+<i> Hãy thực hiện tác vụ cắt hình chữ nhật màu đỏ hiện đang được chọn .
+<i> Xin vui lòng cắt đối tượng hình tròn màu vàng ở phía trên cùng bên phải .
+<i> Vui lòng cắt hình tam giác màu xanh dương ở góc trái dưới của màn hình .
+<i> Thực hiện cắt hình elip màu tím đang nằm ở vị trí ( 200 , 150 ) .
+<i> Đề nghị sao chép và sau đó cắt hình thoi màu hồng nằm bên cạnh hình vuông .
+<i> Xin hãy cắt hình vuông màu cam nằm ở góc trên cùng bên trái của hình thoi .
+<i> Hãy cắt hình tròn màu xanh lá cây và đặt nó ở phía trên của hình chữ nhật .
+<i> Thực hiện cắt hình tam giác màu cam ở vị trí tương đối là ở bên phải của hình vuông .
+<i> Đề xuất cắt hình chữ nhật màu hồng nằm ở giữa màn hình .
+<i> Xin vui lòng cắt hình vuông màu xanh lục ở góc dưới cùng bên phải của hình thoi .
+<i> Hãy thực hiện tác vụ cắt hình elip màu vàng đang nằm ở góc trên cùng bên phải .
+<i> Vui lòng cắt hình chữ nhật màu xanh lam ở vị trí tương đối là ở phía dưới của hình tam giác .
+<i> Thực hiện cắt hình vuông màu đen đang nằm ở vị trí ( 100 , 200 ) .
+<i> Xin vui lòng cắt hình tròn màu đỏ và đặt nó ở góc dưới cùng bên trái của hình chữ nhật .
+<i> Đề nghị cắt hình tam giác màu vàng ở phía trên cùng bên phải của màn hình .
+<i> Hãy thực hiện cắt hình elip màu cam nằm ở góc trái dưới của hình vuông .
+<i> Vui lòng cắt hình chữ nhật màu nâu ở góc trên cùng bên phải của màn hình .
+<i> Thực hiện tác vụ cắt hình tròn màu hồng đang nằm ở giữa màn hình .
+<i> Xin hãy cắt hình tam giác màu xanh dương và đặt nó ở bên cạnh hình vuông .
+<i> Đề xuất cắt hình chữ nhật màu trắng nằm ở góc dưới cùng bên trái của hình thoi .
+<i> Hãy cắt hình vuông màu vàng ở phía trên của hình tam giác .
+<i> Thực hiện cắt hình tròn màu xanh lá cây và đặt nó ở vị trí tương đối là ở bên dưới của hình vuông .
+<i> Xin vui lòng cắt hình elip màu nâu đang nằm ở góc dưới cùng bên phải của màn hình .
+<i> Đề nghị cắt hình chữ nhật màu xanh nằm ở giữa màn hình .
+<i> Vui lòng cắt hình vuông màu đỏ đang nằm ở góc trái dưới của hình chữ nhật .
+<i> Thực hiện cắt hình tròn màu vàng đang nằm ở góc trên cùng bên phải của hình tam giác .
+<i> Xin hãy cắt hình tam giác màu xanh dương và đặt nó ở phía bên dưới của hình chữ nhật .
+<i> Đề xuất cắt hình chữ nhật màu hồng nằm ở giữa màn hình .
+<i> Hãy cắt hình elip màu tím đang nằm ở phía trên cùng bên trái của màn hình .
+<i> Xin vui lòng cắt hình tam giác màu cam đang nằm ở góc trên cùng bên phải của hình vuông .

@@ -1,0 +1,49 @@
+nlu:
+- intent: greet
+  examples: |
+    - chào bot
+    - alo
+
+- intent: color_backround
+  examples: |
+    - tô [nền]{"entity": "aspect"} [xanh]{"entity": "value", "role": "color"}
+    - [nền]{"entity": "aspect"} tô [đỏ]{"entity": "value", "role": "color"}
+    - [background]{"entity": "aspect"} đổ [màu đỏ]{"entity": "value", "role": "color"}
+    - sơn [phông nền]{"entity": "aspect"} [màu vàng]{"entity": "value", "role": "color"}
+    - bạn tô [màu vàng]{"entity": "value", "role": "color"} trên cả [nền]{"entity": "aspect"}
+    - tôi cần [phông]{"entity": "aspect"} [màu tím]{"entity": "value", "role": "color"}
+    - tôi màu [đỏ cam]{"entity": "value", "role": "color"} cho tôi trên toàn bộ [phông nền]{"entity": "aspect"}
+    - bạn trợ lý tô cho tôi [nền]{"entity": "aspect"} màu [xanh dương]{"entity": "value", "role": "color"}
+    - [nền]{"entity": "aspect"} [xanh lục]{"entity": "value", "role": "color"}
+
+- intent: paste
+  examples: |
+    - dán
+    - paste
+    - in những cái đã copy
+    - [bên phải trên]{"entity": "position", "role": "destination"}
+    - oke dán vào [bên dưới]{"entity": "position", "role": "destination"}
+    - in vào ([23]{"entity": "position", "role": "destination_x"}, [54]{"entity": "position", "role": "destination_y"}
+    - dán lên [bên trên]{"entity": "position", "role": "destination"}
+    - chắc bạn dán vào [trung tâm]{"entity": "position", "role": "destination"}
+    - oke bạn dán vào [bên phải]{"entity": "position", "role": "destination"}
+
+- intent: redo
+  examples: |
+    - làm lại bước mới nhất
+    - làm lại hành động vừa xong đi
+    - không cần undo nữa, vẫn làm động tác như lúc nãy
+    - bạn ctrl + Y cho tôi nhé
+
+- intent: undo
+  examples: |
+    - quay lại bước trước
+    - trở về trạng thái trước
+    - undo
+    - quay trở về lúc nãy
+    - undo lại cho tôi
+    - trợ lý ơi trạng thái trước đó ấy, quay lại cho tôi nhé
+    - trở về bước vừa xong
+    - từ từ undo lại đi đã
+    - ôi không tôi cần quay lại bước lúc nãy
+

@@ -1,0 +1,349 @@
+nlu:
+- synonym: chọn
+  examples: |
+  - làm sáng
+  - Làm sáng
+  - làm nột bật
+  - tìm
+  - Tìm
+  - lưu thông tin
+  - ghim
+  - Ghim
+  - tìm kiếm
+  - Tìm kiếm
+  - đánh dấu
+  - Đánh dấu
+  - tra
+  - Tra
+  - Trỏ
+  - trỏ
+  - Choose
+  - choose
+  - Select
+  - select
+  - Click
+  - click
+
+- synonym: bỏ
+  examples: |
+  - Hủy
+  - hủy
+  - Loại
+  - loại
+  - Tháo
+  - tháo
+  - Thoát
+  - thoát
+  - Ngừng
+  - ngừng
+  - Dừng
+  - dừng
+  - Tạm dừng
+  - tạm dừng
+  - Exit
+  - exit
+  - Cancel
+  - cancel
+  - Stop
+  - stop
+
+- synonym: toàn bộ
+  examples: |
+  - tất cả
+  - all
+  - mọi thứ
+  - đầy đủ
+  - không bỏ sót
+
+- synonym: xóa
+  examples: |
+  - Loại bỏ
+  - loại bỏ
+  - drop
+  - Drop
+  - remove
+  - Remove
+  - Gạch
+  - gạch
+  - Delete
+  - delete
+  - Clear
+  - clear
+  - Clean
+  - clean
+
+- synonym: xoay
+  - examples: |
+    - Xoay 
+    - Quay
+    - quay
+    - Nghiêng
+    - nghiêng
+    - Đảo
+    - đảo
+    - rotate
+    - Rotate
+    - spin
+    - Spin
+
+- synonym: di chuyển
+  - examples: |
+    - dịch
+    - Dịch
+    - dịch chuyển
+    - Dịch chuyển
+    - dời
+    - Dời
+    - Di dời
+    - di dời
+    - move
+    - Move
+
+- synonym: tô màu
+  - examples: |
+    - Đặt màu
+    - đặt màu
+    - Phối màu
+    - phối màu
+    - Nhuộm màu
+    - nhuộm màu
+    - Lên màu
+    - lên màu
+    - Điểm màu
+    - điểm màu
+    - color
+    - Color
+    - dye
+    - Dye
+    - shade
+    - Shade
+
+- synonym: nền
+  - examples: |
+    - phông
+    - background
+
+
+- synoym: tăng
+  - examples: |
+    - nâng
+    - kéo dài
+    - mở rộng
+    - cơi nới
+    - làm rộng
+    - làm gài
+    - thêm
+    - increase
+    - lengthen
+    - extend
+    - cộng
+    - bổ sung
+
+- synonym: giảm
+  - examples: |
+    - hạ
+    - thu hẹp
+    - cắt ngắn
+    - làm gọn
+    - làm ngắn
+    - cắt gọn
+    - bớt
+    - trừ
+
+- synonym: thay đổi
+  - examples: |
+    - thiết lập
+    - làm mới
+    - đặt lại
+    - cập nhật
+    - update
+    - reset
+    - gán
+
+- synonym: vẽ
+  - examples: |
+    - tạo
+    - minh họa
+    - hình thành
+    - xây dựng
+    - thiết kế
+    - khắc
+    - chế
+
+- synonym: ê-líp
+  - examples: |
+    - ellipse
+    - elip
+    - bầu dục
+    - oval
+    - ô-van
+
+- synonym: chiều dài
+  - examples: |
+    - dài
+    - chiều lớn
+    - đáy lớn
+    - đáy
+    - trục lớn
+    - trục chính
+    - đường chéo chính
+    - đường kính
+    - cạnh dài
+    - độ dài
+
+- synonym: chiều rộng
+  - examples: |
+    - rộng
+    - chiều nhỏ
+    - đáy bé
+    - đảy nhỏ
+    - trục nhỏ
+    - đường chéo phụ
+    - trục phụ
+    - bán kinh
+    - cạnh ngắn
+    - độ rộng
+
+- synonym: chiều cao
+  - examples: |
+    - đường cao
+    - độ cao
+    - độ sâu
+
+- synonym: góc trái trên
+  - examples: |
+    - góc trái trên
+    - phía trên bên trái
+    - bên trái góc trên
+    - trên cùng bên trái
+    - trên bên trái
+    - phía trái bên trên
+    - trái trên
+    - trên trái
+
+- synonym: góc phải trên
+  - examples: |
+		-	góc phải trên
+		-	phía trên bên phải
+		-	bên phải góc trên
+		-	trên cùng bên phải
+		-	trên bên phải
+		-	phía phải bên trên
+		-	phải trên
+		-	trên phải
+
+- synonym: góc phải dưới
+  - examples: |
+		-	góc phải dưới
+		-	phía dưới bên phải
+		-	bên phải góc dưới
+		-	dưới cùng bên phải
+		-	dưới bên phải
+		-	phía phải bên dưới
+		-	phải dưới
+		-	dưới phải
+
+- synonym: góc trái dưới
+  - example: |
+		-	góc trái dưới
+		-	phía dưới bên trái
+		-	bên trái góc dưới
+		-	dưới cùng bên trái
+		-	dưới bên trái
+		-	phía trái bên dưới
+		-	trái dưới
+		-	dưới trái
+
+- synonym: giữa
+  - examples: |
+		-	phía giữa
+		-	chính giữa
+		-	trung tâm
+
+- synonym: điểm đầu
+  - examples: |
+		-	khởi đầu
+		-	mở đầu
+    - xuất phát
+    - ban đầu
+    - bắt đầu
+    - khởi điểm
+    - khởi phát
+
+- synonym: điểm cuối
+  - examples: |
+    - kết thúc
+    - cuối cùng
+    - điểm dừng
+    - điểm đích
+    - điểm đến
+    - cập bến
+    - khép lại 
+    - đáp xuống 
+    - hết
+    - đích 
+
+- synonym: sao chép
+  examples: |
+		-	copy
+		-	nhân bản
+		-	tái tạo
+		-	nhân đôi
+    - nhái
+    - đạo
+		-	nhân bản lại
+    - tạo bản sao
+    - Ctrl+C
+    - Ctrl + C
+    - Ctrl C
+
+- synonym: cắt
+  examples: |
+    - cut
+    - trim
+    - snip
+    - crop
+    - excise
+    - slice
+		-	sever
+		-	prune
+		-	clip
+		-	Ctrl+X
+		-	Ctrl + X
+		-	Ctrl X
+
+- synonym: dán
+  examples: |
+    - dính
+    - đính
+    - in
+    - paste
+    - insert
+    - chèn
+    - Ctrl+V
+    - Ctrl + V
+    - Ctrl V
+
+- synonym: hoàn tác
+  examples: |
+    - thu hồi
+    - quay trở lại
+    - rút lại
+    - undo
+    - revert
+    - reverse
+    - cancel
+    - rollback
+    - revoke
+    - backpedal
+    - retract
+    - reset
+    - Ctrl+Z
+    - Ctrl + Z
+    - Ctrl Z
+
+- synonym: redo
+  examples: |
+    - Ctrl+Y
+    - Ctrl + Y
+    - Ctrl Y

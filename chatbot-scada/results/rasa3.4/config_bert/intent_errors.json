@@ -1,0 +1,114 @@
+[
+  {
+    "text": "tạm biệt",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.10782978683710098
+    }
+  },
+  {
+    "text": "Dời hình tròn ở góc trái dưới qua bên phải 10 pixel",
+    "intent": "move_right",
+    "intent_prediction": {
+      "name": "move_left",
+      "confidence": 0.44498565793037415
+    }
+  },
+  {
+    "text": "Dịch chuyển hình chữ nhật màu đỏ và có kích thước(100, 150) lên trên 120 pixel",
+    "intent": "move_right",
+    "intent_prediction": {
+      "name": "move_up",
+      "confidence": 0.9173182845115662
+    }
+  },
+  {
+    "text": "Kéo hình chữ nhật có chiều dài 40 và chiều rộng30 xuống dưới 40 pixel",
+    "intent": "move_down",
+    "intent_prediction": {
+      "name": "draw_rectangle",
+      "confidence": 0.570504367351532
+    }
+  },
+  {
+    "text": "Thay đổi màu sắc của vùng chọn hình ellipse tại (14, 41) với kích thước 2 bán trục là 12 cm và 20 cm thành màu tím.",
+    "intent": "color_selected_area",
+    "intent_prediction": {
+      "name": "draw_ellipse",
+      "confidence": 0.59233558177948
+    }
+  },
+  {
+    "text": "Đặt màu xanh cho các đối tượng chọn xuất phát từ vị trí (41, 54) với chiều rộng 40 cm và chiều dài 50 cm.",
+    "intent": "color_selected_area",
+    "intent_prediction": {
+      "name": "select_area",
+      "confidence": 0.5325375199317932
+    }
+  },
+  {
+    "text": "Tô vùng chọn hình chữ nhật tại (14, 51) với chiều rộng 432 và chiều dài 712 bằng màu đỏ.",
+    "intent": "color_selected_area",
+    "intent_prediction": {
+      "name": "select_object",
+      "confidence": 0.3016928434371948
+    }
+  },
+  {
+    "text": "Tôi muốn tăng chiều dài ở phía bên phải của một hình thoi màu đỏ có kích thước 340x325, độ dày đường viền 2 pixel, nằm ở vị trí (10, 10) thêm 150 pixel",
+    "intent": "change_right",
+    "intent_prediction": {
+      "name": "change_left",
+      "confidence": 0.25417736172676086
+    }
+  },
+  {
+    "text": "Vẽ một hình thoi màu vàng nằm ở giữa màn hình.",
+    "intent": "draw_rhombus",
+    "intent_prediction": {
+      "name": "copy_object",
+      "confidence": 0.3452800512313843
+    }
+  },
+  {
+    "text": "Tạo một hình thang lớn màu xanh lá cây ở góc dưới bên phải.",
+    "intent": "draw_trapezoid",
+    "intent_prediction": {
+      "name": "draw_square",
+      "confidence": 0.3485220968723297
+    }
+  },
+  {
+    "text": "Sao chép hình bình hành màu xám ở tọa độ (100, 300) và lưu lại.",
+    "intent": "copy_object",
+    "intent_prediction": {
+      "name": "draw_parallelogram",
+      "confidence": 0.6221433877944946
+    }
+  },
+  {
+    "text": "Sao chép đối tượng hình tròn màu đỏ ở tọa độ (100, 200) và đặt vào clipboard.",
+    "intent": "copy_object",
+    "intent_prediction": {
+      "name": "paste_object",
+      "confidence": 0.6519941687583923
+    }
+  },
+  {
+    "text": "Lật theo phương thẳng đứng hình chữ nhật màu đen",
+    "intent": "vertical_flip",
+    "intent_prediction": {
+      "name": "horizontal_flip",
+      "confidence": 0.6913557648658752
+    }
+  },
+  {
+    "text": "xoay trái các vật thể trong vùng bắt đầu từ tọa độ (24, 40) và có kích thước (543, 242) khoảng 45 độ.",
+    "intent": "rotate_left",
+    "intent_prediction": {
+      "name": "delete_selected_objects",
+      "confidence": 0.6450197696685791
+    }
+  }
+]

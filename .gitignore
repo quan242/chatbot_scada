@@ -1,0 +1,14 @@
+chatbot-scada/.cache
+chatbot-scada/.config
+chatbot-scada/.keras
+chatbot-scada/.nv
+chatbot-scada/.rasa
+chatbot-scada/~
+chatbot-scada/models
+chatbot-scada/vncorenlp
+process-data/pdenv
+chatbot-scada/.nv
+chatbot-scada/.config/
+chatbot-scada/phobert_cache
+chatbot-scada/tensorboard_log
+.config/

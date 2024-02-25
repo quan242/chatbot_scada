@@ -1,0 +1,258 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hello
+- intent: stop
+  examples: |
+    - hủy bỏ tác vụ
+- intent: goodbye
+  examples: |
+    - tạm biệt
+- intent: select_all_object
+  examples: |
+    - Tôi cần bạn chọn tất cả các mục hiện có , bạn có thể làm được không ?
+    - Hãy bắt đầu bằng việc chọn toàn bộ và sau đó chúng ta sẽ điều chỉnh cần thiết .
+    - Chọn tất cả để đảm bảo bạn không bỏ sót bất kỳ đối tượng nào trên màn hình .
+
+- intent: exit_select
+  examples: |
+    - Vui lòng không chọn nữa các [bình hành]{"entity": "object", "role": "shape"}
+    - Bỏ chọn tất cả [đường thẳng]{"entity": "object", "role": "shape"}
+    - Em / chị ơi , đừng chọn thêm [đường cong]{"entity": "object", "role": "shape"}
+
+- intent: delete_selected_objects
+  examples: |
+    - Xóa nhanh chóng , nhưng không có mất mát , nhé !
+    - Loại bỏ hình [chữ nhật]{"entity": "object", "role": "shape"} màu [đỏ]{"entity": "object", "role": "color"} ở [vị trí]{"entity": "aspect"} [giữa]{"entity": "position", "role": "source"} màn hình.
+    - Xóa bỏ hình [vuông]{"entity": "object", "role": "shape"} màu [tím]{"entity": "object", "role": "color"} ở [vị trí]{"entity": "aspect"} [giữa bên trên]{"entity": "position", "role": "source"} màn hình.
+
+- intent: select_area
+  examples: |
+    - Xác định khu vực ở [góc trái bên trên]{"entity": "position", "role": "source"} màn hình và có [kích thước]{"entity": "aspect"} ([100]{"entity": "selected_area", "role": "length"}, [150]{"entity": "selected_area", "role": "width"})
+    - Chọn vùng chứa đối tượng có [kích thước]{"entity": "aspect"} [650]{"entity": "selected_area", "role": "length"}x[650]{"entity": "selected_area", "role": "width"} tại [vị trí]{"entity": "aspect"} ([100]{"entity": "position", "role": "source_x"}, [250]{"entity": "position", "role": "source_y"}).
+    - Khoanh vùng kéo dài từ [chính giữa]{"entity": "position", "role": "source"} màn hình đến [vị trí]{"entity": "aspect"} ([144]{"entity": "position", "role": "destination_x"}, [532]{"entity": "position", "role": "destination_y"})
+
+- intent: rotate_left
+  examples: |
+    - Quay hình [ê-líp]{"entity": "object", "role": "shape"} ở [giữa]{"entity": "position", "role": "source"} sang trái
+    - xoay trái các vật thể trong vùng [bắt đầu]{"entity": "aspect"} từ [tọa độ]{"entity": "aspect"} ([24]{"entity": "position", "role": "source_x"}, [40]{"entity": "position", "role": "source_y"}) và có [kích thước]{"entity": "aspect"} ([543]{"entity": "selected_area", "role": "length"}, [242]{"entity": "selected_area", "role": "width"}) khoảng [45 độ]{"entity": "value", "role": "angle"}.
+    - xoay trái tất cả hình [vuông]{"entity": "object", "role": "shape"} màu [đen]{"entity": "object", "role": "color"} ở [góc trên bên phải]{"entity": "position", "role": "source"}.
+    - xoay tất cả các hình [chữ nhật]{"entity": "object", "role": "shape"} màu [xám]{"entity": "object", "role": "color"} sang trái.
+
+- intent: rotate_right
+  examples: |
+    - xoay phải hình [chữ nhật]{"entity": "object", "role": "shape"} ở [vị trí]{"entity": "aspect"} [chính giữa]{"entity": "position", "role": "source"} màn hình
+    - Quay đối tượng hình [tròn]{"entity": "object", "role": "shape"} ở [giữa]{"entity": "position", "role": "source"} sang phải
+    - xoay phải
+
+- intent: horizontal_flip
+  examples: |
+    - Lật ngang
+    - Flip theo chiều ngang vật thể hình [vuông]{"entity": "object", "role": "shape"} màu [hồng]{"entity": "object", "role": "color"}
+    - Hãy lật hình [trái tim]{"entity": "object", "role": "shape"} ở [vị trí]{"entity": "aspect"} ( [20]{"entity": "position", "role": "source_x"}, [32]{"entity": "position", "role": "source_y"}) theo phương ngang, và nhớ phải giữ nguyên được màu [hồng]{"entity": "object", "role": "color"} của nó nhé
+
+- intent: vertical_flip
+  examples: |
+    - Đảo chiều dọc của vật thể hình [ngôi sao]{"entity": "object", "role": "shape"} ở [giữa]{"entity": "position", "role": "source"}
+    - Lật theo phương thẳng đứng hình [chữ nhật]{"entity": "object", "role": "shape"} màu [đen]{"entity": "object", "role": "color"}
+    - Lật dọc hình hiện tại để tạo hiệu ứng phản chiếu .
+
+- intent: move_left
+  examples: |
+    - Move vật thể hình [vuông]{"entity": "object", "role": "shape"} tại [tọa độ]{"entity": "aspect"} ([50]{"entity": "position", "role": "source_x"}, [70]{"entity": "position", "role": "source_y"}) qua bên trái [30 điểm ảnh]{"entity": "value", "role": "move"}.
+    - Di chuyển hình vật thể hình [chữ nhật]{"entity": "object", "role": "shape"} ở [giữa]{"entity": "position", "role": "source"} về bên trái [5 đơn vị]{"entity": "value", "role": "move"}.
+    - Di chuyển hình [tam giác]{"entity": "object", "role": "shape"} ở [giữa phía dưới]{"entity": "position", "role": "source"} về bên trái [5 đơn vị]{"entity": "value", "role": "move"}.    
+
+- intent: move_right
+  examples: |
+    - Làm di chuyển hình vật thể [tam giác]{"entity": "object", "role": "shape"} ở [vị trí]{"entity": "aspect"} ([20]{"entity": "position", "role": "source_x"}, [30]{"entity": "position", "role": "source_y"}) sang phải [20 cm]{"entity": "value", "role": "move"}
+    - Dời hình [tròn]{"entity": "object", "role": "shape"} ở [góc trái dưới]{"entity": "position", "role": "source"} qua bên phải [10 pixel]{"entity": "value", "role": "move"}
+    - Dịch chuyển hình [chữ nhật]{"entity": "object", "role": "shape"} màu [đỏ]{"entity": "object", "role": "color"} và có [kích thước]{"entity": "aspect"}([100]{"entity": "object", "role": "length"}, [150]{"entity": "object", "role": "width"}) lên trên [120 pixel]{"entity": "value", "role": "move"}
+ 
+- intent: move_up
+  examples: |
+    - Làm di chuyển lên vật thể [tam giác]{"entity": "object", "role": "shape"} ở [vị trí]{"entity": "aspect"} ([20]{"entity": "position", "role": "source_x"}, [30]{"entity": "position", "role": "source_y"})
+    - Move hình ảnh vật thể hình [vuông]{"entity": "object", "role": "shape"} ở [vị trí]{"entity": "aspect"} ([20]{"entity": "position", "role": "source_x"}, [50]{"entity": "position", "role": "source_y"}) lên trên [30 điểm ảnh]{"entity": "value", "role": "move"}
+    - Dịch chuyển hình [trái tim]{"entity": "object", "role": "shape"} ở [góc trên bên phải]{"entity": "position", "role": "source"} lên trên [120 pixel]{"entity": "value", "role": "move"}
+   
+- intent: move_down
+  examples: |
+    - Điều chỉnh [vị trí]{"entity": "aspect"} xuống dưới của hình ảnh vật thể hình [ngôi sao]{"entity": "object", "role": "shape"} khoảng [50 pixel]{"entity": "value", "role": "move"}
+    - Kéo vật thể hình [vuông]{"entity": "object", "role": "shape"} xuống dưới [30 điểm ảnh]{"entity": "value", "role": "move"}
+    - Kéo hình [chữ nhật]{"entity": "object", "role": "shape"} có [chiều dài]{"entity": "aspect"} [40]{"entity": "object", "role": "length"} và [chiều rộng]{"entity": "aspect"}[30]{"entity": "object", "role": "width"} xuống dưới [40 pixel]{"entity": "value", "role": "move"}
+
+- intent: color_background
+  examples: |
+    - Đặt màu [đen]{"entity": "value", "role": "color"} cho toàn bộ bề mặt ở toàn màn hình.
+    - Thay đổi màu nền thành màu [vàng]{"entity": "value", "role": "color"} ở toàn màn hình.
+    - Tô màu [đỏ]{"entity": "value", "role": "color"} cho toàn màn hình.
+   
+- intent: color_foreground
+  examples: |
+    - Thay đổi màu toàn bộ đối tượng hình [oval]{"entity": "object", "role": "shape"} thành màu [vàng]{"entity": "value", "role": "color"} ở [góc dưới bên phải]{"entity": "position", "role": "source"}.
+    - Tô màu [xanh]{"entity": "value", "role": "color"} cho tất cả hình [tam giác]{"entity": "object", "role": "shape"} có màu [đen]{"entity": "object", "role": "color"}.
+    - Đặt màu cho [hình vuông]{"entity": "object", "role": "shape"} nằm ở [tọa độ]{"entity": "aspect"} ( [15]{"entity": "position", "role": "source_x"} , [20]{"entity": "position", "role": "source_y"} ) thành màu [xanh da trời]{"entity": "value", "role": "color"}
+
+- intent: change_width
+  examples: |
+    - Thay đổi [chiều rộng]{"entity": "aspect"} của đối tượng hình [chữ nhật]{"entity": "object", "role": "shape"} [tăng]{"entity": "change_action", "role": "increase"} thêm [10 cm]{"entity": "value", "role": "change"} tại [tọa độ]{"entity": "aspect"} ([42]{"entity": "position", "role": "source_x"}, [13]{"entity": "position", "role": "source_y"}).
+    - Làm cho [chiều rộng]{"entity": "aspect"} của hình [thoi]{"entity": "object", "role": "shape"} có [kích thước]{"entity": "aspect"} [150]{"entity": "object", "role": "length"}x[100]{"entity": "object", "role": "width"} [tăng]{"entity": "change_action", "role": "increase"} thêm [15 cm]{"entity": "value", "role": "change"} tại [tọa độ]{"entity": "aspect"} ([13]{"entity": "position", "role": "source_x"}, [21]{"entity": "position", "role": "source_y"}).
+    - [Tăng]{"entity": "change_action", "role": "increase"} [chiều rộng]{"entity": "aspect"} của hình [chữ nhật]{"entity": "object", "role": "shape"} lên [10%]{"entity": "value", "role": "change"} tại [vị trí]{"entity": "aspect"} [góc trên bên trái]{"entity": "position", "role": "source"}.
+
+- intent: change_height
+  examples: |
+    - [Giảm]{"entity": "change_action", "role": "decrease"} [chiều cao]{"entity": "aspect"} của tất cả các hình [ellips]{"entity": "object", "role": "shape"} xuống [20%]{"entity": "value", "role": "change"} tại [vị trí]{"entity": "aspect"} [góc trên bên phải]{"entity": "position", "role": "source"}.
+    - [Tăng]{"entity": "change_action", "role": "increase"} [chiều cao]{"entity": "aspect"} của hình [thoi]{"entity": "object", "role": "shape"} lên [50 pixel]{"entity": "value", "role": "change"} tại [vị trí]{"entity": "aspect"} ([20]{"entity": "position", "role": "source_x"}, [30]{"entity": "position", "role": "source_y"}).
+    - [Đặt]{"entity": "change_action", "role": "set"} [chiều cao]{"entity": "aspect"} của hình [vuông]{"entity": "object", "role": "shape"} thành [50 pixel]{"entity": "value", "role": "change"} tại [vị trí]{"entity": "aspect"} ([20]{"entity": "position", "role": "source_x"}, [30]{"entity": "position", "role": "source_y"}).
+
+- intent: bot_challenge
+  examples: |
+    - cậu là sinh viên trường nào thế ?
+   
+- intent: select_object
+  examples: |
+    - Chọn hình [chữ nhật]{"entity": "object", "role": "shape"} màu [tím]{"entity": "object", "role": "color"} ở [chính giữa]{"entity": "position", "role": "source"} màn hình.
+    - Chọn hình [vuông]{"entity": "object", "role": "shape"} [lớn]{"entity": "object", "role": "size"} ở [vị trí] ([513]{"entity": "position", "role": "source_x"}, [721]{"entity": "position", "role": "source_y"}).
+    - Chọn hình [tam giác]{"entity": "object", "role": "shape"} có [kích thước]{"entity": "aspect"} ([100]{"entity": "object", "role": "length"}, [102]{"entity": "object", "role": "height"}) ở [phía bên phải trên]{"entity": "position", "role": "source"}.
+   
+- intent: delete_selected_objects
+  examples: |
+    - Loại bỏ các hình [ellipse]{"entity": "object", "role": "shape"} ở trong vùng chọn bắt đầu từ điểm ([123]{"entity": "position", "role": "source_x"}, [453]{"entity": "position", "role": "source_y"}) đến điểm ([234]{"entity": "position", "role": "destination_x"}, [763]{"entity": "position", "role": "destination_y"})
+    - Xóa các vật thể tại điểm ([23]{"entity": "position", "role": "source_x"}, [65]{"entity": "position", "role": "source_y"}) và có kích thước [100]{"entity": "selected_area", "role": "length"}x[100]{"entity": "selected_area", "role": "width"} thuộc lớp đối tượng được chọn.
+    - Xóa bỏ các hình có trong phạm vi [xuất phát]{"entity": "aspect"} từ điểm ([23]{"entity": "position", "role": "source_x"}, [65]{"entity": "position", "role": "source_y"}) và có kích thước [242]{"entity": "selected_area", "role": "length"}x[652]{"entity": "selected_area", "role": "width"}.
+
+- intent: color_selected_area
+  examples: |
+    - Thay đổi [màu sắc]{"entity": "aspect"} của vùng chọn hình [ellipse]{"entity": "selected_area", "role": "shape"} tại ([14]{"entity": "position", "role": "source_x"}, [41]{"entity": "position", "role": "source_y"}) với [kích thước]{"entity": "aspect"} 2 [bán trục]{"entity": "aspect"} là [12 cm]{"entity": "value", "role": "width"} và [20 cm]{"entity": "value", "role": "length"} thành màu [tím]{"entity": "value", "role": "color"}.
+    - Đặt màu [xanh]{"entity": "value", "role": "color"} cho các đối tượng chọn xuất phát từ [vị trí]{"entity": "aspect"} ([41]{"entity": "position", "role": "source_x"}, [54]{"entity": "position", "role": "source_y"}) với [chiều rộng]{"entity": "aspect"} [40 cm]{"entity": "selected_area", "role": "width"} và [chiều dài]{"entity": "aspect"} [50 cm]{"entity": "selected_area", "role": "length"}.
+    - Tô vùng chọn hình [chữ nhật]{"entity": "selected_area", "role": "shape"} tại ([14]{"entity": "position", "role": "source_x"}, [51]{"entity": "position", "role": "source_y"}) với [chiều rộng]{"entity": "aspect"} [432]{"entity": "value", "role": "width"} và [chiều dài]{"entity": "aspect"} [712]{"entity": "value", "role": "length"} bằng màu [đỏ]{"entity": "value", "role": "color"}.
+
+- intent: change_length
+  examples: |
+    - [Làm dài]{"entity": "change_action", "role": "increase"} hình [vuông]{"entity": "object", "role": "shape"} lên [12%]{"entity": "value", "role": "change"} tại [vị trí]{"entity": "aspect"} [giữa]{"entity": "position", "role": "source"} màn hình.
+    - [Giảm]{"entity": "change_action", "role": "decrease"} [chiều dài]{"entity": "aspect"} của hình [thoi]{"entity": "object", "role": "shape"} xuống [20%]{"entity": "value", "role": "change"} tại [vị trí]{"entity": "aspect"} ([20]{"entity": "position", "role": "source_x"}, [14]{"entity": "position", "role": "source_y"}).
+    - [Đặt lại]{"entity": "change_action", "role": "decrease"} [chiều dài]{"entity": "aspect"} của hình [chữ nhật]{"entity": "object", "role": "shape"} bằng [100 pixel]{"entity": "value", "role": "length"} tại [vị trí]{"entity": "aspect"} ([13]{"entity": "position", "role": "source_x"}, [53]{"entity": "position", "role": "source_y"}).
+
+- intent: change_radius
+  examples: |
+    - [Tăng]{"entity": "change_action", "role": "increase"} [bán kính]{"entity": "aspect"} của hình [tròn]{"entity": "object", "role": "shape"} lên [10%]{"entity": "value", "role": "change"} tại [vị trí]{"entity": "aspect"} [góc trên bên trái]{"entity": "position", "role": "source"}.
+    - [Làm ngắn]{"entity": "change_action", "role": "decrease"} [bán kính]{"entity": "aspect"} của hình [tròn]{"entity": "object", "role": "shape"} xuống [25%]{"entity": "value", "role": "change"} tại [vị trí]{"entity": "aspect"} [chính giữa]{"entity": "position", "role": "source"} màn hình.
+    - [Giảm]{"entity": "change_action", "role": "decrease"} [bán kính]{"entity": "aspect"} của hình [tròn]{"entity": "object", "role": "shape"} xuống [123 pixel]{"entity": "value", "role": "width"} tại [vị trí]{"entity": "aspect"} [góc trên bên phải]{"entity": "position", "role": "source"} màn hình.
+   
+- intent: change_top
+  examples: |
+    - Bạn hãy thúc hình [tam giác]{"entity": "object", "role": "shape"} màu [tím]{"entity": "object", "role": "color"} ngỗ ngược , có [cạnh đáy]{"entity": "aspect"} [100 pixel]{"entity": "object", "role": "length"} , [độ cao]{"entity": "aspect"} [80 pixel]{"entity": "object", "role": "height"} , đang ở [vị trí]{"entity": "aspect"} ( [250]{"entity": "position", "role": "source_x"} , [350]{"entity": "position", "role": "source_y"} ) , đến [vị trí]{"entity": "aspect"} ( [100]{"entity": "position", "role": "destination_x"} , [200]{"entity": "position", "role": "destination_y"} ) sao cho [góc trên]{"entity": "aspect"} trùng với [vị trí]{"entity": "aspect"} [đích]{"entity": "aspect"}
+    - Bạn có thể lật hình [bầu dục]{"entity": "object", "role": "shape"} màu [cam]{"entity": "object", "role": "color"} ngốc nghếch , có [trục ngang]{"entity": "aspect"} [120 pixel]{"entity": "object", "role": "length"} , [trục dọc]{"entity": "aspect"} [80 pixel]{"entity": "object", "role": "width"} , đang ở [chính giữa]{"entity": "position", "role": "source"} màn hình , đến [vị trí]{"entity": "aspect"} ( [500]{"entity": "position", "role": "destination_x"} , [600]{"entity": "position", "role": "destination_y"} ) sao cho [góc trên]{"entity": "aspect"} trùng với [vị trí]{"entity": "aspect"} [đích]{"entity": "aspect"}
+    - Hãy kéo hình [vuông]{"entity": "object", "role": "shape"} màu [đỏ]{"entity": "object", "role": "shape"} xinh xắn , có [kích thước]{"entity": "aspect"} [100]{"entity": "object", "role": "width"}x[100]{"entity": "object", "role": "width"} pixel , đang nằm ở [góc trên bên phải]{"entity": "position", "role": "source"} màn hình , [vị trí]{"entity": "aspect"} ( [200]{"entity": "position", "role": "destination_x"} , [300]{"entity": "position", "role": "destination_y"}
+
+- intent: change_left
+  examples: |
+    - Này bạn , anh ơi , anh giúp em di chuyển cái vật thể sao cho [góc trái]{"entity": "aspect"} của nó nằm ở [vị trí]{"entity": "aspect"} ( [30]{"entity": "position", "role": "source_x"} , [40]{"entity": "position", "role": "source_y"} ) được không ? Nó đang ở [vị trí]{"entity": "aspect"} ( [- 100]{"entity": "position", "role": "destination_x"} , [100]{"entity": "position", "role": "source_y"}
+    - Cái vật thể ở [vị trí]{"entity": "aspect"} ( [100]{"entity": "position", "role": "source_x"} , [200]{"entity": "position", "role": "source_y"} ) có thể chuyển đến [vị trí]{"entity": "aspect"} ( - [100]{"entity": "position", "role": "destination_x"} , [100]{"entity": "position", "role": "source_y"} ) dựa trên [góc trái]{"entity": "aspect"} của nó được không ? Nó đang hơi lạc lõng ở [vị trí]{"entity": "aspect"}
+    - Cái vật thể ở [vị trí]{"entity": "aspect"} ( [- 100]{"entity": "position", "role": "source_x"} , [100]{"entity": "position", "role": "source_x"} ) có thể chuyển đến [vị trí]{"entity": "aspect"} ( [30]{"entity": "position", "role": "destination_x"} , [40]{"entity": "position", "role": "destination_y"} ) dựa trên [góc trái]{"entity": "aspect"} của hình này được không ? Nó đang che khuất cái thứ quan trọng [hơn]{"entity": "comparison", "role": "bigger"}
+
+- intent: change_right
+  examples: |
+    - " Chọc tức " chiếc [chữ L]{"entity": "object", "role": "shape"} với [bề dài]{"entity": "aspect"} và [chiều rộng]{"entity": "aspect"} là [80]{"entity": "value", "role": "length"} từ [vị trí]{"entity": "aspect"} hiện tại ( [100]{"entity": "position", "role": "source_x"} , [400]{"entity": "position", "role": "source_y"} ) đến ( [300]{"entity": "position", "role": "destination_x"} , [100]{"entity": "position", "role": "destination_y"} ) dựa trên [góc phải]{"entity": "aspect"}
+    - " Đóng gói lại " hình [elip]{"entity": "object", "role": "shape"} với [bán kính lớn]{"entity": "aspect"} [30]{"entity": "object", "role": "length"} và [bán kính nhỏ]{"entity": "aspect"} [20]{"entity": "object", "role": "width"} , và hãy đặt nó ở [vị trí]{"entity": "aspect"} mới " như kiểu mới " ( [600]{"entity": "position", "role": "destination_x"} , [200]{"entity": "position", "role": "destination_y"} ) dựa trên [góc phải]{"entity": "aspect"}
+    - Cho chiếc [tứ giác đều]{"entity": "object", "role": "shape"} với [cạnh]{"entity": "aspect"} [70]{"entity": "object", "role": "width"} một chuyến phiêu lưu từ [trung tâm]{"entity": "position", "role": "source"} màn hình đến [vị trí]{"entity": "aspect"} mới " đi đâu cũng được " ( [400]{"entity": "position", "role": "destination_x"} , [400]{"entity": "position", "role": "destination_y"} ) dựa trên [góc phải]{"entity": "aspect"}
+    
+- intent: change_bottom
+  examples: |
+    - Cứu chiếc hình [oval]{"entity": "object", "role": "shape"} này khỏi [góc trái dưới]{"entity": "position", "role": "source"} ( [50]{"entity": "position", "role": "source"} , [350]{"entity": "position", "role": "source_y"} ) , đưa nó lên trên ( [200]{"entity": "position", "role": "destination_x"} , [500]{"entity": "position", "role": "destination_y"}
+    - Chiếc [chữ L]{"entity": "object", "role": "shape"} ơi , đừng lo lắng , chỉ là dịch chuyển đôi chút , từ ( [400]{"entity": "position", "role": "source_x"} , [400]{"entity": "position", "role": "source_y"} ) đến ( [550]{"entity": "position", "role": "destination_x"} , [550]{"entity": "aspect"} ) . [Góc dưới]{"entity": "aspect"}
+    - [Chữ X]{"entity": "object", "role": "shape"} , bạn có thể đi chơi xa hơn chút không ? Đến ( [550]{"entity": "position", "role": "destination_x"} , [400]{"entity": "aspect"} ) chẳng hạn , [góc dưới]{"entity": "aspect"} nơi đó sẽ làm bạn hạnh phúc [hơn]{"entity": "comparison", "role": "bigger"}
+
+- intent: draw_line
+  examples: |
+    - Vẽ [đường thẳng]{"entity": "value", "role": "shape"} từ ([43]{"entity": "position", "role": "source_x"}, [36]{"entity": "position", "role": "source_y"}) với hướng và [chiều dài]{"entity": "aspect"} mặc định.
+    - Tạo đoạn [đường thẳng]{"entity": "value", "role": "shape"} từ điểm ([53]{"entity": "position", "role": "source_x"}, [54]{"entity": "position", "role": "source_y"}) với [độ dài]{"entity": "aspect"} [35 cm]{"entity": "value", "role": "length"} và [góc nghiêng]{"entity": "aspect"} [45 độ]{"entity": "value", "role": "angle"}.-
+    - Vẽ một [đường]{"entity": "value", "role": "shape"} [dọc]{"entity": "value", "role": "orientation"} màu [vàng]{"entity": "value", "role": "color"} [dài]{"entity": "aspect"} [50]{"entity": "value", "role": "length"} cm có [tâm]{"entity": "aspect"} ở [tọa độ]{"entity": "aspect"} ([100]{"entity": "position", "role": "center_x"}, [50]{"entity": "position", "role": "center_y"}) và có [độ dày]{"entity": "value", "role": "thickness"} [0.25]{"entity": "value", "role": "thickness"}
+
+- intent: draw_circle
+  examples: |
+    - Vẽ một đường [tròn]{"entity": "value", "role": "shape"} có bán kính [18 cm]{"entity": "value", "role": "width"} màu [xanh lá]{"entity": "value", "role": "color"} ở [góc dưới bên trái]{"entity": "position", "role": "source"} màn hình.
+    - Tạo một hình [tròn]{"entity": "value", "role": "shape"} với bán kính [30 pixel]{"entity": "value", "role": "width"}.
+    - [Vị trí]{"entity": "aspect"} ở [giữa]{"entity": "position", "role": "source"} màn hình , [đường kính]{"entity": "aspect"} [35]{"entity": "value", "role": "length"} pixel , vẽ hình [tròn]{"entity": "value", "role": "shape"} màu [xanh nước biển]{"entity": "value", "role": "color"}
+
+- intent: draw_ellipse
+  examples: |
+    - Tạo một hình [ellipse]{"entity": "value", "role": "shape"} có [trục chính]{"entity": "aspect"} [60 pixel]{"entity": "value", "role": "length"} và [trục phụ]{"entity": "aspect"} [40 pixel]{"entity": "value", "role": "width"}.
+    - Vẽ một [elip]{"entity": "value", "role": "shape"} màu [hồng]{"entity": "value", "role": "color"} nằm [dọc]{"entity": "value", "role": "orientation"} ở [góc trên bên trái]{"entity": "position", "role": "source"}.
+    - Trợ lý , hãy vẽ một hình [ê-líp]{"entity": "value", "role": "shape"} màu [đen]{"entity": "value", "role": "color"} , [trục lớn]{"entity": "aspect"} là [45]{"entity": "value", "role": "length"} và [trục nhỏ]{"entity": "aspect"} là [27]{"entity": "value", "role": "width"} ở [tọa độ]{"entity": "aspect"} ( [80]{"entity": "position", "role": "source_x"} , [120]{"entity": "position", "role": "source_y"} ) để tạo ra một [điểm]{"entity": "aspect"}
+
+- intent: draw_rectangle
+  examples: |
+    - Tạo một hình [chữ nhật]{"entity": "value", "role": "shape"} [lớn]{"entity": "value", "role": "size"} màu [trắng]{"entity": "value", "role": "color"} ở [góc dưới bên phải]{"entity": "position", "role": "source"}.
+    - Vẽ một hình [chữ nhật]{"entity": "value", "role": "shape"} [nhỏ]{"entity": "value", "role": "size"} màu [đen]{"entity": "value", "role": "color"} ở [góc trên bên trái]{"entity": "position", "role": "source"}.
+    - Tạo hình [chữ nhật]{"entity": "value", "role": "shape"} màu [nâu]{"entity": "value", "role": "color"} , [chiều dài]{"entity": "aspect"} [60]{"entity": "value", "role": "length"} , [chiều rộng]{"entity": "aspect"} [35]{"entity": "value", "role": "width"} , [đường viền]{"entity": "aspect"} màu đen , ở [vị trí]{"entity": "aspect"} ( [150]{"entity": "position", "role": "source_x"} , [220]{"entity": "position", "role": "source_y"}
+
+- intent: draw_square
+  examples: |
+    - Tạo một hình [vuông]{"entity": "value", "role": "shape"} với cạnh [50 pixel]{"entity": "value", "role": "height"}.
+    - Hãy vẽ một hình [vuông]{"entity": "value", "role": "shape"} ở [tọa độ]{"entity": "aspect"} ([100]{"entity": "position", "role": "source_x"}, [300]{"entity": "position", "role": "source_y"}).
+    - Vẽ hình [vuông]{"entity": "value", "role": "shape"} màu [hồng]{"entity": "value", "role": "color"} với [chiều cao]{"entity": "aspect"} [77]{"entity": "value", "role": "height"} pixel ở [góc dưới bên phải]{"entity": "position", "role": "source"}
+
+- intent: draw_rhombus
+  examples: |
+    - Tạo một hình [thoi]{"entity": "value", "role": "shape"} [lớn]{"entity": "value", "role": "size"} màu [cam]{"entity": "value", "role": "color"} ở [góc dưới bên phải]{"entity": "position", "role": "source"}.
+    - Vẽ một hình [thoi]{"entity": "value", "role": "shape"} màu [vàng]{"entity": "value", "role": "color"} nằm ở [giữa]{"entity": "position", "role": "source"} màn hình.
+    - Vẽ hình [thoi]{"entity": "value", "role": "shape"} màu [vàng]{"entity": "value", "role": "color"} óng , [chiều dài]{"entity": "aspect"} [30]{"entity": "value", "role": "length"} pixel , [chiều rộng]{"entity": "aspect"} [30]{"entity": "value", "role": "width"} pixel , hướng [nghiêng]{"entity": "value", "role": "orientation"} [60]{"entity": "value", "role": "angle"} độ , tại [vị trí]{"entity": "aspect"} ( [120]{"entity": "position", "role": "source_x"} , [100]{"entity": "position", "role": "source_y"} ) . Trông như một chiếc dây chuyền hình [thoi]{"entity": "value", "role": "shape"}
+
+- intent: draw_parallelogram
+  examples: |
+    - Tạo một hình [bình hành]{"entity": "value", "role": "shape"} [lớn]{"entity": "value", "role": "size"} màu [đỏ]{"entity": "value", "role": "color"} ở [góc dưới bên phải]{"entity": "position", "role": "source"}.
+    - Vẽ một hình [bình hành]{"entity": "value", "role": "shape"} màu [cam]{"entity": "value", "role": "color"} ở [góc trên bên trái]{"entity": "position", "role": "source"} có [chiều dài]{"entity": "aspect"} cơ sở [23 cm]{"entity": "value", "role": "length"} và [chiều cao]{"entity": "aspect"} [12 cm]{"entity": "value", "role": "height"}.
+    - Tạo hình [bình hành]{"entity": "value", "role": "shape"} có [chiều rộng]{"entity": "aspect"} [12]{"entity": "value", "role": "width"} , [chiều cao]{"entity": "aspect"} [16]{"entity": "value", "role": "height"} , màu [nâu]{"entity": "value", "role": "color"} ấm áp , [vị trí]{"entity": "aspect"} tại [điểm]{"entity": "aspect"} ( [45]{"entity": "position", "role": "source_x"} , [60]{"entity": "position", "role": "source_y"} ) , và [góc xuất phát]{"entity": "aspect"} [nhọn]{"entity": "value", "role": "angle"} từ [phía trên cùng bên phải]{"entity": "position", "role": "source"}
+
+- intent: draw_trapezoid
+  examples: |
+    - Vẽ một hình [thang]{"entity": "value", "role": "shape"} nằm ở [góc trên bên trái]{"entity": "position", "role": "source"} màn hình.
+    - Tạo một hình [thang]{"entity": "value", "role": "shape"} [lớn]{"entity": "value", "role": "size"} màu [xanh lá cây]{"entity": "value", "role": "color"} ở [góc dưới bên phải]{"entity": "position", "role": "source"}.
+    - Trợ lý ơi , vui lòng tạo hình [thang]{"entity": "value", "role": "shape"} với [góc xuất phát]{"entity": "aspect"} [15]{"entity": "value", "role": "angle"} độ , [đáy lớn]{"entity": "aspect"} [45]{"entity": "value", "role": "length"} pixel , màu [xám]{"entity": "value", "role": "color"} , đặt [giữa]{"entity": "position", "role": "source"}
+
+- intent: draw_arrow
+  examples: |
+    - Tạo [mũi tên]{"entity": "value", "role": "shape"} màu [đen]{"entity": "value", "role": "color"} tại [tọa độ]{"entity": "aspect"} ( [200]{"entity": "position", "role": "source_x"} , [300]{"entity": "position", "role": "source_y"} ) với [chiều dài]{"entity": "aspect"} [80]{"entity": "value", "role": "length"} pixel , [chiều cao]{"entity": "aspect"} [60]{"entity": "value", "role": "height"} pixel , để tạo ra một chiếc [mũi tên]{"entity": "value", "role": "shape"}
+    - Vẽ [mũi tên]{"entity": "value", "role": "shape"} màu [hồng]{"entity": "value", "role": "color"} ở [góc trên cùng]{"entity": "position", "role": "source"} , [chiều cao]{"entity": "aspect"} [80]{"entity": "value", "role": "height"} pixel , [chiều dài]{"entity": "aspect"} [120]{"entity": "value", "role": "length"}
+    - Tạo [mũi tên]{"entity": "value", "role": "shape"} màu [đen]{"entity": "value", "role": "color"} tại [tọa độ]{"entity": "aspect"} ( [400]{"entity": "position", "role": "source_x"} , [100]{"entity": "position", "role": "source_y"} ) với [chiều rộng]{"entity": "aspect"} [80]{"entity": "value", "role": "width"} pixel , [chiều dài]{"entity": "aspect"} [120]{"entity": "value", "role": "length"}
+
+- intent: copy_selected_objects
+  examples: |
+    - Sao chép chúng với tốc độ ánh sáng !
+    - Nhân bản chúng đi , bạn ơi !
+    - Trợ lý , chúng ta cần một bản sao ngay bây giờ .
+
+- intent: cut_selected_objects
+  examples: |
+    - Cut các đối tượng hiện tại và lưu vào bộ nhớ tạm thời
+    - Thực hiện cut để xóa và lưu thông tin của đối tượng đang chọn
+    - Cut các đối tượng được chọn và lưu vào bộ nhớ tạm
+
+- intent: paste
+  examples: |
+    - Paste đối tượng đã được copy từ clipboard vào [tọa độ]{"entity": "aspect"} ([200]{"entity": "position", "role": "destination_x"}, [150]{"entity": "position", "role": "destination_y"}).
+    - Dán hình chữ nhật đã copy từ clipboard vào [góc dưới bên phải]{"entity": "position", "role": "destination"} tại [tọa độ]{"entity": "aspect"} ([500]{"entity": "position", "role": "destination_x"}, [400]{"entity": "position", "role": "destination_y"}).
+    - Hãy dán hình đã được copy lên [vị trí]{"entity": "aspect"} [góc trên bên trái]{"entity": "position", "role": "destination"}.
+
+- intent: undo
+  examples: |
+    - Làm ơn hoàn tác lại , không giữ lại bất kỳ sự thay đổi nào
+    - Quay về lúc chưa thay đổi gì , undo hết đi
+    - Trở lại trạng thái trước đó , không giữ lại thay đổi nào
+
+- intent: redo
+  examples: |
+    - Hãy redo lại hành động đã undo trước đó .
+    - Làm lại bước cuối cùng vừa được undo .
+    - Quay lại trạng thái trước khi thực hiện hành động undo . s
+
+- intent: select_object
+  examples: |
+    - Chọn [tam giác]{"entity": "object", "role": "shape"} có [đáy dài]{"entity": "aspect"} [100 pixels]{"entity": "object", "role": "length"} , [chiều cao]{"entity": "aspect"} là [70 pixels]{"entity": "object", "role": "height"} và màu [cam]{"entity": "object", "role": "color"} , nằm ở [giữa]{"entity": "position", "role": "source"}
+    - Tìm [tam giác]{"entity": "object", "role": "shape"} có [đáy ngắn]{"entity": "aspect"} [120 pixels]{"entity": "object", "role": "width"} , [chiều cao]{"entity": "aspect"} là [90 pixels]{"entity": "object", "role": "height"} và màu [hồng]{"entity": "object", "role": "color"} , ở [phía trên cùng]{"entity": "position", "role": "source"}
+    - Chọn [tam giác]{"entity": "object", "role": "shape"} có [đáy dài]{"entity": "aspect"} [80 pixels]{"entity": "object", "role": "length"} , [chiều cao]{"entity": "aspect"} là [50 pixels]{"entity": "object", "role": "height"} và màu [nâu]{"entity": "object", "role": "color"} , [nằm dọc]{"entity": "object", "role": "orientation"} [giữa]{"entity": "position", "role": "source"}
+    - Tìm [tam giác]{"entity": "object", "role": "shape"} có [đáy ngắn]{"entity": "aspect"} [100 pixels]{"entity": "object", "role": "width"} , [chiều cao]{"entity": "aspect"} là [60 pixels]{"entity": "object", "role": "height"} và màu [đen]{"entity": "object", "role": "color"} , ở [góc trên cùng bên phải]{"entity": "position", "role": "source"}
+    - Chọn [tam giác]{"entity": "object", "role": "shape"} có [đáy dài]{"entity": "aspect"} [130 pixels]{"entity": "object", "role": "length"} , [chiều cao]{"entity": "aspect"} là [80 pixels]{"entity": "object", "role": "height"} và màu [xám]{"entity": "object", "role": "color"} , [nằm ngang]{"entity": "object", "role": "orientation"} [giữa]{"entity": "position", "role": "source"}
+    - Tìm [tam giác]{"entity": "object", "role": "shape"} có [đáy ngắn]{"entity": "aspect"} [110 pixels]{"entity": "object", "role": "width"} , [chiều cao]{"entity": "aspect"} là [70 pixels]{"entity": "object", "role": "height"} và màu [trắng]{"entity": "object", "role": "color"} , ở [góc dưới cùng bên trái]{"entity": "position", "role": "source"}

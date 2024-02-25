@@ -1,0 +1,12 @@
+<i> Đề nghị thực hiện lệnh xoá để loại bỏ toàn bộ các đối tượng đang được chọn .
+<i> Vui lòng thực hiện việc xoá tất cả các vật thể hiện đang được chọn trên giao diện làm việc .
+<i> Xin hãy xoá toàn bộ các đối tượng đang được chọn trên màn hình .
+<i> Hãy loại bỏ toàn bộ các đối tượng hiện đang được chọn khỏi bản vẽ .
+<i> Đề xuất thực hiện việc xoá toàn bộ các đối tượng hiện đang được chọn trên giao diện .
+<i> Vui lòng thực hiện việc xoá các đối tượng đã được chọn trước đó .
+<i> Xin hãy xoá toàn bộ các vật thể đang được chọn trên bản vẽ .
+<i> Đề nghị thực hiện lệnh xoá để loại bỏ toàn bộ các đối tượng hiện tại .
+<i> Hãy xoá mọi thứ đang được chọn trên giao diện người dùng .
+<i> Xin vui lòng thực hiện việc xoá tất cả các đối tượng hiện đang được chọn .
+<i> Vui lòng thực hiện việc xoá các đối tượng đã được chọn trước đó .
+<i> Đề xuất loại bỏ toàn bộ các đối tượng đang được chọn trên màn hình làm việc .

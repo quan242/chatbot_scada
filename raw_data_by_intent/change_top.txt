@@ -1,0 +1,11 @@
+<i> Hãy đưa hình tròn màu xanh dương , có bán kính 40 pixel , từ vị trí hiện tại ở góc trái trên đến vị trí mới tại ( 200 , 200 ) .
+<i> Di chuyển hình chữ nhật màu vàng , có chiều dài 60 pixel và chiều rộng 30 pixel , từ vị trí hiện tại ở chính giữa đến vị trí mới tại ( 400 , 300 ) .
+<i> Chuyển hình tam giác màu đỏ , có cạnh 50 pixel , đang ở vị trí ( 150 , 250 ) , đến vị trí mới tại ( 100 , 150 ) sao cho góc trên của nó trùng với vị trí mới .
+<i> Di chuyển hình vuông màu cam , có cạnh 40 pixel , từ vị trí hiện tại ở trên cùng bên trái đến vị trí mới tại ( 50 , 50 ) .
+<i> Hãy đưa hình elip màu hồng , có chiều dài 80 pixel và chiều rộng 60 pixel , từ vị trí hiện tại ở dưới cùng bên phải đến vị trí mới tại ( 300 , 200 ) .
+<i> Chuyển hình bình hành màu đen , có chiều dài 70 pixel và chiều rộng 40 pixel , từ vị trí hiện tại ở trên cùng bên phải đến vị trí mới tại ( 100 , 300 ) .
+<i> Di chuyển hình thoi màu tím , có đường chéo dài 60 pixel và đường chéo ngắn 30 pixel , từ vị trí hiện tại ở dưới cùng bên trái đến vị trí mới tại ( 250 , 100 ) sao cho góc trên của nó trùng với vị trí mới .
+<i> Hãy đưa hình vuông màu xanh lá cây , có cạnh 50 pixel , từ vị trí hiện tại ở trên cùng bên trái đến vị trí mới tại ( 400 , 400 ) .
+<i> Chuyển hình tam giác đều màu vàng , có cạnh 40 pixel , đang ở vị trí ( 300 , 200 ) , đến vị trí mới tại ( 200 , 100 ) dựa trên góc trên .
+<i> Di chuyển hình bình hành màu đỏ , có chiều dài 70 pixel và chiều rộng 50 pixel , từ vị trí hiện tại ở dưới cùng bên trái đến vị trí mới tại ( 350 , 250 ) .
+<i> Hãy đưa hình tam giác màu cam , có cạnh 60 pixel , từ vị trí hiện tại ở góc trái trên đến vị trí mới tại ( 150 , 150 ) .

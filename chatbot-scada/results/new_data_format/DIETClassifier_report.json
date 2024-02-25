@@ -1,0 +1,274 @@
+{
+  "position.destination_y": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 4,
+    "confused_with": {
+      "position.source_y": 2
+    }
+  },
+  "position.source": {
+    "precision": 0.8715596330275229,
+    "recall": 0.8260869565217391,
+    "f1-score": 0.8482142857142858,
+    "support": 115,
+    "confused_with": {}
+  },
+  "object.color": {
+    "precision": 0.9130434782608695,
+    "recall": 0.84,
+    "f1-score": 0.8749999999999999,
+    "support": 25,
+    "confused_with": {
+      "value.color": 3
+    }
+  },
+  "value.height": {
+    "precision": 0.4444444444444444,
+    "recall": 0.46153846153846156,
+    "f1-score": 0.4528301886792453,
+    "support": 26,
+    "confused_with": {
+      "value.width": 6,
+      "value.thickness": 6
+    }
+  },
+  "change_action.set": {
+    "precision": 0.2222222222222222,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.3333333333333333,
+    "support": 3,
+    "confused_with": {}
+  },
+  "value.angle": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "value.width": 1,
+      "value.length": 1,
+      "value": 1
+    }
+  },
+  "object.thickness": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 16,
+    "confused_with": {}
+  },
+  "change_action.decrease": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "change_action.increase": 1,
+      "change_action.set": 1
+    }
+  },
+  "object.shape": {
+    "precision": 1.0,
+    "recall": 0.423728813559322,
+    "f1-score": 0.5952380952380952,
+    "support": 59,
+    "confused_with": {}
+  },
+  "position.source_x": {
+    "precision": 0.6756756756756757,
+    "recall": 0.78125,
+    "f1-score": 0.7246376811594203,
+    "support": 32,
+    "confused_with": {
+      "position.source_y": 7
+    }
+  },
+  "selected_area.width": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "object.length": 2,
+      "position.source_y": 1,
+      "position.destination_x": 1
+    }
+  },
+  "value.size": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "value.change": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 20,
+    "confused_with": {
+      "value.height": 4,
+      "value.width": 4
+    }
+  },
+  "value.orientation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "object.size": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "value.size": 1
+    }
+  },
+  "value.move": {
+    "precision": 0.8620689655172413,
+    "recall": 1.0,
+    "f1-score": 0.9259259259259259,
+    "support": 25,
+    "confused_with": {}
+  },
+  "object.width": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "object.length": 2,
+      "position.source_y": 1
+    }
+  },
+  "value.length": {
+    "precision": 0.6,
+    "recall": 0.2608695652173913,
+    "f1-score": 0.36363636363636365,
+    "support": 23,
+    "confused_with": {
+      "value.height": 7,
+      "value.width": 4
+    }
+  },
+  "position.destination_x": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "position.source_y": 3,
+      "position.destination_y": 1
+    }
+  },
+  "value.color": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.8372093023255814,
+    "support": 22,
+    "confused_with": {
+      "object.color": 2
+    }
+  },
+  "aspect": {
+    "precision": 0.8985507246376812,
+    "recall": 0.8,
+    "f1-score": 0.8464163822525597,
+    "support": 155,
+    "confused_with": {}
+  },
+  "change_action.increase": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 6,
+    "confused_with": {}
+  },
+  "position.destination": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "position.source": 3
+    }
+  },
+  "value.width": {
+    "precision": 0.2857142857142857,
+    "recall": 0.4,
+    "f1-score": 0.3333333333333333,
+    "support": 15,
+    "confused_with": {
+      "value.height": 4,
+      "value.move": 2
+    }
+  },
+  "selected_area.length": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "object.width": 2,
+      "position.destination_y": 1
+    }
+  },
+  "position.source_y": {
+    "precision": 0.6052631578947368,
+    "recall": 0.71875,
+    "f1-score": 0.6571428571428571,
+    "support": 32,
+    "confused_with": {
+      "position.source_x": 9
+    }
+  },
+  "selected_area.shape": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "object.height": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "position.source_x": 1
+    }
+  },
+  "object.length": {
+    "precision": 0.4,
+    "recall": 0.4444444444444444,
+    "f1-score": 0.4210526315789474,
+    "support": 9,
+    "confused_with": {
+      "position.source_x": 2
+    }
+  },
+  "micro avg": {
+    "precision": 0.7767695099818511,
+    "recall": 0.6837060702875399,
+    "f1-score": 0.7272727272727273,
+    "support": 626
+  },
+  "macro avg": {
+    "precision": 0.46923819540550893,
+    "recall": 0.4410867836596498,
+    "f1-score": 0.4334958833497224,
+    "support": 626
+  },
+  "weighted avg": {
+    "precision": 0.7756015050154632,
+    "recall": 0.6837060702875399,
+    "f1-score": 0.7105284184050347,
+    "support": 626
+  },
+  "accuracy": 0.8451268357810414
+}

@@ -1,0 +1,11 @@
+<i> Di chuyển lên trên hình vuông màu vàng từ vị trí hiện tại với khoảng cách mặc định .
+<i> Thực hiện di chuyển lên trên hình chữ nhật màu đỏ tại toạ độ ( 8 , 15 ) với khoảng cách 12 pixel .
+<i> Dịch hình thoi màu xanh lục lên trên từ vị trí hiện tại để tạo hiệu ứng chuyển động .
+<i> Di chuyển lên trên hình bình hành màu tím tại toạ độ ( 5 , 9 ) với khoảng cách 18 pixel .
+<i> Thực hiện di chuyển lên trên hình tam giác màu cam từ vị trí hiện tại với khoảng cách mặc định .
+<i> Dịch hình bình hành màu hồng lên trên từ vị trí hiện tại để tạo hiệu ứng chuyển động .
+<i> Di chuyển lên trên hình chữ nhật màu đen tại toạ độ ( 3 , 7 ) với khoảng cách 14 pixel .
+<i> Thực hiện di chuyển lên trên hình tam giác màu đỏ từ vị trí hiện tại với khoảng cách 15 pixel .
+<i> Dịch hình thoi màu xanh dương lên trên từ vị trí hiện tại để tạo hiệu ứng chuyển động .
+<i> Di chuyển lên trên hình vuông màu vàng tại toạ độ ( 10 , 12 ) với khoảng cách mặc định .
+<i> Dịch lên trên hình chữ nhật màu nâu từ vị trí hiện tại với khoảng cách 20 pixel .

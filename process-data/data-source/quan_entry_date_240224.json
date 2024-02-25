@@ -1,0 +1,4883 @@
+[
+  {
+    "text": "<i> Di chuyển hình chữ nhật màu đen , kích thước 50x60 pixel , từ vị trí hiện tại đến vị trí mới tại ( 200 , 300 ) để góc dưới trùng với vị trí đích .",
+    "id": 1356,
+    "label": [
+      {
+        "start": 14,
+        "end": 27,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 35,
+        "text": "đen",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 48,
+        "text": "kích thước",
+        "labels": [
+          "object|length"
+        ]
+      },
+      {
+        "start": 66,
+        "end": 72,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 103,
+        "end": 106,
+        "text": "200",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 112,
+        "text": "300",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 118,
+        "end": 126,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 137,
+        "end": 143,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 51,
+        "text": "50",
+        "labels": [
+          "object|length"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 54,
+        "text": "60",
+        "labels": [
+          "object|width"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2104,
+    "created_at": "2024-02-24T14:03:27.551339Z",
+    "updated_at": "2024-02-24T14:03:27.551380Z",
+    "lead_time": 130.796
+  },
+  {
+    "text": "<i> Hãy di chuyển hình tròn đỏ , bán kính 40 pixel , từ vị trí góc dưới là ( 150 , 200 ) đến vị trí mới tại ( 100 , 150 ) - sự điều chỉnh tinh tế từ góc dưới .",
+    "id": 1357,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 30,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "text": "bán kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "text": "40 pixel",
+        "labels": [
+          "object|width"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 62,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 71,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 80,
+        "text": "150",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 86,
+        "text": "200",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 99,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 110,
+        "end": 113,
+        "text": "100",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 119,
+        "text": "150",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 149,
+        "end": 157,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2108,
+    "created_at": "2024-02-24T14:03:57.481693Z",
+    "updated_at": "2024-02-24T14:03:57.481749Z",
+    "lead_time": 26.271
+  },
+  {
+    "text": "<i> Thực hiện hành động di chuyển cho hình vuông màu vàng , kích thước 25 pixel , đến vị trí góc dưới là ( 400 , 100 ) để tạo nên sự hoàn hảo .",
+    "id": 1358,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 48,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 70,
+        "text": "kích thước",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 101,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 110,
+        "text": "400",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 113,
+        "end": 116,
+        "text": "100",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 79,
+        "text": "25 pixel",
+        "labels": [
+          "object|width"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2113,
+    "created_at": "2024-02-24T14:06:12.176391Z",
+    "updated_at": "2024-02-24T14:06:12.176441Z",
+    "lead_time": 131.542
+  },
+  {
+    "text": "<i> Dịch chuyển hình vuông màu xanh lá cây , với kích thước 15 pixel , đến vị trí góc dưới là ( 300 , 250 ) - hãy duy trì sự thẩm mỹ ở góc dưới !",
+    "id": 1359,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 42,
+        "text": "xanh lá cây",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "text": "kích thước",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 75,
+        "end": 81,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 90,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 99,
+        "text": "300",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 105,
+        "text": "250",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 143,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 68,
+        "text": "15 pixel",
+        "labels": [
+          "object|width"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2116,
+    "created_at": "2024-02-24T14:06:56.887798Z",
+    "updated_at": "2024-02-24T14:06:56.887858Z",
+    "lead_time": 38.808
+  },
+  {
+    "text": "<i> Hãy đưa hình tròn màu hồng , có bán kính 30 pixel , từ vị trí góc dưới là ( 80 , 120 ) đến nơi mới ở ( 200 , 300 ) với sự chính xác từ góc dưới .",
+    "id": 1360,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 21,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "text": "bán kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "text": "30 pixel",
+        "labels": [
+          "object|width"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 65,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 66,
+        "end": 74,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 80,
+        "end": 82,
+        "text": "80",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 88,
+        "text": "120",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 110,
+        "text": "200",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 113,
+        "end": 116,
+        "text": "300",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 139,
+        "end": 147,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2118,
+    "created_at": "2024-02-24T14:07:33.680704Z",
+    "updated_at": "2024-02-24T14:07:33.680755Z",
+    "lead_time": 34.47
+  },
+  {
+    "text": "<i> Vui lòng di chuyển chiếc vòng tròn đỏ , có đường viền đậm , đường kính 30 pixel , từ vị trí góc dưới ( 50 , 60 ) đến vị trí mới tại ( 200 , 300 ) - điều chỉnh từ góc dưới một cách tinh tế .",
+    "id": 1361,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 41,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 74,
+        "text": "đường kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 89,
+        "end": 95,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 109,
+        "text": "50",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 114,
+        "text": "60",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 127,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 138,
+        "end": 141,
+        "text": "200",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 144,
+        "end": 147,
+        "text": "300",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 166,
+        "end": 174,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "text": "vòng tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 61,
+        "text": "đường viền đậm",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 75,
+        "end": 77,
+        "text": "30",
+        "labels": [
+          "object|length"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 104,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2124,
+    "created_at": "2024-02-24T14:10:53.662246Z",
+    "updated_at": "2024-02-24T14:10:53.662313Z",
+    "lead_time": 197.109
+  },
+  {
+    "text": "<i> Chuyển động hình tam giác màu xanh dương , với kích thước 20x20 cm , đến vị trí góc dưới mới là ( 50 , 80 ) - sự điều chỉnh tinh tế từ góc dưới !",
+    "id": 1362,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 29,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "text": "xanh dương",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 61,
+        "text": "kích thước",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 64,
+        "text": "20",
+        "labels": [
+          "object|length"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 67,
+        "text": "20",
+        "labels": [
+          "object|height"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 83,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 92,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 104,
+        "text": "50",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 109,
+        "text": "80",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 139,
+        "end": 147,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2131,
+    "created_at": "2024-02-24T14:15:49.206345Z",
+    "updated_at": "2024-02-24T14:15:49.206412Z",
+    "lead_time": 291.138
+  },
+  {
+    "text": "<i> Hãy dịch chuyển hình bình hành màu cam , kích thước 30x40 pixel , từ vị trí góc dưới là ( 200 , 150 ) đến điểm đến mới tại ( 300 , 250 ) để đạt được sự cân bằng hoàn hảo .",
+    "id": 1363,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 34,
+        "text": "hình bình hành",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 42,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "text": "kích thước",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 79,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 80,
+        "end": 88,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 97,
+        "text": "200",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 103,
+        "text": "150",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 110,
+        "end": 114,
+        "text": "điểm",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 132,
+        "text": "300",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 138,
+        "text": "250",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 58,
+        "text": "30",
+        "labels": [
+          "object|length"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 61,
+        "text": "40",
+        "labels": [
+          "object|height"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2134,
+    "created_at": "2024-02-24T14:16:37.122777Z",
+    "updated_at": "2024-02-24T14:16:37.122832Z",
+    "lead_time": 45.026
+  },
+  {
+    "text": "<i> Thực hiện hành động dịch chuyển cho hình vuông màu tím , kích thước 25 pixel , đến vị trí góc dưới là ( 180 , 120 ) để tạo nên sự hoàn hảo .",
+    "id": 1364,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 58,
+        "text": "tím",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 71,
+        "text": "kích thước",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 74,
+        "text": "25",
+        "labels": [
+          "object|length"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 93,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 102,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 108,
+        "end": 111,
+        "text": "180",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 114,
+        "end": 117,
+        "text": "120",
+        "labels": [
+          "position|destination_y"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2136,
+    "created_at": "2024-02-24T14:17:33.600979Z",
+    "updated_at": "2024-02-24T14:17:33.601029Z",
+    "lead_time": 13.427
+  },
+  {
+    "text": "<i> Di chuyển hình tam giác màu đen , cạnh 35 pixel , đến vị trí góc dưới là ( 120 , 200 ) sao cho góc dưới trùng với vị trí đích .",
+    "id": 1365,
+    "label": [
+      {
+        "start": 14,
+        "end": 27,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 35,
+        "text": "đen",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "text": "cạnh",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 51,
+        "text": "35 pixel",
+        "labels": [
+          "object|width"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 64,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 73,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 79,
+        "end": 82,
+        "text": "120",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 88,
+        "text": "200",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 99,
+        "end": 107,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 118,
+        "end": 124,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 125,
+        "end": 129,
+        "text": "đích",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2137,
+    "created_at": "2024-02-24T14:18:06.544912Z",
+    "updated_at": "2024-02-24T14:18:06.545015Z",
+    "lead_time": 30.696
+  },
+  {
+    "text": "<i> Hãy di chuyển hình tròn màu xanh lá cây , bán kính 25 pixel , từ vị trí góc dưới là ( 200 , 100 ) đến vị trí mới tại ( 150 , 250 ) - sự điều chỉnh từ góc dưới một cách tinh tế .",
+    "id": 1366,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|change_bottom"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 43,
+        "text": "xanh lá cây",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "text": "bán kính",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 63,
+        "text": "25 pixel",
+        "labels": [
+          "object|width"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 75,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 84,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 93,
+        "text": "200",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 99,
+        "text": "100",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 112,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 123,
+        "end": 126,
+        "text": "150",
+        "labels": [
+          "position|destination_x"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 132,
+        "text": "250",
+        "labels": [
+          "position|destination_y"
+        ]
+      },
+      {
+        "start": 154,
+        "end": 162,
+        "text": "góc dưới",
+        "labels": [
+          "aspect"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2138,
+    "created_at": "2024-02-24T14:18:28.786987Z",
+    "updated_at": "2024-02-24T14:18:28.787058Z",
+    "lead_time": 19.002
+  },
+  {
+    "text": "<i> Tô màu nền cho hình tròn màu xanh dương nằm ở tọa độ ( 50 , 50 ) bằng màu vàng chanh .",
+    "id": 1377,
+    "label": [
+      {
+        "start": 19,
+        "end": 28,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "text": "tọa độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 61,
+        "text": "50",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 66,
+        "text": "50",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 78,
+        "end": 88,
+        "text": "vàng chanh",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "text": "xanh dương",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2140,
+    "created_at": "2024-02-24T14:21:28.540754Z",
+    "updated_at": "2024-02-24T14:21:28.540828Z",
+    "lead_time": 47.05
+  },
+  {
+    "text": "<i> Xin hãy tô màu nền cho hình chữ nhật màu đỏ ở góc trên cùng bên phải của màn hình bằng màu xanh lá cây .",
+    "id": 1378,
+    "label": [
+      {
+        "start": 27,
+        "end": 40,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 72,
+        "text": "góc trên cùng bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 95,
+        "end": 106,
+        "text": "xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2141,
+    "created_at": "2024-02-24T14:22:04.281889Z",
+    "updated_at": "2024-02-24T14:22:04.281950Z",
+    "lead_time": 33.369
+  },
+  {
+    "text": "<i> Thực hiện tô màu nền cho hình vuông màu cam đang nằm ở giữa màn hình bằng màu hồng nhạt .",
+    "id": 1379,
+    "label": [
+      {
+        "start": 29,
+        "end": 39,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 47,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "text": "giữa",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 91,
+        "text": "hồng nhạt",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2142,
+    "created_at": "2024-02-24T14:22:26.827139Z",
+    "updated_at": "2024-02-24T14:22:26.827197Z",
+    "lead_time": 20.06
+  },
+  {
+    "text": "<i> Hãy chọn màu nền cho hình tam giác màu tím nằm ở góc dưới bên trái của hình chữ nhật bằng màu xanh nước biển .",
+    "id": 1380,
+    "label": [
+      {
+        "start": 25,
+        "end": 38,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 46,
+        "text": "tím",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 112,
+        "text": "xanh nước biển",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 88,
+        "text": "góc dưới bên trái của hình chữ nhật",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2143,
+    "created_at": "2024-02-24T14:23:28.755198Z",
+    "updated_at": "2024-02-24T14:23:28.755244Z",
+    "lead_time": 56.815
+  },
+  {
+    "text": "<i> Đề xuất tô màu nền cho hình elip màu hồng nằm ở góc dưới bên phải của màn hình bằng màu vàng .",
+    "id": 1381,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "text": "hình elip",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 69,
+        "text": "góc dưới bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 96,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2144,
+    "created_at": "2024-02-24T14:23:47.626449Z",
+    "updated_at": "2024-02-24T14:23:47.626529Z",
+    "lead_time": 16.216
+  },
+  {
+    "text": "<i> Vui lòng thực hiện tô màu nền cho hình thoi màu đen ở góc trên cùng bên trái của hình vuông bằng màu trắng .",
+    "id": 1382,
+    "label": [
+      {
+        "start": 38,
+        "end": 47,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 55,
+        "text": "đen",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 110,
+        "text": "trắng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 96,
+        "text": "góc trên cùng bên trái của hình vuông ",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2145,
+    "created_at": "2024-02-24T14:24:28.483111Z",
+    "updated_at": "2024-02-24T14:24:28.483158Z",
+    "lead_time": 38.163
+  },
+  {
+    "text": "<i> Hãy tô màu nền cho hình vuông màu xanh lá cây nằm ở phía dưới của hình chữ nhật bằng màu hồng .",
+    "id": 1383,
+    "label": [
+      {
+        "start": 23,
+        "end": 33,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 49,
+        "text": "xanh lá cây",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 97,
+        "text": "hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 83,
+        "text": "phía dưới của hình chữ nhật",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2146,
+    "created_at": "2024-02-24T14:25:12.542247Z",
+    "updated_at": "2024-02-24T14:25:12.542298Z",
+    "lead_time": 38.186
+  },
+  {
+    "text": "<i> Tô màu nền cho hình chữ nhật màu tím đang nằm ở góc dưới bên phải của hình tam giác bằng màu vàng chanh .",
+    "id": 1384,
+    "label": [
+      {
+        "start": 19,
+        "end": 32,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 40,
+        "text": "tím",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 107,
+        "text": "vàng chanh",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 87,
+        "text": "góc dưới bên phải của hình tam giác",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2147,
+    "created_at": "2024-02-24T14:27:14.148049Z",
+    "updated_at": "2024-02-24T14:27:14.148178Z",
+    "lead_time": 118.563
+  },
+  {
+    "text": "<i> Xin vui lòng chọn màu nền cho hình tam giác màu vàng ở giữa màn hình bằng mã màu # ff69b4 .",
+    "id": 1385,
+    "label": [
+      {
+        "start": 34,
+        "end": 47,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "text": "giữa",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 56,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 93,
+        "text": "# ff69b4",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2148,
+    "created_at": "2024-02-24T14:29:46.173479Z",
+    "updated_at": "2024-02-24T14:35:07.933585Z",
+    "lead_time": 462.106
+  },
+  {
+    "text": "<i> Đề nghị tô màu nền cho hình vuông màu cam nằm ở góc dưới bên trái của hình thoi bằng mã màu # 0000 ff .",
+    "id": 1386,
+    "label": [
+      {
+        "start": 27,
+        "end": 37,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 83,
+        "text": "góc dưới bên trái của hình thoi",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 105,
+        "text": "# 0000 ff",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2149,
+    "created_at": "2024-02-24T14:38:26.476795Z",
+    "updated_at": "2024-02-24T14:38:26.476851Z",
+    "lead_time": 196.295
+  },
+  {
+    "text": "<i> Thực hiện tô màu nền cho hình chữ nhật màu vàng đang nằm ở góc trên cùng bên phải của màn hình bằng mã màu # ffff00 .",
+    "id": 1387,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 42,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 85,
+        "text": "góc trên cùng bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 119,
+        "text": "# ffff00",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2150,
+    "created_at": "2024-02-24T14:39:46.274830Z",
+    "updated_at": "2024-02-24T14:39:46.274879Z",
+    "lead_time": 77.276
+  },
+  {
+    "text": "<i> Vui lòng tô màu nền cho hình vuông màu hồng đang nằm ở giữa màn hình bằng tên màu là \" đỏ nóng \" .",
+    "id": 1388,
+    "label": [
+      {
+        "start": 28,
+        "end": 38,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "text": "giữa",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 98,
+        "text": "đỏ nóng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2151,
+    "created_at": "2024-02-24T14:40:14.227747Z",
+    "updated_at": "2024-02-24T14:40:14.227798Z",
+    "lead_time": 17.11
+  },
+  {
+    "text": "<i> Xin hãy chọn màu nền cho hình tròn màu vàng nằm ở góc trái dưới của màn hình bằng màu xanh dương .",
+    "id": 1389,
+    "label": [
+      {
+        "start": 29,
+        "end": 38,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 67,
+        "text": "góc trái dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 100,
+        "text": "xanh dương",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2153,
+    "created_at": "2024-02-24T14:43:21.764866Z",
+    "updated_at": "2024-02-24T14:43:21.764923Z",
+    "lead_time": 123.73
+  },
+  {
+    "text": "<i> Đề nghị tô màu nền cho hình vuông màu đỏ nằm ở góc phải dưới của hình chữ nhật bằng màu cam .",
+    "id": 1390,
+    "label": [
+      {
+        "start": 42,
+        "end": 44,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 95,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 82,
+        "text": "góc phải dưới của hình chữ nhật",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2159,
+    "created_at": "2024-02-24T14:45:57.011905Z",
+    "updated_at": "2024-02-24T14:45:57.011955Z",
+    "lead_time": 153.041
+  },
+  {
+    "text": "<i> Thực hiện tô màu nền cho hình thoi màu xanh nước biển nằm ở giữa của màn hình bằng màu tím .",
+    "id": 1391,
+    "label": [
+      {
+        "start": 29,
+        "end": 38,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 68,
+        "text": "giữa",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 94,
+        "text": "tím",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 57,
+        "text": "xanh nước biển",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2162,
+    "created_at": "2024-02-24T14:46:32.111134Z",
+    "updated_at": "2024-02-24T14:46:32.111189Z",
+    "lead_time": 32.529
+  },
+  {
+    "text": "<i> Hãy tô màu nền cho hình tam giác màu tím nằm ở giữa bên phải của hình vuông bằng màu hồng .",
+    "id": 1392,
+    "label": [
+      {
+        "start": 23,
+        "end": 36,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "text": "tím",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 64,
+        "text": "giữa bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 79,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 89,
+        "end": 93,
+        "text": "hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2166,
+    "created_at": "2024-02-24T14:47:14.354773Z",
+    "updated_at": "2024-02-24T14:47:14.354822Z",
+    "lead_time": 36.305
+  },
+  {
+    "text": "<i> Vui lòng tô màu nền cho hình tròn màu xanh lá cây nằm ở góc trên bên trái của hình chữ nhật bằng màu vàng .",
+    "id": 1393,
+    "label": [
+      {
+        "start": 28,
+        "end": 37,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 53,
+        "text": "xanh lá cây",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 109,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 95,
+        "text": "góc trên bên trái của hình chữ nhật",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2169,
+    "created_at": "2024-02-24T14:48:34.293387Z",
+    "updated_at": "2024-02-24T14:48:34.293449Z",
+    "lead_time": 47.624
+  },
+  {
+    "text": "<i> Thực hiện chọn màu nền cho hình vuông màu hồng nằm ở giữa bên dưới của màn hình bằng màu cam .",
+    "id": 1394,
+    "label": [
+      {
+        "start": 31,
+        "end": 41,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 70,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 96,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2171,
+    "created_at": "2024-02-24T14:48:56.280557Z",
+    "updated_at": "2024-02-24T14:48:56.280607Z",
+    "lead_time": 18.44
+  },
+  {
+    "text": "<i> Xin hãy thực hiện tô màu nền cho hình chữ nhật màu cam nằm ở góc phải trên của hình tam giác bằng màu xanh nước biển .",
+    "id": 1395,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 50,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 58,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 120,
+        "text": "xanh nước biển",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 96,
+        "text": "góc phải trên của hình tam giác",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2173,
+    "created_at": "2024-02-24T14:50:08.464909Z",
+    "updated_at": "2024-02-24T14:50:08.464971Z",
+    "lead_time": 68.628
+  },
+  {
+    "text": "<i> Hãy tô màu nền cho hình tròn màu đỏ nằm ở giữa bên trên của màn hình bằng mã màu # 00 ffff .",
+    "id": 1396,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 59,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 39,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 95,
+        "text": " # 00 ffff ",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2176,
+    "created_at": "2024-02-24T14:51:03.789633Z",
+    "updated_at": "2024-02-24T14:51:03.789703Z",
+    "lead_time": 52.961
+  },
+  {
+    "text": "<i> Đề xuất chọn màu nền cho hình vuông màu vàng nằm ở góc trên bên phải của hình thoi bằng mã màu # 800080 .",
+    "id": 1397,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 99,
+        "end": 107,
+        "text": "# 800080",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 86,
+        "text": "góc trên bên phải của hình thoi",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2180,
+    "created_at": "2024-02-24T14:52:28.829028Z",
+    "updated_at": "2024-02-24T14:52:28.829110Z",
+    "lead_time": 82.759
+  },
+  {
+    "text": "<i> Xin vui lòng tô màu nền cho hình chữ nhật màu hồng nằm ở giữa bên trái của hình tròn bằng mã màu # 008000 .",
+    "id": 1398,
+    "label": [
+      {
+        "start": 32,
+        "end": 45,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 54,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 88,
+        "text": "giữa bên trái của hình tròn",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 109,
+        "text": "# 008000",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2184,
+    "created_at": "2024-02-24T14:53:37.610031Z",
+    "updated_at": "2024-02-24T14:53:37.610096Z",
+    "lead_time": 66.428
+  },
+  {
+    "text": "<i> Thực hiện tô màu nền cho hình tam giác màu cam nằm ở góc dưới bên phải của hình chữ nhật bằng mã màu # ffa500 .",
+    "id": 1399,
+    "label": [
+      {
+        "start": 29,
+        "end": 42,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 50,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 74,
+        "text": "góc dưới bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 79,
+        "end": 92,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 113,
+        "text": "# ffa500",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2187,
+    "created_at": "2024-02-24T14:54:13.710388Z",
+    "updated_at": "2024-02-24T14:54:13.710443Z",
+    "lead_time": 33.187
+  },
+  {
+    "text": "<i> Hãy chọn màu nền cho hình tròn màu xanh dương nằm ở góc trên bên trái của hình tam giác bằng tên màu là \" đỏ tươi \" .",
+    "id": 1400,
+    "label": [
+      {
+        "start": 25,
+        "end": 34,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "text": "xanh dương",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 110,
+        "end": 117,
+        "text": "đỏ tươi",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 91,
+        "text": "góc trên bên trái của hình tam giác",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2189,
+    "created_at": "2024-02-24T14:54:49.804443Z",
+    "updated_at": "2024-02-24T14:54:49.804490Z",
+    "lead_time": 33.29
+  },
+  {
+    "text": "<i> Xin hãy thực hiện tô màu nền cho hình vuông màu vàng nằm ở giữa bên trên của màn hình bằng tên màu là \" xanh da trời \" .",
+    "id": 1401,
+    "label": [
+      {
+        "start": 37,
+        "end": 47,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 56,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 76,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 108,
+        "end": 120,
+        "text": "xanh da trời",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2190,
+    "created_at": "2024-02-24T14:55:11.740729Z",
+    "updated_at": "2024-02-24T14:55:11.740779Z",
+    "lead_time": 19.148
+  },
+  {
+    "text": "<i> Hãy tô màu nền cho hình tròn màu cam nằm ở góc dưới bên phải của hình vuông bằng tên màu là \" vàng nắng \" .",
+    "id": 1402,
+    "label": [
+      {
+        "start": 23,
+        "end": 32,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 40,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 107,
+        "text": "vàng nắng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 79,
+        "text": "góc dưới bên phải của hình vuông",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2192,
+    "created_at": "2024-02-24T14:56:10.265591Z",
+    "updated_at": "2024-02-24T14:56:10.265650Z",
+    "lead_time": 55.48
+  },
+  {
+    "text": "<i> Đề xuất chọn màu nền cho hình thoi màu đỏ nằm ở giữa bên trái của hình chữ nhật bằng tên màu là \" hồng phấn \" .",
+    "id": 1403,
+    "label": [
+      {
+        "start": 29,
+        "end": 38,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 45,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 111,
+        "text": "hồng phấn",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 83,
+        "text": "giữa bên trái của hình chữ nhật",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2197,
+    "created_at": "2024-02-24T14:58:35.732493Z",
+    "updated_at": "2024-02-24T14:58:35.732586Z",
+    "lead_time": 140.495
+  },
+  {
+    "text": "<i> Xin vui lòng tô màu nền cho hình tam giác màu xanh nước biển nằm ở giữa bên dưới của màn hình bằng tên màu là \" xanh lơ \" .",
+    "id": 1404,
+    "label": [
+      {
+        "start": 32,
+        "end": 45,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 64,
+        "text": "xanh nước biển",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 84,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 123,
+        "text": "xanh lơ",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2198,
+    "created_at": "2024-02-24T14:59:22.888234Z",
+    "updated_at": "2024-02-24T14:59:22.888290Z",
+    "lead_time": 44.354
+  },
+  {
+    "text": "<i> Thực hiện chọn màu nền cho hình chữ nhật màu hồng nằm ở góc trên bên phải của hình tam giác bằng tên màu là \" đỏ tươi \" .",
+    "id": 1405,
+    "label": [
+      {
+        "start": 31,
+        "end": 44,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 114,
+        "end": 121,
+        "text": "đỏ tươi",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 95,
+        "text": "góc trên bên phải của hình tam giác",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2199,
+    "created_at": "2024-02-24T15:00:46.886659Z",
+    "updated_at": "2024-02-24T15:00:46.886735Z",
+    "lead_time": 80.521
+  },
+  {
+    "text": "<i> Hãy tô màu nền cho hình vuông màu đỏ nằm ở giữa bên dưới của màn hình bằng tên màu là \" tím than \" .",
+    "id": 1406,
+    "label": [
+      {
+        "start": 23,
+        "end": 33,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 60,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 100,
+        "text": "tím than",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 40,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2200,
+    "created_at": "2024-02-24T15:02:30.064424Z",
+    "updated_at": "2024-02-24T15:02:30.064498Z",
+    "lead_time": 100.793
+  },
+  {
+    "text": "<i> Xin vui lòng tô màu nền cho hình chữ nhật màu cam nằm ở góc dưới bên trái của hình thoi bằng tên màu là \" cam đậm \" .",
+    "id": 1407,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 45,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 53,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 110,
+        "end": 117,
+        "text": "cam đậm",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 91,
+        "text": "góc dưới bên trái của hình thoi",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2201,
+    "created_at": "2024-02-24T15:04:26.448302Z",
+    "updated_at": "2024-02-24T15:04:26.448355Z",
+    "lead_time": 113.607
+  },
+  {
+    "text": "<i> Thực hiện chọn màu nền cho hình tam giác màu vàng nằm ở giữa bên trên của màn hình bằng tên màu là \" xanh lá cây \" .",
+    "id": 1408,
+    "label": [
+      {
+        "start": 31,
+        "end": 44,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 73,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 116,
+        "text": "xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2202,
+    "created_at": "2024-02-24T15:05:08.312474Z",
+    "updated_at": "2024-02-24T15:05:21.829220Z",
+    "lead_time": 50.415
+  },
+  {
+    "text": "<i> Xin hãy tô màu nền cho hình tròn màu hồng nằm ở trung tâm màn hình bằng tên màu là \" tím dịu \" .",
+    "id": 1409,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 61,
+        "text": "trung tâm",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 89,
+        "end": 96,
+        "text": "tím dịu",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2203,
+    "created_at": "2024-02-24T15:05:47.153285Z",
+    "updated_at": "2024-02-24T15:05:47.153384Z",
+    "lead_time": 23.071
+  },
+  {
+    "text": "<i> Hãy thực hiện chọn màu nền cho hình vuông màu xanh lá cây nằm ở góc trên bên trái của màn hình bằng tên màu là \" vàng nhạt \" .",
+    "id": 1410,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 61,
+        "text": "xanh lá cây",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 85,
+        "text": "góc trên bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 117,
+        "end": 126,
+        "text": "vàng nhạt",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2204,
+    "created_at": "2024-02-24T15:06:23.395905Z",
+    "updated_at": "2024-02-24T15:06:23.395956Z",
+    "lead_time": 33.795
+  },
+  {
+    "text": "<i> Đề nghị tô màu nền cho hình chữ nhật màu đỏ nằm ở góc dưới bên phải của hình vuông bằng tên màu là \" hồng nhạt \" .",
+    "id": 1411,
+    "label": [
+      {
+        "start": 27,
+        "end": 40,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 114,
+        "text": "hồng nhạt",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 86,
+        "text": "góc dưới bên phải của hình vuông",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2206,
+    "created_at": "2024-02-24T15:08:30.700018Z",
+    "updated_at": "2024-02-24T15:08:30.700110Z",
+    "lead_time": 98.094
+  },
+  {
+    "text": "<i> Xin vui lòng chọn màu nền cho hình thoi màu vàng nằm ở giữa của màn hình bằng tên màu là \" tím nhạt \" .",
+    "id": 1412,
+    "label": [
+      {
+        "start": 34,
+        "end": 43,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 52,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "text": "giữa",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 95,
+        "end": 103,
+        "text": "tím nhạt",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2205,
+    "created_at": "2024-02-24T15:08:16.849540Z",
+    "updated_at": "2024-02-24T15:08:16.849589Z",
+    "lead_time": 22.56
+  },
+  {
+    "text": "<i> Hãy tô màu nền cho hình tam giác màu xanh biển nằm ở góc dưới bên trái của màn hình bằng tên màu là \" hồng phấn \" .",
+    "id": 1413,
+    "label": [
+      {
+        "start": 23,
+        "end": 36,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "text": "xanh biển",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 74,
+        "text": "góc dưới bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 115,
+        "text": "hồng phấn",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2207,
+    "created_at": "2024-02-24T15:08:52.000789Z",
+    "updated_at": "2024-02-24T15:08:52.000868Z",
+    "lead_time": 18.132
+  },
+  {
+    "text": "<i> Xin vui lòng chọn màu nền cho hình vuông màu cam nằm ở giữa bên trên của màn hình bằng tên màu là \" xanh dương \" .",
+    "id": 1414,
+    "label": [
+      {
+        "start": 34,
+        "end": 44,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 52,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 72,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 104,
+        "end": 114,
+        "text": "xanh dương",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2208,
+    "created_at": "2024-02-24T15:09:10.386558Z",
+    "updated_at": "2024-02-24T15:09:10.386607Z",
+    "lead_time": 16.028
+  },
+  {
+    "text": "<i> Thực hiện tô màu nền cho hình tròn màu vàng nằm ở góc trên bên phải của hình chữ nhật bằng tên màu là \" đỏ nhạt \" .",
+    "id": 1415,
+    "label": [
+      {
+        "start": 29,
+        "end": 38,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 108,
+        "end": 115,
+        "text": "đỏ nhạt",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 89,
+        "text": "góc trên bên phải của hình chữ nhật",
+        "labels": [
+          "position|source"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2209,
+    "created_at": "2024-02-24T15:09:38.909451Z",
+    "updated_at": "2024-02-24T15:09:38.909501Z",
+    "lead_time": 26.18
+  },
+  {
+    "text": "<i> Hãy chọn màu nền cho hình vuông màu hồng nằm ở giữa bên dưới của màn hình bằng tên màu là \" xanh lá \" .",
+    "id": 1416,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 64,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 103,
+        "text": "xanh lá",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2210,
+    "created_at": "2024-02-24T15:10:07.541820Z",
+    "updated_at": "2024-02-24T15:10:07.541879Z",
+    "lead_time": 26.16
+  },
+  {
+    "text": "<i> Đề nghị tô màu nền cho hình thoi màu cam nằm ở góc dưới bên phải của màn hình bằng tên màu là \" tím dịu \" .",
+    "id": 1417,
+    "label": [
+      {
+        "start": 27,
+        "end": 36,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 68,
+        "text": "góc dưới bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 107,
+        "text": "tím dịu",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2211,
+    "created_at": "2024-02-24T15:10:49.838289Z",
+    "updated_at": "2024-02-24T15:10:49.838355Z",
+    "lead_time": 39.61
+  },
+  {
+    "text": "<i> Xin vui lòng chọn màu nền cho hình chữ nhật màu đỏ nằm ở giữa bên trên của màn hình bằng tên màu là \" xanh lơ \" .",
+    "id": 1418,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 47,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 54,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 74,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 113,
+        "text": "xanh lơ",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2212,
+    "created_at": "2024-02-24T15:11:16.095576Z",
+    "updated_at": "2024-02-24T15:11:16.095642Z",
+    "lead_time": 22.741
+  },
+  {
+    "text": "<i> Bắt đầu bằng việc tô màu nền cho hình vuông màu xanh lá cây ở góc trên bên trái của màn hình bằng tên màu \" màu lá ' tươi mát ' đó \" .",
+    "id": 1419,
+    "label": [
+      {
+        "start": 37,
+        "end": 47,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 66,
+        "end": 83,
+        "text": "góc trên bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 63,
+        "text": "xanh lá cây",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 131,
+        "text": "lá ' tươi mát '",
+        "labels": [
+          "value|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2213,
+    "created_at": "2024-02-24T15:12:15.202631Z",
+    "updated_at": "2024-02-24T15:12:15.202740Z",
+    "lead_time": 56.387
+  },
+  {
+    "text": "<i> Thực hiện việc chọn màu nền cho hình tròn màu hồng nằm ngay giữa màn hình bằng tên màu \" màu hồng ' siêu dễ thương ' \" .",
+    "id": 1420,
+    "label": [
+      {
+        "start": 36,
+        "end": 45,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 68,
+        "text": "giữa",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 101,
+        "text": "hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 54,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2214,
+    "created_at": "2024-02-24T15:12:45.922138Z",
+    "updated_at": "2024-02-24T15:12:45.922191Z",
+    "lead_time": 28.21
+  },
+  {
+    "text": "<i> Xin hãy tô màu nền cho hình chữ nhật màu cam nằm ở góc dưới bên phải của hình vuông bằng tên màu \" màu cam ' rực rỡ ' \" .",
+    "id": 1421,
+    "label": [
+      {
+        "start": 27,
+        "end": 40,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 48,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 72,
+        "text": "góc dưới bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 110,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2215,
+    "created_at": "2024-02-24T15:13:19.179998Z",
+    "updated_at": "2024-02-24T15:13:19.180054Z",
+    "lead_time": 29.752
+  },
+  {
+    "text": "<i> Đề xuất tô màu nền cho hình thoi màu vàng nằm ở góc trên bên phải của màn hình bằng tên màu \" màu vàng ' vàng vang ' \" .",
+    "id": 1422,
+    "label": [
+      {
+        "start": 27,
+        "end": 36,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 69,
+        "text": "góc trên bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 106,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 118,
+        "text": "vàng vang",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2216,
+    "created_at": "2024-02-24T15:13:42.184588Z",
+    "updated_at": "2024-02-24T15:13:42.184637Z",
+    "lead_time": 20.452
+  },
+  {
+    "text": "<i> Hãy chọn màu nền cho hình tam giác màu xanh biển nằm ở giữa bên trái của màn hình bằng tên màu \" màu xanh biển ' siêu sảng khoái ' \" .",
+    "id": 1423,
+    "label": [
+      {
+        "start": 25,
+        "end": 38,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 52,
+        "text": "xanh biển",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 72,
+        "text": "giữa bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 114,
+        "text": "xanh biển",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2217,
+    "created_at": "2024-02-24T15:14:04.743667Z",
+    "updated_at": "2024-02-24T15:14:04.743716Z",
+    "lead_time": 20.01
+  },
+  {
+    "text": "<i> Xin vui lòng tô màu nền cho hình tròn màu vàng nằm ở giữa bên dưới của màn hình bằng tên màu \" màu vàng ' vàng óng ả ' \" .",
+    "id": 1424,
+    "label": [
+      {
+        "start": 32,
+        "end": 41,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 70,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 103,
+        "end": 107,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 110,
+        "end": 120,
+        "text": "vàng óng ả",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2218,
+    "created_at": "2024-02-24T15:14:30.994494Z",
+    "updated_at": "2024-02-24T15:14:30.994546Z",
+    "lead_time": 23.333
+  },
+  {
+    "text": "<i> Hãy thực hiện việc chọn màu nền cho hình vuông màu cam nằm ở giữa bên trên của màn hình bằng tên màu \" màu cam ' cực chill ' \" .",
+    "id": 1425,
+    "label": [
+      {
+        "start": 40,
+        "end": 50,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 78,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 114,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 58,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2219,
+    "created_at": "2024-02-24T15:15:11.582286Z",
+    "updated_at": "2024-02-24T15:15:11.582368Z",
+    "lead_time": 37.631
+  },
+  {
+    "text": "<i> Xin hãy chọn màu nền cho hình thoi màu đỏ nằm ở góc dưới bên trái của hình chữ nhật bằng tên màu \" màu đỏ ' siêu hot ' \" .",
+    "id": 1426,
+    "label": [
+      {
+        "start": 29,
+        "end": 38,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 69,
+        "text": "góc dưới bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 74,
+        "end": 87,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 109,
+        "text": "đỏ",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 45,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2220,
+    "created_at": "2024-02-24T15:15:53.692269Z",
+    "updated_at": "2024-02-24T15:15:53.692341Z",
+    "lead_time": 39.895
+  },
+  {
+    "text": "<i> Đề nghị tô màu nền cho hình vuông màu hồng nằm ở giữa bên dưới của màn hình bằng tên màu \" màu hồng ' siêu cute ' \" .",
+    "id": 1427,
+    "label": [
+      {
+        "start": 27,
+        "end": 37,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 66,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 99,
+        "end": 103,
+        "text": "hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2221,
+    "created_at": "2024-02-24T15:16:38.160397Z",
+    "updated_at": "2024-02-24T15:16:38.160453Z",
+    "lead_time": 41.848
+  },
+  {
+    "text": "<i> Hãy chọn màu nền cho hình thoi màu cam nằm ở giữa bên trên của màn hình bằng tên màu \" màu cam ' siêu trendy ' \" .",
+    "id": 1428,
+    "label": [
+      {
+        "start": 25,
+        "end": 34,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 62,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 95,
+        "end": 98,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 42,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2222,
+    "created_at": "2024-02-24T15:17:10.061370Z",
+    "updated_at": "2024-02-24T15:17:10.061427Z",
+    "lead_time": 29.448
+  },
+  {
+    "text": "<i> Vui lòng đặt màu nền cho hình vuông màu xanh dương ở góc dưới bên trái của màn hình bằng màu \" xanh dương ' biển trời xanh ' điệu đà \" .",
+    "id": 1429,
+    "label": [
+      {
+        "start": 29,
+        "end": 39,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 54,
+        "text": "xanh dương",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 74,
+        "text": "góc dưới bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 99,
+        "end": 109,
+        "text": "xanh dương",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2223,
+    "created_at": "2024-02-24T15:17:29.540371Z",
+    "updated_at": "2024-02-24T15:17:29.540432Z",
+    "lead_time": 16.777
+  },
+  {
+    "text": "<i> Thực hiện việc chọn màu nền cho hình tròn màu cam nằm ở góc trên bên phải của màn hình bằng màu \" cam ' cực chất ' \" .",
+    "id": 1430,
+    "label": [
+      {
+        "start": 36,
+        "end": 45,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 53,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 77,
+        "text": "góc trên bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 105,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2224,
+    "created_at": "2024-02-24T15:18:22.273703Z",
+    "updated_at": "2024-02-24T15:18:22.273749Z",
+    "lead_time": 50.391
+  },
+  {
+    "text": "<i> Xin hãy tô màu nền cho hình chữ nhật màu hồng nằm ở góc trên bên trái của hình tròn bằng màu \" hồng ' ngọt ngào ' \" .",
+    "id": 1431,
+    "label": [
+      {
+        "start": 27,
+        "end": 40,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 73,
+        "text": "góc trên bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 99,
+        "end": 103,
+        "text": "hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2225,
+    "created_at": "2024-02-24T15:18:43.207746Z",
+    "updated_at": "2024-02-24T15:19:04.926065Z",
+    "lead_time": 38.159
+  },
+  {
+    "text": "<i> Đề xuất tô màu nền cho hình thoi màu vàng nằm ở giữa bên trái của màn hình bằng màu \" vàng ' vàng óng ả ' \" .",
+    "id": 1432,
+    "label": [
+      {
+        "start": 27,
+        "end": 36,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 65,
+        "text": "giữa bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 94,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 101,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2226,
+    "created_at": "2024-02-24T15:20:28.841360Z",
+    "updated_at": "2024-02-24T15:20:28.841415Z",
+    "lead_time": 81.32
+  },
+  {
+    "text": "<i> Hãy chọn màu nền cho hình tam giác màu đỏ nằm ở giữa bên dưới của màn hình bằng màu \" đỏ ' cực nóng ' \" .",
+    "id": 1433,
+    "label": [
+      {
+        "start": 25,
+        "end": 38,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 65,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 92,
+        "text": "đỏ",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 45,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2227,
+    "created_at": "2024-02-24T15:20:58.480188Z",
+    "updated_at": "2024-02-24T15:20:58.480261Z",
+    "lead_time": 27.048
+  },
+  {
+    "text": "<i> Xin vui lòng tô màu nền cho hình tròn màu xanh lá cây nằm ở giữa bên trên của màn hình bằng màu \" xanh lá cây ' mát lạnh ' \" .",
+    "id": 1434,
+    "label": [
+      {
+        "start": 32,
+        "end": 41,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 57,
+        "text": "xanh lá cây",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 77,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 113,
+        "text": "xanh lá cây",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2228,
+    "created_at": "2024-02-24T15:21:20.203705Z",
+    "updated_at": "2024-02-24T15:21:20.203760Z",
+    "lead_time": 18.652
+  },
+  {
+    "text": "<i> Hãy thực hiện việc chọn màu nền cho hình vuông màu vàng nằm ở giữa bên dưới của màn hình bằng màu \" vàng ' rực rỡ ' \" .",
+    "id": 1435,
+    "label": [
+      {
+        "start": 40,
+        "end": 50,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 66,
+        "end": 79,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 104,
+        "end": 108,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2229,
+    "created_at": "2024-02-24T15:22:03.713181Z",
+    "updated_at": "2024-02-24T15:22:03.713249Z",
+    "lead_time": 40.567
+  },
+  {
+    "text": "<i> Xin hãy chọn màu nền cho hình thoi màu cam nằm ở góc dưới bên trái của hình chữ nhật bằng màu \" cam ' siêu sôi động ' \" .",
+    "id": 1436,
+    "label": [
+      {
+        "start": 29,
+        "end": 38,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 103,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 88,
+        "text": "góc dưới bên trái của hình chữ nhật",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 46,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2230,
+    "created_at": "2024-02-24T15:24:06.223292Z",
+    "updated_at": "2024-02-24T15:29:24.909440Z",
+    "lead_time": 436.735
+  },
+  {
+    "text": "<i> Đề nghị tô màu nền cho hình vuông màu hồng nằm ở giữa bên trên của màn hình bằng màu \" hồng ' siêu hót ' \" .",
+    "id": 1437,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 66,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 95,
+        "text": "hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2231,
+    "created_at": "2024-02-24T15:31:08.359004Z",
+    "updated_at": "2024-02-24T15:31:08.359058Z",
+    "lead_time": 92.041
+  },
+  {
+    "text": "<i> Hãy chọn màu nền cho hình thoi màu xanh biển nằm ở giữa bên dưới của màn hình bằng màu \" xanh biển ' siêu dễ thương ' \" .",
+    "id": 1438,
+    "label": [
+      {
+        "start": 25,
+        "end": 34,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 68,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 102,
+        "text": "xanh biển",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 48,
+        "text": "xanh biển",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2232,
+    "created_at": "2024-02-24T15:39:18.460894Z",
+    "updated_at": "2024-02-24T15:54:07.420471Z",
+    "lead_time": 1374.157
+  },
+  {
+    "text": "<i> Thực hiện tô màu nền cho hình vuông màu xám ở góc trên bên trái của màn hình bằng màu \" xám ' buồn bã ' \" .",
+    "id": 1439,
+    "label": [
+      {
+        "start": 29,
+        "end": 39,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 47,
+        "text": "xám",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 67,
+        "text": "góc trên bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 95,
+        "text": "xám",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2233,
+    "created_at": "2024-02-24T15:55:44.434296Z",
+    "updated_at": "2024-02-24T15:55:44.434345Z",
+    "lead_time": 94.38
+  },
+  {
+    "text": "<i> Hãy chọn màu nền cho hình tròn màu nâu nằm ở giữa bên phải của màn hình bằng màu \" nâu ' u buồn ' \" .",
+    "id": 1440,
+    "label": [
+      {
+        "start": 25,
+        "end": 34,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 62,
+        "text": "giữa bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 90,
+        "text": "nâu",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 42,
+        "text": "nâu",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2234,
+    "created_at": "2024-02-24T15:56:16.853806Z",
+    "updated_at": "2024-02-24T15:56:16.853860Z",
+    "lead_time": 30.15
+  },
+  {
+    "text": "<i> Xin vui lòng đặt màu nền cho hình chữ nhật màu đen nằm ở góc dưới bên phải của màn hình bằng màu \" đen ' âm u ' \" .",
+    "id": 1441,
+    "label": [
+      {
+        "start": 33,
+        "end": 46,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 54,
+        "text": "đen",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 78,
+        "text": "góc dưới bên phải",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 113,
+        "text": "âm u",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 103,
+        "end": 106,
+        "text": "đen",
+        "labels": [
+          "value|angle"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2235,
+    "created_at": "2024-02-24T15:56:56.937226Z",
+    "updated_at": "2024-02-24T15:56:56.937296Z",
+    "lead_time": 37.805
+  },
+  {
+    "text": "<i> Đề nghị tô màu nền cho hình thoi màu trắng nằm ở giữa bên trái của màn hình bằng màu \" trắng ' lạnh lẽo ' \" .",
+    "id": 1442,
+    "label": [
+      {
+        "start": 27,
+        "end": 36,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 66,
+        "text": "giữa bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 96,
+        "text": "trắng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "text": "trắng",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2236,
+    "created_at": "2024-02-24T15:58:24.042723Z",
+    "updated_at": "2024-02-24T15:58:24.042785Z",
+    "lead_time": 84.561
+  },
+  {
+    "text": "<i> Hãy thực hiện việc chọn màu nền cho hình tam giác màu xanh lục nằm ở giữa bên dưới của màn hình bằng màu \" xanh lục ' ảm đạm ' \" .",
+    "id": 1443,
+    "label": [
+      {
+        "start": 40,
+        "end": 53,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "text": "xanh lục",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 86,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 119,
+        "text": "xanh lục",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2237,
+    "created_at": "2024-02-24T15:58:49.304547Z",
+    "updated_at": "2024-02-24T15:58:49.304591Z",
+    "lead_time": 22.923
+  },
+  {
+    "text": "<i> Xin hãy chọn màu nền cho hình tròn màu tím nằm ở góc trên bên trái của hình vuông bằng màu \" tím ' buồn thiu ' \" .",
+    "id": 1444,
+    "label": [
+      {
+        "start": 29,
+        "end": 38,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 46,
+        "text": "tím",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 70,
+        "text": "góc trên bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 100,
+        "text": "tím",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2238,
+    "created_at": "2024-02-24T15:59:16.721253Z",
+    "updated_at": "2024-02-24T15:59:16.721306Z",
+    "lead_time": 24.579
+  },
+  {
+    "text": "<i> Thực hiện tô màu nền cho hình vuông màu xanh dương nằm ở giữa bên trên của màn hình bằng màu \" xanh dương ' tĩnh lặng ' \" .",
+    "id": 1445,
+    "label": [
+      {
+        "start": 29,
+        "end": 39,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 74,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 99,
+        "end": 109,
+        "text": "xanh dương",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 54,
+        "text": "xanh dương",
+        "labels": [
+          "object|color"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2239,
+    "created_at": "2024-02-24T16:00:28.586010Z",
+    "updated_at": "2024-02-24T16:00:28.586059Z",
+    "lead_time": 69.688
+  },
+  {
+    "text": "<i> Hãy chọn màu nền cho hình thoi màu hồng nằm ở giữa bên dưới của màn hình bằng màu \" hồng ' buồn lắm ' \" .",
+    "id": 1446,
+    "label": [
+      {
+        "start": 25,
+        "end": 34,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 63,
+        "text": "giữa bên dưới",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 88,
+        "end": 92,
+        "text": "hồng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2240,
+    "created_at": "2024-02-24T16:00:48.320372Z",
+    "updated_at": "2024-02-24T16:00:48.320425Z",
+    "lead_time": 17.446
+  },
+  {
+    "text": "<i> Xin vui lòng đặt màu nền cho hình vuông màu cam nằm ở góc dưới bên trái của màn hình bằng màu \" cam ' buồn ngủ ' \" .",
+    "id": 1447,
+    "label": [
+      {
+        "start": 33,
+        "end": 43,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 51,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 75,
+        "text": "góc dưới bên trái",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 103,
+        "text": "cam",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2241,
+    "created_at": "2024-02-24T16:01:06.408840Z",
+    "updated_at": "2024-02-24T16:01:06.408893Z",
+    "lead_time": 15.556
+  },
+  {
+    "text": "<i> Hãy thực hiện việc chọn màu nền cho hình tròn màu vàng nằm ở giữa bên trên của màn hình bằng màu \" vàng ' buồn thảm ' \" .",
+    "id": 1448,
+    "label": [
+      {
+        "start": 40,
+        "end": 49,
+        "text": "hình tròn",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 54,
+        "end": 58,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 78,
+        "text": "giữa bên trên",
+        "labels": [
+          "position|source"
+        ]
+      },
+      {
+        "start": 103,
+        "end": 107,
+        "text": "vàng",
+        "labels": [
+          "value|color"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|color_background"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2242,
+    "created_at": "2024-02-24T16:01:39.817265Z",
+    "updated_at": "2024-02-24T16:01:39.817318Z",
+    "lead_time": 30.561
+  }
+]

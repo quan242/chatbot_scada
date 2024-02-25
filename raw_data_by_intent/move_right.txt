@@ -1,0 +1,11 @@
+<i> Dịch hình vuông màu đỏ sang phải từ vị trí hiện tại với khoảng cách 15 pixel .
+<i> Di chuyển sang phải hình thoi màu xanh lá cây từ toạ độ ( 10 , 8 ) với khoảng cách 20 pixel .
+<i> Thực hiện di chuyển sang phải hình bình hành màu vàng từ vị trí hiện tại với khoảng cách mặc định .
+<i> Dịch hình chữ nhật màu cam sang phải từ vị trí hiện tại với khoảng cách 12 pixel .
+<i> Di chuyển sang phải hình tam giác màu hồng từ toạ độ ( 5 , 7 ) với khoảng cách mặc định .
+<i> Thực hiện di chuyển sang phải hình ngôi sao màu tím từ vị trí hiện tại với khoảng cách 18 pixel .
+<i> Dịch hình thoi từ vị trí hiện tại sang phải với khoảng cách mặc định .
+<i> Di chuyển sang phải hình bình hành màu xanh dương từ vị trí hiện tại với khoảng cách 25 pixel .
+<i> Dịch hình chữ nhật màu vàng từ toạ độ ( 8 , 6 ) với khoảng cách mặc định .
+<i> Thực hiện di chuyển sang phải hình tam giác màu đen từ vị trí hiện tại với khoảng cách 14 pixel .
+<i> Dịch hình thoi màu đỏ từ vị trí hiện tại sang phải với khoảng cách 22 pixel .

@@ -1,0 +1,30 @@
+SYSTEM: Trong vai trợ lý phân tích ý định, hãy phân tích và chia nhỏ đoạn lệnh thành các câu lệnh đơn (nếu có) để phần mềm có thể thực hiện tuần tự. Chú ý: bạn chỉ cần đưa ra kết quả có bố cục tương tự đầu ra trong các ví dụ trên, không cần đưa ra thông tin nào khác. Đồng thời hãy để ý đến các quan hệ từ và xác định vai trò của chúng trong việc tách câu. Bạn có thể tham khảo các ví dụ dưới đây để có thể tách được câu được yêu cầu:
+USER: Vẽ hình tròn màu đen ở vị trí (20, 40) rồi tô màu đen cho nó.
+ASSISTANT:
+- Vẽ hình tròn màu đen ở vị trí (20, 40).
+- Tô màu đen cho hình tròn ở vị trí (20, 40)
+USER: Vẽ hình vuông và hình tròn với cùng kích thước 40 x 40 tại 2 vị trí là (24, 14) và góc trên bên trái màn hình.
+ASSISTANT:
+- Vẽ hình vuông có kích thước 40 x 40 tại vị trí (24, 14).
+- Vẽ hình tròn có kích thước 40 x 40 tại vị trí góc trên bên trái màn hình.
+USER: Xoay hình vuông có cạnh dài 50 pixel sang phải 15 độ rồi tô màu đen cho nó.
+ASSISTANT:
+- Xoay hình vuông có cạnh dài 50 pixel sang phải 15 độ.
+- Tô màu đen cho hình vuông có cạnh dài 50 pixel.
+USER: Vẽ hình mũi tên có chiều rộng và chiều cao lần lượt là 70 và 30 ở chính giữa sau đó tạo bản sao của nó ở góc bên trái.
+ASSISTANT:
+- Vẽ hình mũi tên có chiều rộng và chiều cao lần lượt là 70 và 30 ở vị trí chính giữa.
+- Sao chép.
+- Dán vào góc bên trái
+USER: Vẽ hình vuông và hình tròn có cùng kích thước là 30 pixel ở trung tâm, ở phía góc trái đặt 1 hình mũi tên màu đen có kích thước 230x34
+ASSISTANT:
+- Vẽ hình vuông có kích thước là 30 pixel ở trung tâm.
+- Vẽ hình tròn có kích thước là 30 pixel ở trung tâm.
+- Ở phía góc trái đặt 1 hình mũi tên màu đen có kích thước 230x34.
+USER: Tạo hình bình hành màu xanh dương , có chiều dài đáy là 25 đơn vị , chiều cao là 35 đơn vị , nằm ở vị trí tương đối trên cùng bên phải.
+ASSISTANT:
+- Tạo hình bình hành màu xanh dương có chiều dài đáy là 25 đơn vị và chiều cao là 35 đơn vị , nằm ở vị trí tương đối trên cùng bên phải.
+USER: Hãy vẽ 1 hình vuông ở góc bên trái có chiều rộng là 30 pixel đồng thời vẽ 1 hình tròn nằm bên trong nó có bán kính bằng 1/2 chiều rộng, sau đó đổ màu vàng cho chúng.
+ASSISTANT:
+- Vẽ hình vuông ở góc bên trái có chiều rộng là 30 pixel và có màu vàng.
+- Vẽ hình tròn ở góc bên trái có bán kính là 15 pixel và có màu vàng.

@@ -1,0 +1,30 @@
+<i> Xin hãy sao chép hình vuông màu đỏ tại vị trí ( 50 , 50 ) .
+<i> Hãy thực hiện sao chép hình tròn màu xanh dương ở góc trái dưới của bức tranh .
+<i> Đề nghị sao chép hình chữ nhật màu vàng nằm ở giữa hai hình vuông .
+<i> Vui lòng sao chép hình elip màu cam tại vị trí tương đối của hình tam giác .
+<i> Hãy thực hiện sao chép ngôi sao màu tím ở phía trên hình vuông .
+<i> Xin vui lòng sao chép hình thoi màu hồng nằm ở góc trên bên phải của bức tranh .
+<i> Đề xuất sao chép hình tam giác màu xanh lá cây tại vị trí ( 100 , 200 ) .
+<i> Hãy thực hiện sao chép hình vuông màu đen ở góc dưới bên trái của bức tranh .
+<i> Xin hãy sao chép hình tròn màu vàng nằm ngay giữa hai hình chữ nhật .
+<i> Vui lòng sao chép hình elip màu xanh dương nằm ở góc trên bên phải của hình vuông .
+<i> Hãy thực hiện sao chép ngôi sao màu đỏ tại vị trí tương đối của hình thoi .
+<i> Đề nghị sao chép hình tam giác màu hồng nằm ở giữa hai hình tròn .
+<i> Hãy sao chép hình vuông màu vàng nằm ở góc trên bên phải của bức tranh .
+<i> Đề nghị sao chép hình tròn màu đỏ tại vị trí tương đối của hình thoi .
+<i> Xin vui lòng sao chép hình chữ nhật màu xanh lá cây nằm ở giữa hai hình elip .
+<i> Vui lòng thực hiện sao chép hình tam giác màu cam tại vị trí ( 150 , 100 ) .
+<i> Hãy sao chép hình thoi màu hồng ở góc dưới bên trái của bức tranh .
+<i> Đề xuất sao chép hình vuông màu xanh nằm ngay giữa hai hình tròn .
+<i> Xin hãy sao chép hình tròn màu đen nằm ở góc trên bên trái của hình chữ nhật .
+<i> Thực hiện sao chép hình chữ nhật màu tím tại vị trí tương đối của hình vuông .
+<i> Hãy làm một bản sao của hình vuông màu vàng đang được chọn .
+<i> Vui lòng sao chép hình tròn màu xanh nằm bên cạnh hình chữ nhật đang được chọn .
+<i> Đề nghị thực hiện tác vụ sao chép đối tượng hình tam giác màu cam hiện tại .
+<i> Xin hãy tạo bản sao của hình elip màu hồng ở góc dưới cùng bên phải .
+<i> Sao chép hình thoi màu tím đang được chọn và đặt nó ở phía trên của hình chữ nhật .
+<i> Hãy làm một bản sao của hình chữ nhật màu đỏ đang được chọn và đặt nó ở giữa hình vuông .
+<i> Xin vui lòng thực hiện sao chép hình chữ nhật màu xanh lá cây ở vị trí ( 200 , 150 ) .
+<i> Vui lòng sao chép hình elip màu vàng và đặt nó ngay bên cạnh hình tam giác .
+<i> Đề xuất tạo bản sao của hình tròn màu đỏ và đặt nó ở phía trên của hình vuông .
+<i> Thực hiện sao chép hình vuông màu cam nằm ở góc dưới bên trái của hình thoi .

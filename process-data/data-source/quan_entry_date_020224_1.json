@@ -1,0 +1,759 @@
+[
+  {
+    "text": "<i> Di chuyển sang trái hình vuông ở vị trí hiện tại với khoảng cách mặc định .",
+    "id": 1321,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_left"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1782,
+    "created_at": "2024-02-02T11:56:08.407495Z",
+    "updated_at": "2024-02-02T11:56:08.407547Z",
+    "lead_time": 17.365
+  },
+  {
+    "text": "<i> Dịch hình thoi sang trái từ tọa độ ( 5 , 8 ) để tạo hiệu ứng chuyển động .",
+    "id": 1322,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_left"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "text": "tọa độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "text": "5",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "text": "8",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1783,
+    "created_at": "2024-02-02T11:56:17.269850Z",
+    "updated_at": "2024-02-02T11:56:17.269903Z",
+    "lead_time": 6.234
+  },
+  {
+    "text": "<i> Thực hiện di chuyển sang trái hình chữ nhật với khoảng cách 15 pixel từ vị trí hiện tại .",
+    "id": 1323,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_left"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 82,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 47,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 72,
+        "text": "15 pixel",
+        "labels": [
+          "value|move"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1784,
+    "created_at": "2024-02-02T11:56:36.453077Z",
+    "updated_at": "2024-02-02T11:56:36.453125Z",
+    "lead_time": 12.616
+  },
+  {
+    "text": "<i> Dịch hình vuông màu cam từ vị trí hiện tại sang trái với khoảng cách mặc định .",
+    "id": 1324,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_left"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 27,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1785,
+    "created_at": "2024-02-02T11:56:49.697529Z",
+    "updated_at": "2024-02-02T11:56:49.697575Z",
+    "lead_time": 10.905
+  },
+  {
+    "text": "<i> Dịch hình vuông màu đỏ sang phải từ vị trí hiện tại với khoảng cách 15 pixel .",
+    "id": 1325,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_right"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 26,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 46,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 80,
+        "text": "15 pixel",
+        "labels": [
+          "value|move"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1786,
+    "created_at": "2024-02-02T11:57:18.409582Z",
+    "updated_at": "2024-02-02T11:57:18.409638Z",
+    "lead_time": 25.852
+  },
+  {
+    "text": "<i> Di chuyển sang phải hình thoi màu xanh lá cây từ tọa độ ( 10 , 8 ) với khoảng cách 20 pixel .",
+    "id": 1326,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_right"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 49,
+        "text": "xanh lá cây",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 59,
+        "text": "tọa độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 64,
+        "text": "10",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 68,
+        "text": "8",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 95,
+        "text": "20 pixel",
+        "labels": [
+          "value|move"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1787,
+    "created_at": "2024-02-02T11:57:33.281162Z",
+    "updated_at": "2024-02-02T11:57:33.281217Z",
+    "lead_time": 12.543
+  },
+  {
+    "text": "<i> Thực hiện di chuyển sang phải hình bình hành màu vàng từ vị trí hiện tại với khoảng cách mặc định .",
+    "id": 1327,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_right"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 67,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 48,
+        "text": "hình bình hành",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1788,
+    "created_at": "2024-02-02T11:57:45.001338Z",
+    "updated_at": "2024-02-02T11:57:45.001392Z",
+    "lead_time": 9.443
+  },
+  {
+    "text": "<i> Dịch hình chữ nhật màu cam sang phải từ vị trí hiện tại với khoảng cách 12 pixel .",
+    "id": 1328,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_right"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 50,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 84,
+        "text": "12 pixel",
+        "labels": [
+          "value|move"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 22,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1789,
+    "created_at": "2024-02-02T11:57:56.092687Z",
+    "updated_at": "2024-02-02T11:57:56.092740Z",
+    "lead_time": 8.688
+  },
+  {
+    "text": "<i> Di chuyển sang phải hình tam giác màu hồng từ tọa độ ( 5 , 7 ) với khoảng cách mặc định .",
+    "id": 1329,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_right"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "text": "hồng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "text": "tọa độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 60,
+        "text": "5",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 64,
+        "text": "7",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "text": "tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1790,
+    "created_at": "2024-02-02T11:58:07.650853Z",
+    "updated_at": "2024-02-02T11:58:07.650905Z",
+    "lead_time": 9.153
+  },
+  {
+    "text": "<i> Thực hiện di chuyển sang phải hình ngôi sao màu tím từ vị trí hiện tại với khoảng cách 18 pixel .",
+    "id": 1330,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_right"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "text": "ngôi sao",
+        "labels": [
+          "object|shape"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 55,
+        "text": "tím",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 65,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 99,
+        "text": "18 pixel",
+        "labels": [
+          "value|move"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1791,
+    "created_at": "2024-02-02T11:58:23.519306Z",
+    "updated_at": "2024-02-02T11:58:23.519358Z",
+    "lead_time": 13.514
+  },
+  {
+    "text": "<i> Di chuyển lên trên hình vuông màu vàng từ vị trí hiện tại với khoảng cách mặc định .",
+    "id": 1331,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_up"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "text": "vàng",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 52,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "text": "hình vuông",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1792,
+    "created_at": "2024-02-02T11:58:34.905848Z",
+    "updated_at": "2024-02-02T11:58:34.905895Z",
+    "lead_time": 9.051
+  },
+  {
+    "text": "<i> Thực hiện di chuyển lên trên hình chữ nhật màu đỏ tại tọa độ ( 8 , 15 ) với khoảng cách 12 pixel .",
+    "id": 1332,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_up"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 53,
+        "text": "đỏ",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 64,
+        "text": "tọa độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 68,
+        "text": "8",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 73,
+        "text": "15",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 100,
+        "text": "12 pixel",
+        "labels": [
+          "value|move"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 46,
+        "text": "hình chữ nhật",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1793,
+    "created_at": "2024-02-02T11:58:47.819704Z",
+    "updated_at": "2024-02-02T11:58:47.819755Z",
+    "lead_time": 10.721
+  },
+  {
+    "text": "<i> Dịch hình thoi màu xanh lục lên trên từ vị trí hiện tại để tạo hiệu ứng chuyển động .",
+    "id": 1333,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_up"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "text": "xanh lục",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 50,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "text": "hình thoi",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1794,
+    "created_at": "2024-02-02T11:59:00.151682Z",
+    "updated_at": "2024-02-02T11:59:07.397107Z",
+    "lead_time": 15.236
+  },
+  {
+    "text": "<i> Di chuyển lên trên hình bình hành màu tím tại tọa độ ( 5 , 9 ) với khoảng cách 18 pixel .",
+    "id": 1334,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_up"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 45,
+        "text": "tím",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "text": "tọa độ",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 60,
+        "text": "5",
+        "labels": [
+          "position|source_x"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 64,
+        "text": "9",
+        "labels": [
+          "position|source_y"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 91,
+        "text": "18 pixel",
+        "labels": [
+          "value|move"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 37,
+        "text": "hình bình hành",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1795,
+    "created_at": "2024-02-02T11:59:20.509730Z",
+    "updated_at": "2024-02-02T11:59:20.509778Z",
+    "lead_time": 11.083
+  },
+  {
+    "text": "<i> Thực hiện di chuyển lên trên hình tam giác màu cam từ vị trí hiện tại với khoảng cách mặc định .",
+    "id": 1335,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "<i>",
+        "labels": [
+          "intent|move_up"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 54,
+        "text": "cam",
+        "labels": [
+          "object|color"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 64,
+        "text": "vị trí",
+        "labels": [
+          "aspect"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 46,
+        "text": "hình tam giác",
+        "labels": [
+          "object|shape"
+        ]
+      }
+    ],
+    "annotator": 5,
+    "annotation_id": 1796,
+    "created_at": "2024-02-02T11:59:32.762394Z",
+    "updated_at": "2024-02-02T11:59:32.762443Z",
+    "lead_time": 10.026
+  }
+]

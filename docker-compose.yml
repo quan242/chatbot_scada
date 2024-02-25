@@ -1,0 +1,69 @@
+version: '3.4.14'
+
+services:
+  rasa_actions:
+    image: rasa/rasa:3.4.14-full
+    ports:
+      - 9098:5055
+    volumes:
+      - /workspace/nlplab/quannd/scada-full-stack/chatbot-scada:/app
+    command: ["run", "actions", "-p=5055", "--debug"]
+    networks: 
+      - scada
+    container_name: action-server
+    restart: unless-stopped
+
+
+  rasa_nlu: 
+    image: scada-chatbot-rasa-dev:latest
+    # tty: true               # equivalent for -t
+    # stdin_open: true        # equivalent for -i
+    runtime: nvidia
+    ports:
+      - 9097:5005
+    # environment:
+    #   - TF_GPU_MEMORY_ALLOC="0:2048"
+    volumes:
+      - /workspace/nlplab/quannd/scada-full-stack/chatbot-scada:/app
+    command: ["run", "--enable-api", "-i=0.0.0.0", "-p=5005", 
+              "--log-file=./logs.txt", 
+              "--model=./models/NLU_NLG/vncorenlp/phobert/quannd/20240225-091311-bold-goldfinch.tar.gz", 
+              "--endpoints=./endpoints-deploy.yml",
+              "-t=nlplab-scada-chatbot"]
+    networks: 
+      - scada
+    container_name: rasa-server
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['all']
+            capabilities: [gpu]
+
+  # frontend_chatbot:
+    # image: scada-chatbot-frontend:latest
+    # ports:
+    #   - 9099:5000
+    # volumes:
+    #   - /workspace/nlplab/quannd/scada-full-stack/ChatBot-Starter:/app
+    # networks: 
+    #   - scada
+    # container_name: frontend-server
+    # restart: unless-stopped
+
+  frontend_chatbot_gradio:
+    image: scada-gradio-frontend:latest
+    ports:
+      - 9103:5001
+    volumes:
+      - /workspace/nlplab/quannd/scada-full-stack/ChatBot-Starter-Gradio:/app
+    networks: 
+      - scada
+    container_name: frontend-gradio-server
+    restart: unless-stopped
+
+networks:
+  scada:
+    external: true

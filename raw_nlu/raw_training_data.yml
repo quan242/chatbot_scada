@@ -1,0 +1,965 @@
+bot_challenge:
+- cu có phải bot real ko ?
+- Hãy giới thiệu bản thân cho tớ nghe đi.
+- thế cậu là người hay là bot vậy ?
+- cậu là bot hay là người thế ?
+- Cậu là bot hay là người thế ?
+- huh ?
+change_bottom:
+- Hãy di chuyển hình chữ nhật màu tím có kích thước 150x100 pixel, độ dày đường viền
+  là 4 pixel, đang ở vị trí (250, 350) trên bản vẽ, đến vị trí (450, 550) theo tọa
+  độ góc bên dưới của nó.
+- Tôi muốn bạn di chuyển hình bầu dục màu cam có chiều dài trục lớn là 120 pixel,
+  chiều dài trục nhỏ là 80 pixel, đang ở bên phải bản vẽ, đến vị trí có tọa độ (300,
+  400) theo góc bên dưới của hình này.
+- Hãy di chuyển hình tròn màu tím đến vị trí (400, 500) theo góc bên dưới của nó.
+- Tôi muốn bạn di chuyển hình ellipse đang ở bên phải bản vẽ đến vị trí có tọa độ
+  (200, 300) theo góc bên dưới của nó.
+- Bạn có thể di chuyển hình tam giác màu xanh dương đến vị trí (500, 600) theo góc
+  bên dưới của nó không ?
+- Dịch chuyển hình tròn có bán kính 5 từ vị trí hiện tại ( 50 , 50 ) đến vị trí tuyệt
+  đối ( 200 , 300 ) để góc dưới của nó trùng với vị trí
+- Thay đổi vị trí hình chữ nhật có chiều dài 20 và chiều rộng 30 từ vị trí trái trên
+  đến vị trí tuyệt đối ( 500 , 500 ) để góc dưới của nó trùng với vị trí
+- Dịch chuyển hình tam giác có cạnh đáy 15 từ vị trí chính giữa đến vị trí tuyệt đối
+  ( 100 , 100 ) để góc dưới của nó trùng với vị trí
+- Di chuyển hình elip có bán kính ngang 20 và bán kính dọc 10 từ vị trí hiện tại (
+  300 , 400 ) đến vị trí tuyệt đối ( 600 , 800 ) để góc dưới của nó trùng với vị trí
+- Thay đổi vị trí hình thoi có đường chéo 25 từ vị trí trên cùng bên phải đến vị trí
+  tuyệt đối ( 400 , 200 ) để góc dưới của nó trùng với vị trí
+- Dịch chuyển hình trái tim có chiều dài 30 và chiều rộng 30 từ vị trí hiện tại (
+  100 , 200 ) đến vị trí tuyệt đối ( 500 , 300 ) để góc dưới của nó trùng với vị trí
+- Di chuyển hình ngôi sao có bán kính 15 từ vị trí trái trên ( 0 , 0 ) đến vị trí
+  tuyệt đối ( 300 , 400 ) để góc dưới của nó trùng với vị trí
+- Thay đổi vị trí hình vuông có cạnh 25 từ vị trí chính giữa đến vị trí tuyệt đối
+  ( 100 , 100 ) để góc dưới của nó trùng với vị trí
+- Dịch chuyển hình tròn có bán kính 10 từ vị trí hiện tại ( 50 , 50 ) đến vị trí tuyệt
+  đối ( 200 , 300 ) để góc dưới của nó trùng với vị trí
+- Di chuyển hình chữ nhật có chiều dài 30 và chiều rộng 20 từ vị trí trái trên ( 0
+  , 0 ) đến vị trí tuyệt đối ( 500 , 500 ) để góc dưới của nó trùng với vị trí
+- Thay đổi vị trí hình tam giác có cạnh đáy 20 từ vị trí chính giữa đến vị trí tuyệt
+  đối ( 100 , 100 ) để góc dưới của nó trùng với vị trí
+- Dịch chuyển hình elip có bán kính ngang 15 và bán kính dọc 10 từ vị trí hiện tại
+  ( 300 , 400 ) đến vị trí tuyệt đối ( 600 , 800 ) để góc dưới của nó trùng với vị
+  trí
+- Di chuyển hình thoi có đường chéo 30 từ vị trí trên cùng bên phải đến vị trí tuyệt
+  đối ( 400 , 200 ) để góc dưới của nó trùng với vị trí
+- Thay đổi vị trí hình trái tim có chiều dài 40 và chiều rộng 40 từ vị trí hiện tại
+  ( 100 , 200 ) đến vị trí tuyệt đối ( 500 , 300 ) để góc dưới của nó trùng với vị
+  trí
+- Xin hãy di chuyển hình vuông có cạnh 10 đến vị trí tuyệt đối ( 100 , 200 ) sao cho
+  góc dưới của nó trùng với vị trí
+change_height:
+- Tăng chiều cao của hình chữ nhật lên 10% tại vị trí góc trên bên trái.
+- Điều chỉnh chiều cao hình lập phương tăng thêm 5% tại vị trí góc dưới bên phải.
+- Làm cao hình vuông lên 105% tại vị trí giữa màn hình.
+- Điều chỉnh kích thước cạnh của tất cả các hình lập phương có màu tím thành 200 pixel
+  tại tọa độ (20, 15).
+- Giảm chiều cao của tất cả tam giác xuống 8% tại vị trí giữa màn hình.
+- Thay đổi kích thước chiều cao của tất cả các đối tượng tam giác thành 15 cm tại
+  vị trí chính giữa màn hình.
+- Thay đổi chiều cao của đối tượng hình hộp chữ nhật tăng thêm 15% tại vị trí góc
+  dưới bên trái.
+- Làm cao hình vuông lên 12% tại vị trí giữa màn hình.
+- Thay đổi kích thước chiều cao của hình chữ nhật màu đen ở tọa độ (321, 642) bằng
+  cách giảm đi 10 pixel.
+- Thay đổi kích thước chiều cao của hình chữ nhật màu đỏ ở giữa trang bằng cách tăng
+  lên 20 pixel.
+- Tăng chiều cao của hình tam giác màu đỏ ở góc trên bên phải lên 12 pixel, không
+  thay đổi chiều cao.
+- Đặt lại chiều cao của hình vuông màu đỏ có kích thước 120x120 pixel, độ dày đường
+  viền 1 pixel, nằm ở tọa độ (10, 10) của bản vẽ thành 20 cm
+- Tăng chiều cao của hình tam giác màu vàng có cạnh đáy 20 cm, chiều cao 15 cm, độ
+  dày đường viền 3 pixel, nằm ở góc dưới bên phải của bản vẽ lên 25 cm.
+- Hãy đặt lại chiều cao của hình tam giác màu vàng ở góc trên bên trái thành 50 pixel.
+  Hình tam giác có độ dài cạnh đáy là 50 pixel, chiều cao là 60 pixel và độ dày đường
+  viền là 3 pixel.
+- 'Hãy tăng chiều cao của hình vuông màu xanh ở [góc dưới bên phải]["entity": "position",
+  "role": "source"] lên 15 pixel. Hình vuông có kích thước 75 x 75 pixel và độ dày
+  đường viền là 2 pixel.'
+change_left:
+- Hãy di chuyển hình vuông màu đỏ đến vị trí (300, 200). Hình vuông có kích thước
+  100x100 pixel, độ dày đường viền là 5 pixel và vị trí ban đầu là ở góc trên bên
+  trái.
+- Hãy di chuyển hình tròn màu xanh lá cây đến vị trí (150, 250). Hình tròn có bán
+  kính là 50 pixel, độ dày đường viền là 3 pixel và vị trí ban đầu là ở góc dưới bên
+  phải.
+- Hãy đưa hình tròn màu hồng, kích thước bán kính 30 pixel, đến vị trí có tọa độ góc
+  trên là (80, 120).
+- Hãy di chuyển hình tròn màu xanh lá cây đến vị trí (241, 351). Hình tròn có bán
+  kính là 50 pixel, độ dày đường viền là 3 pixel và vị trí ban đầu là ở giữa màn hình.
+- Hãy di chuyển hình tam giác màu vàng có độ dài cạnh đều là 80 pixel, độ dày đường
+  viền là 2 pixel và vị trí ban đầu là (100, 100) đến vị trí (300, 400).
+- Thay đổi vị trí dựa trên góc trái của hình chữ nhật màu vàng có kích thước 200x100
+  pixel , đường viền 5 pixel , đang ở vị trí ( 50 , 50 ) , thành ( 300 , 400 ) dựa
+  trên góc trái
+- Chuyển hình tam giác màu tím có cạnh đáy 100 pixel , độ cao 80 pixel , đang ở vị
+  trí ( 250 , 350 ) , đến vị trí ( 100 , 200
+- Điều chỉnh dựa trên góc trái vị trí của hình bầu dục màu cam có trục ngang 120 pixel
+  , trục dọc 80 pixel , đang ở chính giữa màn hình , thành ( 500 , 600 ) dựa trên
+  góc trái
+- Di chuyển hình ngôi sao màu vàng có 5 cánh , đường kính 100 pixel , đang ở vị trí
+  ( 300 , 300 ) , đến vị trí ( 100 , 100 ) dựa trên góc trái
+- Đặt vị trí góc trên bên trái của hình thoi màu xanh lá có độ dài đường chéo 120
+  pixel và 80 pixel , đang ở vị trí ( 400 , 400 ) , thành ( 200 , 200 ) dựa trên góc
+  trái
+- Thay đổi vị trí của hình trái tim màu hồng có chiều rộng 100 pixel , chiều cao 80
+  pixel , đang ở vị trí ( 500 , 500 ) , thành ( 300 , 300 ) dựa trên góc trái
+- Chuyển hình lục giác màu nâu có cạnh 50 pixel , đang ở vị trí ( 100 , 100 ) , đến
+  vị trí ( 400 , 400 ) dựa trên góc trái
+- Điều chỉnh dựa trên góc trái vị trí của hình elip màu tím có trục ngang 150 pixel
+  , trục dọc 100 pixel , đang ở góc dưới bên trái màn hình , thành ( 500 , 500 ) dựa
+  trên góc trái
+- Di chuyển dựa trên góc trái hình chữ nhật màu xanh dương có kích thước 150x100 pixel
+  , đường viền 10 pixel , đang ở vị trí ( 200 , 200 ) , sao cho góc trái của nó đến
+  vị trí ( 50 , 50
+- Đặt vị trí góc trên bên trái của hình vuông màu trắng có kích thước 100x100 pixel
+  , đang ở vị trí ( 250 , 250 ) , sao cho góc trái của nó nằm ờ vị trí ( 450 , 450
+- Thay đổi vị trí của hình tam giác đều màu đen có cạnh 80 pixel , đang ở vị trí (
+  350 , 350 ) , thành ( 150 , 150 ) dựa trên góc trái
+- Chuyển hình bát giác màu xám có cạnh 40 pixel , đang ở vị trí ( 450 , 450 ) , đến
+  vị trí ( 250 , 250 ) dựa trên góc trái
+- Điều chỉnh vị trí của hình tròn màu đỏ có bán kính 60 pixel , đang ở góc dưới bên
+  phải màn hình , thành ( 100 , 100 ) dựa trên góc trái
+- Bạn có thể đưa hình tròn màu xanh dễ thương , có bán kính 50 pixel , đang ở vị trí
+  ( 150 , 250 ) , đến vị trí ( 400 , 500
+- Hãy cho hình chữ nhật màu vàng tươi sáng , có kích thước 200x100 pixel , đường viền
+  5 pixel , đang ở vị trí ( 50 , 50 ) , chuyển đến vị trí ( 300 , 400 ) dựa trên góc
+  trái
+change_length:
+- Giảm chiều dài của hình ellipse xuống 20% tại vị trí góc trên bên phải.
+- Tăng chiều dài của hình vuông lên 100% tại vị trí góc trên bên trái.
+- Giảm chiều dài của tam giác xuống 10 cm tại vị trí giữa màn hình.
+- Làm ngắn hình vuông xuóng 12% tại vị trí góc trên bên trái màn hình.
+- Giảm chiều dài đáy của tam giác xuống 10 cm tại vị trí (23, 76) màn hình.
+- Tăng chiều dài của hình chữ nhật lên 10% tại vị trí góc trên bên trái.
+- Thay đổi chiều dài của hình hộp chữ nhật thành 50 cm tại vị trí góc dưới bên trái.
+- Điều chỉnh chiều dài của tất cả hình hộp chữ nhật thành 30 cm tại vị trí chính giữa
+  màn hình.
+- Thay đổi giá trị chiều dài của hình chữ nhật màu tím có kích thước 30x10 pixel,
+  độ dày đường viền 4 pixel, nằm ở góc trên bên phải của bản vẽ thành 40 cm.
+- Tăng chiều dài của hình chữ nhật màu đen ở giữa trang lên 15 pixel, giữ nguyên chiều
+  rộng là 40 pixel.
+- Đặt chiều dài mới cho hình bình hành màu vàng ở giữa phía trên  trang là 25 pixel,
+  giữ nguyên chiều rộng và độ dày đường viền là 2 pixel.
+- Giảm chiều dài của hình thoi màu hồng ở góc trái trên xuống 15 pixel, giữ nguyên
+  chiều rộng là 40 pixel.
+- Tăng chiều dài của hình vuông màu đỏ có kích thước 250x250 pixel, độ dày đường viền
+  1 pixel, nằm ở tọa độ (10, 10) của bản vẽ lên 15 cm.
+- Hãy đặt lại chiều dài đáy của hình tam giác màu vàng ở góc trên bên trái thành 50
+  pixel. Hình tam giác có độ dài cạnh đáy là 50 pixel, chiều cao là 60 pixel và độ
+  dày đường viền là 3 pixel.
+- Hãy tăng chiều dài của hình vuông màu xanh ở góc dưới bên phải lên 15 pixel. Hình
+  vuông có kích thước 50x50 pixel và độ dày đường viền là 2 pixel.
+change_radius:
+- Giảm bán kính của hình tròn xuống 15% tại vị trí góc trên bên phải.
+- Thay đổi bán kính của đối tượng hình tròn thành 24 cm tại vị trí góc dưới bên trái.
+- Giảm bán kính của hình tròn tại vị trí giữa màn hình.
+- Làm dài bán kính của hình tròn tại vị trí chính giữa màn hình.
+- Làm lớn bán kính của hình cầu tại vị trí giữa màn hình.
+- Làm dài bán kính của hình cầu thêm 50 pixel tại vị trí (54, 76).
+- Giảm bán kính của hình tròn tại vị trí góc trên bên trái màn hình.
+- Thay đổi bán kính của đối tượng hình cầu thành 240 pixel tại tọa độ (124, 532).
+- Giảm bán kính của hình tròn màu đỏ có bán kính 20 cm, độ dày đường viền 1 pixel,
+  nằm ở tọa độ (30, 30) của bản vẽ xuống 10 cm.
+- Tăng bán kính của hình tròn màu đen ở giữa trang lên 15 pixel, giữ nguyên vị trí
+  và độ dày đường viền là 2 pixel.
+- Giảm kích thước bán kính của hình tròn màu đỏ ở góc trên bên phải xuống 8 pixel,
+  không thay đổi các thông số khác.
+- Đặt mức độ thay đổi bán kính cho hình tròn màu vàng ở giữa phía trên trang là 20
+  pixel, giữ nguyên chiều rộng và độ dày đường viền là 2 pixel.
+- Tăng bán kính của hình tròn màu xanh lá cây ở góc trái dưới lên 25 pixel, không
+  thay đổi chiều rộng.
+- Hãy đặt lại bán kính của hình tròn màu vàng ở góc trên bên trái thành 20 pixel.
+  Hình tròn có độ dày đường viền là 3 pixel.
+- Hãy tăng bán kính của hình tròn màu xanh ở góc dưới bên phải lên 15 pixel. Hình
+  tròn có bán kính 30 pixel.
+change_right:
+- Hãy di chuyển hình vuông màu xanh lá cây đến vị trí (300, 400) theo góc bên phải
+  của nó.
+- Tôi muốn bạn di chuyển hình tròn đang ở giữa bản vẽ đến vị trí có tọa độ (200, 300)
+  theo góc bên phải của nó.
+- Hãy di chuyển hình chữ nhật màu cam có kích thước 530x240 pixel, độ dày đường viền
+  là 5 pixel, đang ở vị trí (200, 300) trên bản vẽ, đến vị trí (400, 500) theo tọa
+  độ góc bên phải của hình này.
+- Tôi muốn bạn di chuyển hình tròn màu đỏ có bán kính là 50 pixel, độ dày đường viền
+  là 10 pixel, đang ở giữa bản vẽ, đến vị trí có tọa độ (100, 200) theo góc bên phải
+  của nó.
+- Bạn có thể di chuyển hình tam giác màu vàng có độ dài cạnh đáy là 80 pixel, chiều
+  cao là 30 pixel, đang ở vị trí (300, 400) trên bản vẽ, đến vị trí (500, 600) theo
+  tọa độ góc phải của hình tam giác không?
+- Dịch chuyển hình tròn bán kính 5 từ vị trí trái trên ( 50 , 50 ) đến vị trí phải
+  dưới ( 100 , 100 ) để góc phải của nó trùng với vị trí
+- Thay đổi vị trí của hình tam giác có chiều dài cạnh 20 từ vị trí chính giữa ( 150
+  , 150 ) đến vị trí trên cùng bên phải ( 200 , 100 ) để góc phải của nó trùng với
+  vị trí
+- Di chuyển hình chữ nhật có chiều dài 30 và chiều rộng 20 từ vị trí ( 50 , 50 ) đến
+  vị trí ( 100 , 100 ) để góc phải của nó trùng với vị trí
+- Dịch chuyển hình elip có bán kính ngang 15 và bán kính dọc 10 từ vị trí ( 200 ,
+  200 ) đến vị trí ( 300 , 300 ) để góc phải của nó trùng với vị trí
+- Thay đổi vị trí của hình thoi có đường chéo 25 từ vị trí trái trên ( 100 , 100 )
+  đến vị trí phải dưới ( 150 , 150 ) để góc phải của nó trùng với vị trí
+- Di chuyển hình trái tim có chiều dài 20 từ vị trí ( 150 , 150 ) đến vị trí ( 200
+  , 200 ) để góc phải của nó trùng với vị trí
+- Dịch chuyển hình ngôi sao có bán kính 15 từ vị trí chính giữa ( 200 , 200 ) đến
+  vị trí trên cùng bên phảiphải ( 250 , 150 ) để góc phải của nó trùng với vị trí
+- Thay đổi vị trí của hình trụ có bán kính đáy 10 và chiều cao 20 từ vị trí ( 100
+  , 100 ) đến vị trí ( 200 , 200 ) để góc phải của nó trùng với vị trí
+- Di chuyển hình nón có bán kính đáy 15 và chiều cao 25 từ vị trí trái trên ( 50 ,
+  50 ) đến vị trí phải dưới ( 100 , 100 ) để góc phải của nó trùng với vị trí
+- Dịch chuyển hình lục giác có cạnh 15 từ vị trí ( 200 , 200 ) đến vị trí ( 300 ,
+  300 ) để góc phải của nó trùng với vị trí
+- Thay đổi vị trí của hình oval có bán kính ngang 20 và bán kính dọc 10 từ vị trí
+  chính giữa ( 150 , 150 ) đến vị trí trên cùng bên phải ( 200 , 100 ) để góc phải
+  của nó trùng với vị trí
+- Di chuyển hình chóp có cạnh đáy 20 và chiều cao 30 từ vị trí ( 50 , 50 ) đến vị
+  trí ( 100 , 100 ) để góc phải của nó trùng với vị trí
+- Dịch chuyển hình bánh xe có bán kính 10 từ vị trí ( 200 , 200 ) đến vị trí ( 300
+  , 300 ) để góc phải của nó trùng với vị trí
+- Thay đổi vị trí của hình hộp có chiều dài 20 , chiều rộng 15 và chiều cao 10 từ
+  vị trí trái trên ( 100 , 100 ) đến vị trí phải dưới ( 150 , 150 ) để góc phải của
+  nó trùng với vị trí
+- Hãy di chuyển hình vuông đến một vị trí mới sao cho góc phải của nó trùng với vị
+  trí
+change_top:
+- Vui lòng di chuyển hình chữ nhật màu đen có kích thước 30x40 pixel đến vị trí có
+  tọa độ góc trên là (100, 150).
+- Hãy đưa hình tam giác đỏ kích thước 20x20 cm tới vị trí có tọa độ góc trên là (50,
+  80).
+- Thực hiện di chuyển hình vuông màu vàng có kích thước 25 pixel đến vị trí tọa độ
+  góc trên là (200, 100).
+- Di chuyển hình vuông màu xanh lá cây, có kích thước 15 pixel, đến vị trí có tọa
+  độ góc trên là (120, 70).
+- Hãy đưa hình tròn màu hồng, kích thước bán kính 30 pixel, đến vị trí có tọa độ góc
+  trên là (80, 120).
+- Vui lòng đưa hình tròn đỏ có đường viền đậm , đường kính 30 pixel , đang ở ( 50
+  , 60 ) đến vị trí ( 200 , 300 ) dựa trên góc trên
+- Chuyển hình tam giác dựa trên góc trên màu vàng , có độ dày đường viền 2 pixel ,
+  cạnh 40 pixel , từ ( 80 , 120 ) đến tọa độ ( 400 , 500
+- 'Hãy di chuyển vật thể oval màu hồng , đường kính dài 60 pixel , dày 40 pixel ,
+  đang ở ( 300 , 150 ) đến vị trí ( 100 , 250 ) , sao cho góc trên trùng với vị trí
+  đích '
+- 'Di chuyển hình vuông màu xanh dương , cạnh 70 pixel , tại vị trí giữa bên trái
+  màn hình thỏa mãn điều kiện góc trên trùng với vị trí ( 450 , 350 ) sao cho góc
+  trên trùng với vị trí đích '
+- 'Xin vui lòng đưa góc trên của vật thể hình trái tim đỏ , kích thước 45x45 pixel
+  , đang ở ( 150 , 300 ) đến vị trí ( 250 , 100 ) sao cho góc trên trùng với vị trí
+  đích '
+- 'Đặt hình chữ nhật màu đen , kích thước 30x30 pixel , tại góc trái trên đến vị trí
+  ( 300 , 450 ) sao cho góc trên trùng với vị trí đích '
+- Chuyển vật thể đa giác màu cam , có 6 cạnh , cạnh 25 pixel , đang ở góc dưới bên
+  trái đến vị trí ( 180 , 50 ) sao cho góc trên trùng với vị trí
+- Hãy di chuyển vật thể màu trắng , hình dạng tự do , kích thước 70x40 pixel , đang
+  ở ( 250 , 400 ) đến vị trí ( 100 , 200 ) sao cho góc trên trùng với vị trí đích
+- Đưa vật thể hình thang màu nâu , có độ dày đường viền 3 pixel , cạnh trên 60 pixel
+  , cạnh dưới 80 pixel , tại ( 300 , 100 ) đến vị trí ( 50 , 300 ) sao cho góc trên
+  trùng với vị trí đích
+- Có thể bạn cho cái hình chữ nhật xanh lá cây , size 50x50 ở góc trên bên phải dạo
+  chơi đến ( 300 , 400 ) sao cho góc trên trùng với vị trí đích
+- Bạn ơi , xin đừng quên vật thể tam giác màu vàng , viền 2 pixel , cạnh 40 pixel
+  , từ ( 80 , 120 ) tới ( 400 , 500 ) sao cho góc trên trùng với vị trí đích
+- Nếu có thể , hãy chuyển em oval hồng ấy , dài 60 pixel , dày 40 pixel , đang ngồi
+  ở ( 300 , 150 ) đến nhà mới ở ( 100 , 250 ) sao cho góc trên trùng với vị trí đích
+- Cậu ơi , đưa cái hình vuông xanh dương 70 pixel cạnh , đang nằm ở góc trên bên phải
+  về nhà mới ( 450 , 350 ) giùm mình nhé sao cho góc trên trùng với vị trí đích
+- Cho em xin cái hình trái tim đỏ đấy , kích thước 45x45 pixel , đang ngủ tại ( 150
+  , 300 ) , đưa về nhà mới ( 250 , 100 ) sao cho góc trên trùng với vị trí đích
+- Nếu được , hãy đặt cái chữ A đen đen nhỏ nhỏ , 30x30 pixel , ở ( 120 , 180 ) về
+  ngôi nhà mới ( 300 , 450 ) sao cho góc trên trùng với vị trí đích
+change_width:
+- Thay đổi chiều rộng của đối tượng hình xe máy tăng thêm 15 cm tại vị trí góc dưới
+  bên trái.
+- Làm rộng hình oval lên 12% tại vị trí giữa màn hình.
+- Giảm chiều rộng của hình vuông xuống 15 cm tại vị trí (20, 40).
+- Giảm chiều rộng của tam giác xuống 50 pixel tại vị trí giữa màn hình.
+- Điều chỉnh chiều rộng của hình chữ nhật thành 100 pixel tại vị trí góc trên bên
+  phải.
+- Giảm chiều rộng của hình ellips xuống 20% tại vị trí góc trên bên phải.
+- Tăng chiều rộng của hình chữ nhật lên 100% tại vị trí góc trên bên trái.
+- Điều chỉnh chiều rộng của hình thang thành 20 cm tại vị trí góc dưới bên phải.
+- Thay đổi kích thước chiều rộng của hình chữ nhật màu đen ở giữa trang bằng cách
+  tăng thêm 15 pixel.
+- Giảm kích thước chiều rộng của hình vuông màu vàng ở giữa phía trên trang đi 12
+  pixel, giữ nguyên độ dày đường viền là 2 pixel
+- Đặt kích thước chiều rộng mới cho hình thoi màu xanh lá cây ở góc trái dưới là 25
+  pixel, không thay đổi chiều cao.
+- 'Tăng chiều rộng của hình vuông màu đỏ có kích thước 50x50 pixel, độ dày đường viền
+  [1 pixel] {"entity": "object", "role": "thickness"}, nằm ở góc trên bên trái của
+  bản vẽ lên 15 cm.'
+- Giảm chiều rộng của hình tròn màu xanh có bán kính 10 cm, có tâm nằm ở tọa độ (312,
+  32) xuống 5 cm.
+- Hãy đặt lại chiều rộng của hình tam giác màu vàng ở góc trên bên trái thành 40 pixel.
+  Hình tam giác có độ dài cạnh đáy là 50 pixel, chiều cao là 60 pixel và độ dày đường
+  viền là 3 pixel.
+- Hãy tăng chiều rộng của hình vuông màu xanh ở góc dưới bên phải lên 20 pixel. Hình
+  vuông có kích thước 50x50 pixel
+color_background:
+- Đặt màu trắng cho phần nền ở toàn màn hình.
+- Tô màu nền toàn bộ bằng màu xanh ở toàn màn hình.
+- Tô màu nền toàn bộ bằng màu xanh lá cây ở toàn màn hình.
+- Tô màu toàn bộ vùng bằng màu xanh ở toàn màn hình.
+- Tô màu toàn bộ vùng bằng màu đỏ ở toàn màn hình.
+- Đặt màu tím cho toàn bộ bề mặt ở toàn màn hình.
+- Hãy tô màu nâu cho phần nền có tọa độ từ (0, 0) đến (210, 210).
+- Hãy tô màu trắng cho phần nền ở góc dưới bên phải của bản vẽ, có kích thước 300x200
+  pixel.
+- Tô màu toàn bộ nền bằng màu xanh lá cây.
+- Hãy tô màu phần nền ở giữa trang bằng màu xanh dương.
+- Hãy tô màu hồng cho phần nền ở bên trái của bản vẽ.
+- Tôi muốn tô màu xanh lá cho phần nền ở góc trên bên trái.
+- Tô màu đỏ cho phần nền có tọa độ từ (14, 54) đến (475, 753).
+color_foreground:
+- Thay đổi màu toàn bộ đối tượng hình oval màu trắng thành màu vàng ở góc dưới bên
+  phải.
+- Đặt màu đen cho toàn bộ hình vuông ở góc dưới bên trái.
+- Tô màu toàn bộ hình tròn có màu tím bằng màu đỏ ở vị trí giữa màn hình.
+- Tô màu toàn bộ hình tam giác ở góc trên bên phải bằng màu xanh lá cây.
+- Đặt màu trắng cho toàn bộ đối tượng hình người ở vị trí giữa màn hình.
+- Đặt màu đen cho toàn bộ hình vuông màu vàng ở góc dưới bên trái.
+- Tô màu toàn bộ hình tròn ở góc trên bên trái bằng màu xanh.
+- Hãy tô màu xanh lá cây cho hình tròn có đường kính 5 cm, độ dày đường viền 2 pixel,
+  và vị trí (100, 100).
+- Hãy tô màu đỏ cho hình vuông có cạnh 10 cm và nằm ở chính giữa bản vẽ.
+- Hãy tô màu vàng cho hình tam giác có độ dài cạnh bằng nhau là 8 cm, độ dày đường
+  viền 1 pixel, và vị trí (50, 50).
+- Hãy tô màu tím cho hình bình hành có chiều dài đáy là 12 cm và chiều cao là 6 cm,
+  nằm ở bên trái bản vẽ.
+- Hãy tô màu cam cho hình chữ nhật có kích thước 150x400 pixel và nằm ở góc dưới bên
+  phải bản vẽ.
+- Hãy tô màu hình vuông màu xanh lá cây có cạnh 5 cm, độ dày đường viền 1 px, nằm
+  ở góc trên bên phải của bản vẽ bằng màu hồng.
+- Tô màu hình bình hành màu cam có độ dài cạnh lớn là 7 cm, chiều cao là 4 cm, độ
+  dày đường viền 5 px nằm trong vùng chứa có điểm xuất phát là (5, 295) và điểm kết
+  thúc là (12, 288) bằng màu hồng.
+copy_selected_objects:
+- Sao chép vật thể đẫ được chọn từ trước.
+- Hãy sao chép vật thể đang được chọn.
+- Bạn chatbot ơi, copy hộ mình đối tượng đang được chọn với.
+- Bạn có thể nhân bản những thứ này không vậy ?
+- Trợ lý ơi , sao chép đám này giúp tôi đi .
+- Tôi muốn có một bản copy của những thứ này .
+- Nhái chúng giúp tôi , Trợ lý ơi .
+- Bạn thể hiện khả năng nhân bản không ?
+- Hãy làm cho chúng nhân đôi đấy !
+- Tôi muốn tạo bản copy của chúng .
+- Sao chép chúng với tốc độ ánh sáng !
+- Chatbot hãy cùng mình nhân chúng lên thật nhiều nhé!
+- Trợ lý , chúng ta cần một bản sao ngay bây giờ .
+- Bạn có thể copy tất cả không ?
+- Nhái những thứ này giúp tôi , bạn nhé .
+- Tôi muốn tạo bản copy của chúng .
+- Sao chép chúng với tốc độ ánh sáng !
+- Nào, hãy nhân bản những hình đã chọn lên nhiều lần
+- Trợ lý , chúng ta cần một bản sao ngay bây giờ .
+- Bạn có thể copy tất cả không ?
+cut_selected_objects:
+- cut.
+- cắt.
+- cắt những hình đang được chọn.
+- Hãy cut các hình đang được chọn.
+- Cắt các hình đang được lưu thông tin.
+- Thực hiện cut
+- Cut tất cả đối tượng được chọn
+- Thực hiện lệnh cut với đối tượng đã chọn
+- Tiến hành cut các đối tượng hiện tại
+- Sử dụng cut để loại bỏ các đối tượng đã chọn
+- Cut tất cả các đối tượng hiện tại
+- Sử dụng lệnh cut để di chuyển đối tượng đã chọn
+- Xóa các đối tượng hiện tại bằng cut
+- Thực hiện cut để di chuyển các đối tượng được chọn
+- Sử dụng cut để loại bỏ đối tượng hiện tại
+- Cut đối tượng được chọn vào bộ nhớ tạm
+- Tiến hành cut và lưu thông tin vào bộ nhớ tạm
+- Thực hiện cut và xóa đối tượng đang chọn
+- Cut các đối tượng được chọn và lưu vào bộ nhớ tạm
+- Di chuyển đối tượng đã chọn bằng cut
+delete_selected_objects:
+- Xóa những vật thể hình chữ nhật trong vùng từ tọa độ (14, 23) đến (413, 654).
+- Xóa vật thể có màu đỏ tại vùng chọn bắt đầu từ vị trí (143, 492) và có kích thước
+  (234, 145) trên giao diện.
+- Loại bỏ các vật thể nằm trong vùng chứa từ góc trên bên trái đến tọa độ (103, 324)
+- Xóa các vật thể trong vùng chọn tại tọa độ (14, 54) với kích thước (232, 412).
+- Loại bỏ các đối tượng có kích thước nhỏ hơn 50x50 tại vị trí (134, 453).
+- Loại bỏ các vật thể nằm trong vùng được chọn bắt đầu từ tọa độ (24, 23) và kết thúc
+  ở tọa độ (100, 100).
+- Loại bỏ các đối tượng chọn tại tọa độ (23, 86) với chiều cao 15 cm và chiều rộng
+  20 cm.
+- Xóa các đối tượng hình vuông nằm trong vùng bắt đầu từ vị tri (42, 45) và kết thúc
+  ở vị trí (134, 423).
+- Xóa bỏ các đối tượng đang được chọn.
+- Hãy xóa bỏ các đối tượng đã được chọn từ trước.
+- Hãy xóa các đối đượng có thông tin trùng với thông tin được lưu trong bộ nhớ tạm.
+- xóa các được chọn
+- xóa bỏ nó
+- bạn giúp tôi xóa nó đi nhé
+- nó cần được xóa đi
+- nó cần bỏ vào thùng rác
+- không dùng cái đó nữa
+- please , drop it
+- delete it , please
+- remove it
+draw_arrow:
+- Vẽ mũi tên trên nền vàng , chiều cao 70 pixel , chiều dài 100 pixel , tại tọa độ
+  ( 100 , 20
+- Vẽ mũi tên dài 70 pixel , màu tím , chiều cao 100 pixel , ở chính giữa
+- Vẽ mũi tên màu đỏ , chiều cao 80 pixel , chiều dài 120 pixel , ở phía dưới cùng
+- Vẽ mũi tên màu xanh lá cây , chiều cao 60 pixel , chiều dài 80 pixel , ở góc trên
+  cùng bên phải
+- Tạo mũi tên màu cam , chiều cao 90 pixel , chiều dài 110 pixel , nằm ngang giữa
+- Vẽ mũi tên tại tọa độ ( 200 , 300 ) , chiều cao 70 pixel , chiều dài 100 pixel ,
+  màu đen
+- Tạo mũi tên màu hồng , chiều cao 80 pixel , chiều dài 120 pixel , ở giữa
+- Vẽ mũi tên màu xám , chiều cao 60 pixel , chiều dài 80 pixel , ở góc dưới cùng bên
+  phải
+- Vẽ mũi tên tại tọa độ ( 300 , 200 ) , chiều cao 70 pixel , chiều dài 100 pixel ,
+  màu đỏ
+- Tạo mũi tên màu xanh dương , chiều cao 90 pixel , chiều dài 110 pixel , nằm ở giữa
+- Vẽ mũi tên màu cam , chiều cao 80 pixel , chiều dài 120 pixel , ở phía trên cùng
+- Vẽ mũi tên màu vàng , chiều cao 60 pixel , chiều dài 80 pixel , ở góc trên cùng
+  bên phải
+- Tạo mũi tên tại tọa độ ( 400 , 100 ) , chiều cao 70 pixel , chiều dài 100 pixel
+  , màu hồng
+- Vẽ mũi tên màu tím , chiều cao 80 pixel , chiều dài 120 pixel , nằm dọc giữa
+- Vẽ mũi tên màu đen , chiều cao 60 pixel , chiều dài 80 pixel , ở góc dưới cùng bên
+  trái
+- Tạo mũi tên tại tọa độ ( 500 , 300 ) , chiều cao 70 pixel , chiều dài 100 pixel
+  , màu xanh lá cây
+- Vẽ mũi tên màu đỏ , chiều cao 80 pixel , chiều dài 120 pixel , nằm ngang giữa
+- Vẽ mũi tên màu cam , chiều cao 60 pixel , chiều dài 80 pixel , ở góc trên cùng bên
+  phải
+- Tạo mũi tên màu vàng , chiều cao 90 pixel , chiều dài 110 pixel , ở giữa
+- 'Vẽ mũi tên nhưng như đang đi lạc đường : chiều cao 70 pixel , chiều dài 100 pixel
+  , màu đỏ'
+draw_circle:
+- Hãy vẽ một hình tròn ở vị trí (41, 53) với bán kính 34 cm.
+- Vẽ một vòng tròn có bán kính 100 pixel màu xanh.
+- Tạo một hình tròn nhỏ màu đỏ bên phải.
+- Vẽ một hình tròn lớn màu xanh đậm ở giữa màn hình.
+- Tạo một hình tròn nhỏ ở vị trí (54, 21).
+- Tạo một đường tròn với bán kính 20 pixel ở góc trái phía trên.
+- Hãy vẽ một hình tròn ở tọa độ (100, 200) với bán kính 25 pixel.
+- Vẽ một vòng tròn có bán kính 50 pixel.
+- Vẽ hình tròn màu đỏ
+- Bán kính 25 pixel, vẽ hình tròn màu cam
+- Vị trí góc trên bên trái, hãy vẽ hình tròn màu xanh lam có bán kính 30
+- Bán kính 25 pixel, vẽ hình tròn màu cam tại x = 50, y = 75
+- Vẽ hình tròn màu cam bán kính 25
+- Vị trí góc dưới bên phải, bán kính 55 pixel, vẽ hình tròn màu tím
+- Vẽ hình tròn màu đen bán kính 45 pixel tại vị trí trung tâm
+- Vẽ hình tròn tại x = 700, y = 500 màu nâu có bán kính 50
+- Vẽ hình tròn màu đen có bán kính 45 pixel tại x = 400, y = 300
+- Vẽ hình tròn có đường kính 40 pixel ở vị trí x = 100, y = 150 màu đỏ
+- Vẽ hình tròn màu xanh lá cây tại vị trí x = 200, y = 100, đường kính 35
+- đường kính 25 pixel, vẽ hình tròn màu cam tại x = 50, y = 75
+- Vị trí góc trên bên trái, đường kính 30 pixel, hãy vẽ hình tròn màu xanh lam tại
+  x = 10, y = 10
+draw_ellipse:
+- Tạo một hình bầu dục đứng với trục chính là 35 pixel và trục phụ là 20 pisxel.
+- Tạo một hình oval màu cam ở tọa độ (200, 300) với kích thước (14, 54).
+- Tạo một elip đứng màu tím với trục chính là 35 pixel và trục phụ là 20 pixel.
+- Vẽ một hình elip màu vàng nằm ngang ở giữa màn hình.
+- Tạo một elip màu cam ở tọa độ (200, 300) với trục chính 50 pixel và trục phụ 30
+  pixel.
+- Vẽ một hình elip màu hồng nằm ngang ở giữa màn hình.
+- Vẽ một hình ê-líp màu hồng nằm dọc ở vị trí (10, 43).
+- Hãy vẽ một ellipse màu xanh dương với trục chính 40 pixel và trục phụ 25 pixel.
+- Vui lòng vẽ một hình ê-líp màu xanh, chiều rộng 60 và chiều cao 35 ở tọa độ (100,
+  150)
+- Bạn trợ lý tài năng, tôi muốn chiếc ê-líp màu vàng, chiều rộng 55 và chiều cao 30,
+  nằm ở bên trái
+- Bạn trợ lý dễ thương, hãy làm một hình ê-líp màu hồng, chiều rộng 55 và chiều cao
+  30
+- Anh trợ lý tốt bụng, hãy vẽ một hình ê-líp màu cam, chiều rộng 52 và chiều cao 28,
+  có lẽ ở giữa trang
+- Hãy tạo một hình ê-líp màu xám ở bên phải trang, chiều rộng 40 và chiều cao 25
+- Anh trợ lý đẹp trai ơi, hãy vẽ một hình ê-líp màu xanh dương, chiều rộng 60 và chiều
+  cao 40, chỗ
+- Em trợ lý dễ thương, hãy bơi vào hồ nước trắng và vẽ một hình ê-líp màu hồng, chiều
+  rộng 40 và chiều cao 25, ngay chính giữa
+- Trợ lý ơi, hãy vẽ một hình ê-líp màu nâu, chiều rộng 48 và chiều cao 32 ở tọa độ
+  (120, 180)
+- Vẽ một hình ê-líp ở giữa trang, chiều rộng 55 và chiều cao 28
+draw_line:
+- Vẽ đường thẳng nối 2 điểm (32, 54) và (76, 14).
+- Tạo đường thẳng kết nối giữa hai điểm (42, 54) và (75, 86).
+- Tạo đoạn thẳng từ điểm (54, 14) đến (45, 89) với màu hồng.
+- Vẽ đường thẳng từ điểm (123, 324) đến điểm (466, 865).
+- Tạo đường thẳng có chiều rộng 25 pixel và màu sắc mặc định từ tọa độ (4, 42) đến
+  tọa độ (423, 764).
+- Vẽ một đường thẳng ngang tại y = 12 từ x = 13 đến x = 64.
+- Vẽ đường thẳng dọc tại x = 34 từ y = 54 đến y = 123.
+- Tạo đường chéo từ điểm (243, 435) đến (534, 562) trên màn hình.
+- Tạo đường thẳng màu vàng kết nối giữa hai điểm (42, 54) và (75, 86
+- Vẽ một đường thẳng nằm ngang tại y = 12 từ x = 13 đến x = 64
+- Tạo đoạn đường thẳng từ điểm (53, 54) với độ dài 35 cm và góc nghiêng 45
+- Vẽ đường thẳng dọc tại x = 34 từ y = 54 đến y = 123
+- Tạo đường chéo từ điểm (243, 435) đến (534, 562
+- Vẽ đường thẳng từ (43, 36) với hướng và chiều dài mặc định
+- Tạo đoạn thẳng từ điểm (54, 14) đến (45, 89) với màu hồng
+- Vẽ đường thẳng nối 2 điểm (32, 54) và (76, 14
+- Tạo đường thẳng màu tím có độ dày 25 pixel và màu sắc mặc định từ tọa độ (4, 42)
+  đến tọa độ (423, 764
+- Xin vẽ một đoạn thẳng màu xanh dài 150 pixel từ điểm (20, 30) và hướng đến điểm
+  (170, 180
+- Tôi muốn tạo đường thẳng màu xanh xuất phát từ (10, 20) và có trung điểm (100, 200)
+  với độ dày 5
+- Thực hiện vẽ đường thẳng dài 300 điểm ảnh từ (50, 50) và hướng đến điểm (350, 350
+- Xin hãy tạo đoạn đường thẳng từ (200, 100) đến (500, 300) có độ dày 5
+- Vẽ một đoạn đường thẳng màu đỏ có độ dày 2 điểm ảnh kéo dài từ (30, 50) đến (150,
+  250
+- Hãy tạo một đường thẳng từ (10, 20) đến (120, 220) với độ dày 10
+- Hãy vẽ một đường thẳng dài 100 pixel màu đen từ (10, 20) đến (110, 20
+- Tôi muốn vẽ một đường ngang màu đỏ dài 5 cm có trung điểm tại tọa độ (30, 40
+- Xin vẽ một đường chéo màu xanh có độ dày 5 pixel, dài 300 pixel từ (50, 60) và hướng
+  đến tọa độ (200, 210
+- Vẽ một đường dọc màu vàng dài 50 cm có tâm ở tọa độ (100, 50) và có độ dày 0.25
+- Tạo một đường chéo đen dài 200 pixel từ (20, 30) đến (220, 230
+- Hãy tạo một đường thẳng màu hồng bắt đầu từ góc trên bên trái, có độ dày 5 pixel
+  và có trung điểm ở tọa độ (30, 40
+- Hãy vẽ một đường dài 70 cm màu cam có trung điểm tại tọa độ (80, 90
+- Vẽ một đường thẳng đứng màu đỏ bắt đầu từ điểm (200, 100) và kéo xuống dưới 60 pixel,
+  độ dày 2
+- Vui lòng tạo một đường thẳng màu đen dài 200 pixel, bắt đầu từ góc dưới bên phải
+  và hướng đến vị trí giữa
+- Vẽ đường thẳng từ điểm (123, 324) đến điểm (466, 865
+draw_parallelogram:
+- Vẽ một hình bình hành màu tím nằm ở góc trên bên trái màn hình và có kích thước
+  (100, 75).
+- Tạo một hình bình hành nhỏ màu hồng ở tọa độ (12, 65).
+- Tạo một hình bình hành màu xanh lá cây ở tọa độ (200, 250) với chiều dài cơ sở 60
+  pixel và chiều cao 30 pixel.
+- Vẽ một hình bình hành màu xanh đậm nằm ở giữa màn hình.
+- Vẽ một hình bình hành màu cam ở góc trên bên trái.
+- Tạo một hình bình hành có chiều dài cơ sở 80 pixel và chiều cao 40 pixel.
+- Tạo một hình bình hành lớn màu đỏ ở chính giữa màn hình.
+- Hãy vẽ một hình bình hành màu hồng ở tọa độ (100, 300) với chiều dài cơ sở 70 pixel
+  và chiều cao 35 pixel.
+- Vẽ bình hành có đáy dài 15, góc xuất phát nhọn ở bên phải dưới, chiều cao 20, màu
+  đen tại vị trí (8, 6
+- Tạo một hình bình hành với độ lớn góc xuất phát là 45 độ, vị trí ở giữa, và đáy
+  20, chiều dài 15, màu sắc xanh dương
+- Tạo hình bình hành với đáy là 15, chiều cao 20, góc xuất phát tù, vị trí ở giữa,
+  và màu sắc đỏ
+- Vẽ hình bình hành màu hồng có đáy 20, chiều cao 16, góc xuất phát 50 độ, vị trí
+  (200, 100
+- Tạo hình bình hành có đáy 13, chiều cao 9, góc xuất phát 25 độ, màu nâu, vị trí
+  (150, 75
+- Vẽ hình bình hành có đáy 20, chiều cao 16, màu hồng, vị trí (200, 100
+- Vẽ hình bình hành có đáy 15, chiều cao 20, góc xuất phát 30 độ, vị trí (100, 50
+- Vẽ hình bình hành màu xanh lá cây có đáy 10, chiều cao 8, góc xuất phát 45 độ, vị
+  trí ở góc trên bên trái
+- Vẽ hình bình hành có đáy 10, chiều cao 8, góc xuất phát 45 độ, màu xanh lá cây
+draw_rectangle:
+- Hãy vẽ một hình chữ nhật màu đỏ với chiều dài 70 pixel và chiều rộng 50 pixel.
+- Tạo một hình chữ nhật màu nâu ở tọa độ (150, 250) với chiều dài 60 pixel và chiều
+  rộng 30 pixel.
+- Tạo một hình chữ nhật nằm ngang có kích thước (43, 20) ở vị trí (40, 60).
+- Vẽ một hình chữ nhật với kích thước (53, 100) và có màu đen ở tọa độ (76, 43).
+- Tạo một hình chữ nhật màu đỏ ở tọa độ (150, 250) với chiều dài 32 cm và chiều rộng
+  12 cm.
+- Hãy vẽ một hình chữ nhật đứng màu xanh đậm với chiều dài 70 pixel và chiều rộng
+  50 pixel.
+- Vẽ một hình chữ nhật màu xám nằm ở giữa màn hình.
+- Tạo một hình chữ nhật màu nâu từ tọa độ (14, 35) đến tọa độ (54, 42).
+- Vẽ hình chữ nhật màu vàng có độ dày đường viền 3 pixel, chiều rộng 75 và chiều cao
+  50 ở tọa độ (200, 200
+- Vẽ hình chữ nhật màu xanh lá cây có độ dày đường viền 3 pixel, chiều rộng 75 và
+  chiều cao 50 ở tọa độ (150, 150)
+- Vui lòng vẽ một hình chữ nhật màu cam, có kích thước 70x30, ở phía trên bên phải
+- Vẽ hình chữ nhật màu vàng có độ dày đường viền 3 pixel, chiều rộng 75 và chiều cao
+  50 ở tọa độ (200, 200)
+- Hãy vẽ hình chữ nhật màu tím có chiều rộng 80, chiều cao 60
+- Vẽ hình chữ nhật có chiều rộng 55, màu xanh lá cây, đường viền màu xám ở giữa
+- Tạo hình chữ nhật có chiều rộng 55, màu tím, đường viền đen tại vị trí bên phải
+- Tạo một hình chữ nhật màu đỏ, kích thước 90x50, nằm ở vị trí (200, 250
+- Tạo hình chữ nhật có chiều rộng 55, chiều cao 45, màu hồng, đường viền màu xanh
+  dương, ở vị trí (350, 150)
+- Tạo hình chữ nhật với chiều rộng 60, chiều cao 10, màu xanh lục, đường viền màu
+  đen, ở giữa trang
+draw_rhombus:
+- Hãy vẽ một hình thoi màu hồng ở góc dưới bên phải với độ dài đường chéo chính 60
+  pixel và đường chéo phụ 35 pixel.
+- Hãy vẽ một hình thoi màu hồng ở tọa độ (100, 300) với độ dài đường chéo chính 60
+  pixel và đường chéo phụ 35 pixel.
+- Vẽ một hình thoi màu xanh lá có độ dài đường chéo chính 20 cm và đường chéo phụ
+  10 cm ở chính giữa màn hình.
+- Tạo một hình thoi màu tím ở tọa độ (200, 250) với độ dài đường chéo chính 12 cm
+  và đường chéo phụ 5 cm.
+- Tạo một hình thoi lớn màu đen ở vị trí (45, 54).
+- Tạo một hình thoi màu đen ở tọa độ (200, 250) với độ dài đường chéo chính 50 pixel
+  và đường chéo phụ 30 pixel.
+- Vẽ một hình thoi màu xanh dương ở góc trên bên phải và có kích thước (140, 200).
+- Tạo một hình thoi có độ dài đường chéo chính 70 pixel và đường chéo phụ 40 pixel.
+draw_square:
+- Tạo một hình vuông với cạnh 50 pixel.
+- Vẽ một hình vuông màu đỏ nằm ở giữa màn hình
+- Tạo một hình vuông lớn màu vàng ở góc trên bên trái.
+- Vẽ một hình vuông nhỏ màu xanh lá cây ở góc dưới bên phải.
+- Tạo một hình vuông màu cam ở tọa độ (200, 150) với cạnh 30 pixel.
+- Hãy vẽ một hình vuông màu xám ở tọa độ (100, 300) với cạnh 40 pixel.
+- Tạo hình vuông lớn màu đỏ ở chính giữa màn hình.
+- Vẽ hình vuông màu xanh lá cây có kích thước cạnh 30 cm
+- Tạo một hình vuông màu xanh dương ở tọa độ (200, 150) với cạnh 30 pixel.
+- Hãy vẽ một hình vuông ở tọa độ (100, 300).
+- vẽ hình vuông
+- Tạo hình vuông màu xanh lá cây tại điểm (200, 100) với chiều cao 70 pixel
+- Vui lòng vẽ một hình vuông màu xanh nước biển chiều cao 55 pixel ở điểm (250, 250
+- Tạo một hình vuông màu cam với chiều cao 80 pixel, tọa độ x = 300, y = 200
+- Vui lòng vẽ một hình vuông màu tím ở góc trên bên phải, chiều rộng 75 pixel
+- Vẽ hình vuông màu nâu chiều cao 65 pixel ở giữa trang
+- Tạo hình vuông màu cam ở giữa trang với chiều cao 80 pixel
+- Vui lòng vẽ một hình vuông màu xám chiều cao 50 pixel ở góc trên bên trái trang
+- Tạo hình vuông màu xanh nước biển ở giữa trang, chiều cao 55 pixel
+- Tạo hình vuông màu xanh lá cây ở góc trên bên trái , chiều rộng 50
+draw_trapezoid:
+- Tạo một hình thang màu xám ở tọa độ (200, 250) với cạnh đáy dài 45 cm, cạnh đáy
+  ngắn 15 cm và chiều cao 30 cm.
+- Vẽ một hình thang màu cam ở góc trên bên trái.
+- Tạo hình thang màu vàng ở giữa màn hình.
+- Tạo một hình thang có cạnh đáy dài 80 pixel, cạnh đáy ngắn 40 pixel, chiều cao 50
+  pixel và phần dư 45 pixel.
+- Tạo một hình thang màu xám ở tọa độ (200, 250) với cạnh đáy dài 70 pixel, cạnh đáy
+  ngắn 30 pixel và chiều cao 40 pixel.
+- Vẽ một hình thang màu vàng nằm ở giữa màn hình.
+- Tạo một hình thang có cạnh đáy dài 80 pixel, cạnh đáy ngắn 40 pixel và chiều cao
+  50 pixel.
+- Vẽ hình thang màu xám ở góc trên bên trái có cạnh đáy dài 30 cm và cạnh đáy ngắn
+  15 cm.
+exit_select:
+- Hãy bỏ việc chọn đối với đối tượng hiện tại.
+- Không chọn đối tượng này nữa.
+- Hủy chọn đối với đối tượng vừa chọn.
+- Hủy chọn vùng chọn hiện tại.
+- Không chọn vùng chọn này nữa.
+- Hủy bỏ chọn các đối tượng đang nằm trong vùng chọn
+- Không chọn cái đó nữa
+- Bạn hãy bỏ thao tác chọn giúp tôi
+- Không chọn cái đó nữa nhé
+- Đừng chọn nữa
+- please , exit select
+- select exit
+- em yêu bỏ chọn giúp anh nhé
+- đừng lại không chọn nữa
+- bỏ chọn tất cả
+- tất cả bỏ thao tác chọn
+- không chọn gì cả
+- Bỏ chọn tất cả các hình tròn đang được chọn .
+- Hãy không chọn nữa đối với tất cả hình tam giác .
+- Tất cả hình vuông
+goodbye:
+- hẹn lần sau gặp lại
+- see ya
+- pai
+- paipai
+- bye
+greet:
+- chào bot
+- alo
+horizontal_flip:
+- Lật ngang vật thể hình chữ nhật ở giữa
+- Lật theo chiều ngang của vật thể hình ellipse.
+- Đảo chiều ngang của vật thể ở giữa màn hình.
+- Làm đảo chiều ngang tất cả vật thể tam giác màu đen ở tọa độ (40, 51)
+- Flip theo chiều ngang vật thể hình vuông tại tọa độ (50, 70)
+- Làm đảo chiều ngang vật thể tam giác ở vị trí (20, 30)
+- Lật ngược theo phương ngang của đối tượng hình oval.
+- Đảo chiều ngang của tất cả đối tượng hình tròn ở góc trái dưới.
+- Lật ngược theo phương ngang của đối tượng hình oval ở góc phải trên
+- Lật hình tam giác màu xanh lá cây có cạnh dài 100 pixel, độ dày đường viền 2 pixel,
+  nằm ở vị trí (50, 50) theo chiều ngang.
+- Lật hình tròn màu đỏ có bán kính 5 pixel, độ dày đường viền 1 pixel, nằm ở giữa
+  màn hình theo chiều ngang.
+- Lật hình vuông màu vàng có độ dài cạnh 8 pixel, độ dày đường viền 3 pixel, nằm bên
+  phải phần dưới màn hình theo chiều ngang.
+- Lật vật thể hình tam giác màu xanh dương, độ dài đáy 60 pixel và chiều cao 100 pixel,
+  ở giữa phía trên trang, không cần chỉ định đường viền.
+- Đảo ngược vị trí của hình tròn màu đỏ ở góc trái trên theo chiều ngang.
+- 'Hãy lật ngang hình chữ nhật màu đen{"entity": "object", "role": "color"}, kích
+  thước 20x30 pixel, ở phía dưới, độ dày đường viền 2 pixel.'
+- Lật hình tròn màu vàng nằm ở vị trí (200, 100), có đường kính 12 cm, độ dày đường
+  viền 5 px theo chiều ngang.
+move_down:
+- Kéo hình vật thể hình vuông ở vị trí (20, 14) xuống dưới 30 điểm ảnh
+- Làm di chuyển vật thể tam giác xuống dưới 20 cm
+- Dời đối tượng hình tròn xuống dưới 10 pixel
+- Di chuyển hình oval xuống dưới 15 đơn vị
+- Di chuyển hình oval màu xanh ở góc phải dưới xuống dưới 15 đơn vị
+- Điều chỉnh vị trí của hình ảnh vật thể hình ngôi sao màu xanh ở vị trí (80, 35)
+  xuống dưới khoảng 50 pixel
+- Di chuyển vật thể hình chữ nhật ở giữa màn hình xuống dưới 5 đơn vị
+- Hãy lấy hình tam giác màu đỏ ở góc trên bên phải và đưa nó xuống phía dưới 10 pixel,
+  giữ nguyên kích thước là 60x80 pixel và không cần chỉ định đường viền.
+- Hãy di chuyển hình tam giác màu vàng có độ dài cạnh bằng nhau là 8 cm và độ dày
+  đường viền 1 pixel xuống phía dưới theo giá trị mặc định.
+- Hãy di chuyển hình bình hành màu tím có độ dài đáy là 12 cm và chiều cao là 6 cm,
+  từ vị trí (90, 90) xuống 25 pixel.
+- Di chuyển hình vuông màu vàng ở giữa phía dưới trang xuống phía dưới 20 pixel.
+- Hãy di chuyển hình chữ nhật màu đen ở giữa trang xuống phía dưới 10 pixel, với chiều
+  dài 40 pixel và chiều rộng 30 pixel, độ dày đường viền là 1 pixel.
+- Dịch xuống dưới vật thể tam giác màu xám 20 cm
+- Di chuyển hình tròn màu đỏ có đường kính 10 cm, độ dày đường viền 2 px, nằm ở vị
+  trí (100, 200) trên bản vẽ xuống phía dưới 20 pixel.
+- Di chuyển hình bình hành màu cam nằm ở góc dưới bên trái của bản vẽ xuống phía dưới
+  10 pixel, có độ dài cạnh lớn là 7 cm, chiều cao là 4 cm.
+move_left:
+- Điều chỉnh vị trí sang trái của vật thể hình ngôi sao màu hồng ở vị trí (40, 50)
+  khoảng 50 pixel
+- Điều chỉnh vị trí của vật thể hình tròn ở vị trí chính giữa màn hình sang trái khoảng
+  50 pixel
+- Di chuyển vật thể hình oval màu đỏ về bên trái 15 đơn vị
+- Dời đối tượng hình tròn ở góc trái dưới qua bên trái 10 pixel
+- Làm di chuyển vật thể tam giác ở vị trí (20, 30) sang trái 20 cm
+- Dịch vật thể tam giác màu xanh lá cây ở vị trí góc phải trên màn hình sang trái
+  20 cm
+- Di chuyển vật thể hình oval ở góc trái trên về bên trái 15 đơn vị
+- Hãy di chuyển hình thoi màu đen ở giữa trang sang bên trái 20 pixel, với đường chéo
+  phụ 40 pixel và đường chéo chính 30 pixel, độ dày đường viền là 1 pixel.
+- Di chuyển hình tam giác màu xanh dương ở góc trên bên phải sang bên trái 15 pixel,
+  giữ nguyên độ dài đáy là 60 pixel và không cần chỉ định đường viền.
+- Lấy hình chữ nhật màu vàng ở giữa phía trên trang, di chuyển nó sang bên trái, không
+  cần chỉ định kích thước, và giữ nguyên độ dày đường viền là 2 pixel.
+- Trợ lý ơi, hãy đưa hình tròn màu cam ở góc phải dưới sang bên trái 30 pixel, với
+  ` là 3 pixel, kích thước không quan trọng.
+- Di chuyển hình vuông màu đỏ ở góc trái trên sang bên trái 18 pixel, giữ nguyên màu
+  sắc và độ dày đường viền là 5 pixel, không cần chỉ định kích thước.
+- Tôi muốn di chuyển hình tam giác màu vàng có độ dài cạnh đáy là 8 cm, chiều cao
+  là 6 cm, nằm ở giữa bản vẽ sang bên trái 15 pixel.
+- Di chuyển hình chữ nhật màu tím nằm ở vị trí (50, 100), có kích thước 12 cm x 8
+  cm, độ dày đường viền 4 px sang bên trái
+move_right:
+- Di chuyển hình chữ nhật ở giữa về bên phải 5 đơn vị
+- Di chuyển ảnh vật thể hình oval ở góc trái trên về bên phải 15 đơn vị
+- Kéo hình thoi màu xám về bên phải 5 đơn vị
+- Điều chỉnh vị trí sang phải của hình ảnh vật thể hình ngôi sao ở giữa khoảng 50
+  pixel
+- Di chuyển ảnh vật thể hình oval màu hồng ở góc trái trên về bên phải 15 đơn vị
+- Điều chỉnh vị trí sang phải của hình ảnh vật thể hình ngôi sao màu đen ở vị trí
+  (60, 40) khoảng 50 pixel
+- Dịch hình tròn màu hồng qua bên phải 10 pixel
+- Kéo vật thể hình vuông tại tọa độ (50, 70) qua bên phải 30 điểm ảnh
+- Di chuyển hình tròn màu đỏ có bán kính 5 pixel, độ dày đường viền 1 pixel, nằm ở
+  giữa màn hình sang bên phải 15 pixel.
+- Di chuyển hình vuông màu hồng ở góc trên bên phải sang bên phải 5 pixel, giữ nguyên
+  kích thước của cạnh là 50 pixel và không cần chỉ định đường viền.
+- Lấy hình chữ nhật màu xanh lá cây ở giữa phía trên trang, di chuyển nó sang bên
+  phải 20 pixel, không cần chỉ định kích thước, và giữ nguyên độ dày đường viền là
+  2 pixel.
+- Di chuyển hình tam giác màu vàng có độ dài cạnh 8 pixel, độ dày đường viền 3 pixel,
+  nằm bên phải phần trên màn hình sang bên phải 10 pixel.
+- Di chuyển hình thoi màu tím ở góc trái trên sang bên phải, giữ nguyên màu sắc và
+  độ dày đường viền là 2 pixel, không cần chỉ định kích thước.
+- Hãy di chuyển hình vuông màu xanh lá cây có cạnh 5 cm, độ dày đường viền 1 px, nằm
+  ở góc trên bên phải của bản vẽ sang bên phải 10 pixel.
+- Tôi muốn di chuyển hình tam giác màu vàng có độ dài cạnh đáy là 8 cm, chiều cao
+  là 6 cm, độ dày đường viền 3 px, nằm ở giữa bản vẽ sang bên phải 15 pixel.
+move_up:
+- Di chuyển hình vật thể hình chữ nhật ở giữa lên trên 5 đơn vị
+- Điều chỉnh vị trí lên trên của hình ngôi sao màu đỏ ở vị trí (30, 15) khoảng 50
+  pixel
+- Move hình ảnh vật thể hình vuông lên trên 30 điểm ảnh
+- Di chuyển ảnh vật thể hình oval màu tím ở vị trí chính giữa màn hình lên trên 15
+  đơn vị
+- Di chuyển ảnh vật thể hình oval lên trên 15 đơn vị
+- Điều chỉnh của hình chữ nhật màu xám lên trên khoảng 50 pixel
+- Dời hình tròn ở góc trái dưới lên trên 10 pixel
+- Di chuyển hình vuông màu xanh lá cây có kích thước 10x10 pixel, độ dày đường viền
+  2 pixel, nằm ở vị trí (50, 50) lên phía trên 20 pixel.
+- Di chuyển hình tròn màu đỏ có bán kính 5 pixel, độ dày đường viền 1 pixel, nằm ở
+  giữa màn hình lên phía trên 15 pixel.
+- Hãy di chuyển hình vuông màu vàng ở giữa phía trên trang lên phía trên 20 pixel,
+  không cần chỉ định kích thước, và giữ nguyên độ dày đường viền là 2 pixel.
+- Di chuyển hình chữ nhật màu tím lên phía trên.
+- Trợ lý ơi, đưa hình tròn màu xanh lá cây ở góc trái dưới lên trên 15 pixel, với
+  độ dày đường viền là 3 pixel, kích thước không quan trọng
+- Tôi muốn di chuyển hình tam giác màu vàng có độ dài cạnh đáy là 8 cm, chiều cao
+  là 6 cm, nằm ở giữa bản vẽ lên phía trên 15 pixel.
+- Di chuyển hình bình hành màu cam nằm ở góc dưới bên trái của bản vẽ lên phía trên
+  10 pixel, có độ dài đáy là 7 cm, chiều cao là 4 cm lên trên.
+paste:
+- dán
+- paste
+- in những cái đã copy
+- hãy dán hình đã cắt vào bên phải trên màn hình
+- oke dán vào bên dưới
+- in vào (23, 54
+- dán lên bên trên
+- chắc bạn dán vào trung tâm
+- oke bạn dán vào bên phải
+- Bên phải trên
+- Oke , dán vào bên dưới
+- In vào ( 23 , 54
+- Dán lên bên trên
+- Chắc bạn dán vào trung tâm
+- Oke , bạn dán vào bên phải
+- Dán vào góc trái trên
+- Dán lên bên dưới cùng
+- Dán vào điểm ( 400 , 300
+- Dán vào giữa trái
+- Dán vào góc phải dưới
+redo:
+- làm lại bước mới nhất
+- làm lại hành động vừa xong đi
+- không cần undo nữa, vẫn làm động tác như lúc nãy
+- bạn ctrl + Y cho tôi nhé
+- Tiếp tục hành động vừa undo .
+- Làm lại bước mới nhất đi .
+- Không cần undo nữa , vẫn làm động tác như lúc nãy .
+- Bạn ctrl + Y cho tôi nhé .
+- Hãy redo lại hành động đã undo trước đó .
+- Làm lại bước cuối cùng vừa được undo .
+- Quay lại trạng thái trước khi thực hiện hành động undo .
+- Đừng undo nữa , hãy tiếp tục hành động .
+- Ctrl + Y để redo hành động cuối cùng .
+- Làm lại thao tác vừa xong đi .
+- Ồ , đừng undo mà quay lại trạng thái đã thực hiện .
+- Tiếp tục hành động vừa undo trước đó .
+- Ctrl + Y để làm lại bước cuối cùng .
+- Không cần undo nữa , vẫn tiếp tục thực hiện các thao tác như bình thường .
+- Quay lại trạng thái trước khi undo .
+- Làm lại hành động vừa xong đi .
+rotate_left:
+- xoay hình chữ nhật ở vị trí (40, 50) sang trái
+- Điều chỉnh xoay hình ngôi sao tại vị trí (100, 150) sang trái 180 độ.
+- Làm xoay hình tam giác ở vị trí (20, 30) qua phía trái
+- Quay trái hình vuông tại tọa độ (50, 70).
+- Quay hình oval ở góc trái dưới về bên trái đi một góc 90 độ.
+- xoay hình chữ nhật màu hồng sang trái
+- xoay hình vuông sang trái.
+- xoay hình chữ nhật sang trái khoảng 13 độ.
+- xoay tất cả các hình vuông có màu đen sang trái khoảng 45 độ.
+- Xoay hình chữ nhật ở góc trái trên về bên trái
+- xoay trái hình chữ nhật khoảng 45 độ
+- Quay hình thoi ở góc trái dưới về bên trái đi một góc 90 độ.
+- Điều chỉnh xoay hình chữ nhật tại vị trí (100, 150) sang trái 180 độ.
+- xoay sang trái.
+- xoay trái hình tam giác màu đỏ ở góc trên bên phải.
+- xoay hình vuông ở vị trí (102, 125) sang trái.
+- Nghiêng hình chữ nhật có chiều dài cạnh 15 cm sang bên trái khoảng 45 độ.
+- Nghiêng trái hình bình hành có chiều cao 200 pixel và chiều dài đáy 200 pixel.
+rotate_right:
+- Làm xoay vật thể tam giác ở vị trí (20, 30) qua phía phải
+- Quay phải đối tượng hình vuông tại tọa độ (50, 70)
+- Xoay vật thể hình chữ nhật ở góc trái trên về bên phải
+- Điều chỉnh xoay vật thể hình ngôi sao tại vị trí (100, 150) sang phải 270 độ
+- xoay hình vuông màu đen ở vị trí chính giữa màn hình sang phải
+- xoay hình vuông ở vị trí (20, 30) sang phải 45 độ
+- xoay hình chữ nhật sang phải
+- xoay hình vuông ở vị trí góc trên bên phải sang phải
+- Quay vật thể hình oval ở góc trái dưới về bên phải một góc 45 độ
+- xoay tất cả hình vuông màu đen ở vị trí góc trên bên phải sang phải
+- xoay hình vuông ở vị trí chính giữa màn hình sang phải
+- xoay phải hình vuông màu đen
+- xoay hình vuông sang phải
+- xoay hình vuông màu vàng ở vị trí chính giữa màn hình sang phải
+- Xoay vật thể hình chữ nhật ở góc trái trên về bên phải
+- Quay đối tượng hình tròn ở giữa sang phải
+- Làm xoay vật thể hình vuông ở vị trí (20, 30) qua phía phải
+- Quay phải đối tượng hình chữ nhật tại tọa độ (87, 142)
+- Quay vật thể hình trái tim ở giữa phía dưới về bên phải một góc 60 độ
+- Nghiêng hình thoi có kích thước 100x150 sang bên phải.
+- Nghiêng hình ellipse có bán trục lớn 150 pixel và bán trục bé 50 pixel ở vị trí
+  góc phải dưới sang bên phải khoảng 45 độ.
+select_all_object:
+- Chọn tất cả các đối tượng có trong màn hình.
+- Chọn tất cả các đối tượng đang xuất hiện.
+- Bạn ơi, hãy lưu thông tin của tất cả các đối tượng có trên màn hình giúp mình với.
+- bạn hãy chọn tất cả cho tôi nhé
+- oke hãy chọn tất cả
+- select all
+- hãy chọn tất cả những gì có trên màn hình
+- please , select all objects
+- bạn có thể chọn giúp tôi tất cả các đối tượng được không ?
+- tôi cần chọn tất cả trên màn
+- được rồi chọn giúp tôi tất cả đối tượng nhé
+- Chọn tất cả các đối tượng trên màn hình .
+- Bạn có thể chọn giúp tôi tất cả các đối tượng được không ?
+- Hãy chọn tất cả cho tôi nhé .
+- Oke , hãy chọn tất cả .
+- Please , select all objects .
+- Tôi cần chọn tất cả trên màn .
+- Được rồi , chọn giúp tôi tất cả đối tượng nhé .
+- Bạn hãy chọn tất cả cho tôi nhé .
+- Hãy chọn tất cả những gì có trên màn hình .
+select_area:
+- Chọn vùng chứa vật thể tại tọa độ (12, 54) và kích thước chiều dài là 50 cm và chiều
+  rộng là 30 cm.
+- Xác định vùng chọn kích thước ấn định bởi 2 tọa độ (23, 67) và (142, 535).
+- Tạo vùng chọn vuông tại điểm (12, 43) với chiều dài cạnh 35 cm.
+- 'Chọn khu vực chứa đối tượng kích thước 200x150 tại vị trí (50, 12).    '
+- Xác định khu vực bắt đầu từ chính giữa màn hình và kết thúc ở góc dưới bên trái.
+- Chọn vùng từ tọa độ (12, 25) đến (236, 311).
+- Chọn vùng bắt đầu từ tọa độ (234, 435) và kết thúc ở góc dưới bên phải màn hình.
+- Tạo vùng chọn với điểm xuất phát (56, 87) và có kích thước chiều dài 200 pixel và
+  chiều rộng 150 pixel.
+select_object:
+- Chọn hình tròn màu đỏ có màu hồng ở góc trên bên trái màn hình .
+- Chọn hình vuông lớn có kích thước cạnh 150 pixel ở phía bên phải trên màn hình.
+- Chọn đối tượng hình ngôi sao ở vị trí giữa bên phải màn hình.
+- Nhấp vào tam giác màu xanh nằm ở tọa độ (231, 714).
+- Làm sáng hình bình hành có độ dài đáy 160 pixel và chiều cao 320 pixel ở giữa phía
+  trên màn hình.
+- Chọn hình chữ nhật màu tím ở hoành độ x = 132 và tung độ y = 154 ở trên màn hình.
+- Chọn đối tượng hình trái tim ở vị trí trên cùng bên trái màn hình.
+- Làm sáng hình tam giác màu xanh ở trên cùng bên phải.
+- Làm sáng hình chữ nhật ở chính giữa màn hình.
+- Chọn hình tròn màu đỏ ở góc trên bên trái.
+- Chọn hình vuông lớn ở phía bên phải trên.
+- Lưu thông tin về hình tròn có bán kính 150 pixel nằm ở vị trí (50, 40)
+- Chọn đối tượng hình thoi màu tím nằm ở tọa độ (15, 58)
+- Chọn hình tam giác có kích thước 50x50 ở vị trí ( 100 , 100
+- Chọn hình chữ nhật màu xanh lá cây ở góc phải dưới
+- Chọn hình vuông có viền đen ở giữa
+- Chọn hình ê-líp màu vàng ở góc trên cùng bên phải
+- Chọn đường thẳng màu xanh dương từ ( 50 , 50 ) đến ( 150 , 150
+- Chọn hình thang màu cam ở giữa
+- Chọn hình thoi màu hồng ở vị trí ( 200 , 200
+stop:
+- dừng thực hiện tác vụ tại đây
+- không làm nữa
+- dừng lại
+- tôi không muốn làm cái này nữa
+- stop
+undo:
+- quay lại bước trước
+- trở về trạng thái trước
+- undo
+- quay trở về lúc nãy
+- undo lại cho tôi
+- trợ lý ơi trạng thái trước đó ấy, quay lại cho tôi nhé
+- trở về bước vừa xong
+- từ từ undo lại đi đã
+- ôi không tôi cần quay lại bước lúc nãy
+- Quay lại bước trước
+- Trở về trạng thái trước
+- Undo
+- Quay trở về lúc nãy
+- Undo lại cho tôi
+- Trợ lý ơi , trạng thái trước đó ấy , quay lại cho tôi nhé
+- Trở về bước vừa xong
+- Từ từ undo lại đi đã
+- Ôi không , tôi cần quay lại bước lúc nãy
+- Đã xong , trở về trạng thái trước đó
+- Undo tất cả những gì đã làm
+vertical_flip:
+- Lật lên trên đối tượng hình oval ở góc trái dưới
+- Flip xuống dưới vật thể hình vuông tại tọa độ (50, 70)
+- Đảo chiều dọc của đối tượng hình tròn ở giữa
+- Đảo theo chiều dọc hình ngôi sao màu tím ở tọa độ (40, 0)
+- Làm đảo theo chiều dọc vật thể hình ellipse màu xanh dương ở vị trí (20, 30)
+- Lật dọc
+- Lật dọc hình chữ nhật ở góc phải trên
+- Làm đảo chiều dọc vật thể tam giác ở vị trí (20, 30)
+- Lật dọc đối tượng hình thang màu đỏ ở góc trái dưới màn hình
+- Lật vật thể hình vuông màu xanh lá cây, có kích thước 100x100 pixel], ở vị trí (200,
+  300) và có độ dày đường viền là 5 pixel theo chiều dọc.
+- Lật vật thể hình tròn màu đỏ, ở bên phải màn hình và có độ dày đường viền là 3 pixel
+  theo chiều dọc.
+- Lật vật thể hình tam giác màu vàng, có kích thước 150x200 pixel và ở giữa màn hình
+  theo chiều dọc.
+- Lật vật thể hình chữ nhật màu tím, có độ dày đường viền là 2 pixel, ở vị trí (100,
+  200) và có chiều dài 200 pixel và chiều rộng 100 pixel theo chiều dọc.
+- Lật vật thể hình sao màu cam, ở bên trái màn hình và có kích thước 100x100 pixel
+  theo chiều dọc.
+- Lật dọc hình chữ nhật màu đen ở giữa trang.
+- Lật theo chiều dọc hình thang màu tím nằm ở vị trí (50, 100), có kích thước 12 cm
+  x 8 cm, độ dày đường viền 4 px.

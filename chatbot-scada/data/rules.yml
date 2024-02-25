@@ -1,0 +1,281 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say greet anytime the user says greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+# loop process for rotate-left task
+# - rule: Activate rotate left form
+#   condition:
+#     - active_loop: null
+#   steps:
+#   - intent: rotate_left
+#   - action: rotate_left_form
+#   - active_loop: rotate_left_form
+
+# - rule: Submit rotate left form
+#   condition:
+#     - active_loop: rotate_left_form
+#   steps:
+#     - action: rotate_left_form
+#     - active_loop: null
+#     - slot_was_set:
+#       - requested_slot: null
+#     - action: action_rotate_left
+  
+# - rule: Interruption in rotate left form
+#   condition:
+#   - active_loop: rotate_left_form
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
+#   - action: rotate_left_form
+#   - active_loop: rotate_left_form
+
+# loop process for rotate-right task
+# - rule: Activate rotate right form
+#   condition: 
+#     - active_loop: null
+#   steps:
+#   - intent: rotate_right
+#   - action: rotate_right_form
+#   - active_loop: rotate_right_form
+
+# - rule: Submit rotate right form
+#   condition:
+#     - active_loop: rotate_right_form
+#   steps:
+#     - action: rotate_right_form
+#     - active_loop: null
+#     - slot_was_set:
+#       - requested_slot: null
+#     - action: action_rotate_right
+
+- rule: rotate left
+  steps:
+  - intent: rotate_left
+  - action: action_rotate_left
+
+- rule: rotate right
+  steps:
+  - intent: rotate_right
+  - action: action_rotate_right
+
+- rule: horizontal flip
+  steps:
+  - intent: horizontal_flip
+  - action: action_horizontal_flip
+
+- rule: vertical flip
+  steps:
+  - intent: vertical_flip
+  - action: action_vertical_flip
+
+- rule: move down
+  steps:
+  - intent: move_down
+  - action: action_move_down
+
+- rule: move left
+  steps:
+  - intent: move_left
+  - action: action_move_left
+
+- rule: move right
+  steps:
+  - intent: move_right
+  - action: action_move_right
+
+- rule: move up
+  steps:
+  - intent: move_up
+  - action: action_move_up
+
+- rule: select object
+  steps:
+  - intent: select_object
+  - action: action_select_object
+
+- rule: select area
+  steps:
+  - intent: select_area
+  - action: action_select_area
+
+- rule: select all object
+  steps:
+  - intent: select_all_object
+  - action: action_select_all_object
+
+- rule: change top
+  steps:
+  - intent: change_top
+  - action: action_change_top
+  
+- rule: change left
+  steps:
+  - intent: change_left
+  - action: action_change_left
+  
+- rule: change right
+  steps:
+  - intent: change_right
+  - action: action_change_right
+
+- rule: change bottom
+  steps:
+  - intent: change_bottom
+  - action: action_change_bottom
+
+- rule: draw arrow
+  steps:
+  - intent: draw_arrow
+  - action: action_draw_arrow
+
+- rule: copy selected objects
+  steps:
+  - intent: copy_selected_objects
+  - action: action_copy_selected_objects
+
+- rule: cut selected objects
+  steps:
+  - intent: cut_selected_objects
+  - action: action_cut_selected_objects
+
+- rule: exit select
+  steps:
+  - intent: exit_select
+  - action: action_exit_select
+
+- rule: delete selected objects
+  steps:
+  - intent: delete_selected_objects
+  - action: action_delete_selected_objects
+
+- rule: color background
+  steps:
+  - intent: color_background
+  - action: action_color_background
+
+- rule: color foreground
+  steps:
+  - intent: color_foreground
+  - action: action_color_foreground
+
+
+- rule: change width
+  steps:
+  - intent: change_width
+  - action: action_change_width
+
+- rule: change height
+  steps:
+  - intent: change_height
+  - action: action_change_height
+
+- rule: change length
+  steps:
+  - intent: change_length
+  - action: action_change_length
+
+- rule: change radius
+  steps:
+  - intent: change_radius
+  - action: action_change_radius
+
+- rule: draw circle
+  steps:
+  - intent: draw_circle
+  - action: action_draw_circle
+
+- rule: draw ellipse
+  steps:
+  - intent: draw_ellipse
+  - action: action_draw_ellipse
+
+- rule: draw rectangle
+  steps:
+  - intent: draw_rectangle
+  - action: action_draw_rectangle
+
+- rule: draw square
+  steps:
+  - intent: draw_square
+  - action: action_draw_square
+
+- rule: draw rhombus
+  steps:
+  - intent: draw_rhombus
+  - action: action_draw_rhombus
+
+- rule: draw parallelogram
+  steps:
+  - intent: draw_parallelogram
+  - action: action_draw_parallelogram
+
+- rule: draw trapezoid
+  steps:
+  - intent: draw_trapezoid
+  - action: action_draw_trapezoid
+
+- rule: draw line
+  steps:
+  - intent: draw_line
+  - action: action_draw_line
+
+- rule: paste 
+  steps:
+  - intent: paste
+  - action: action_paste  
+
+# - rule: Activate select object form
+#   condition: 
+#     - active_loop: null
+#   steps:
+#   - intent: select_object
+#   - action: select_object_form
+#   - active_loop: select_object_form
+
+# - rule: Submit select object form
+#   condition:
+#     - active_loop: select_object_form
+#   steps:
+#     - action: select_object_form
+#     - active_loop: null
+#     - slot_was_set:
+#       - requested_slot: null
+#     - action: action_select_object
+    
+# - rule: Interruption in rotate right form
+#   condition:
+#   - active_loop: rotate_right_form
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
+#   - action: rotate_right_form
+#   - active_loop: rotate_right_form
+
+# - rule: action_change_height_story
+#   -steps:
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: change_length
+#   - action: action_change_height
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase

@@ -1,0 +1,11 @@
+<i> Di chuyển hình chữ nhật màu đen , kích thước 50x60 pixel , từ vị trí hiện tại đến vị trí mới tại ( 200 , 300 ) để góc dưới trùng với vị trí đích .
+<i> Hãy di chuyển hình tròn đỏ , bán kính 40 pixel , từ vị trí góc dưới là ( 150 , 200 ) đến vị trí mới tại ( 100 , 150 ) - sự điều chỉnh tinh tế từ góc dưới .
+<i> Thực hiện hành động di chuyển cho hình vuông màu vàng , kích thước 25 pixel , đến vị trí góc dưới là ( 400 , 100 ) để tạo nên sự hoàn hảo .
+<i> Dịch chuyển hình vuông màu xanh lá cây , với kích thước 15 pixel , đến vị trí góc dưới là ( 300 , 250 ) - hãy duy trì sự thẩm mỹ ở góc dưới !
+<i> Hãy đưa hình tròn màu hồng , có bán kính 30 pixel , từ vị trí góc dưới là ( 80 , 120 ) đến nơi mới ở ( 200 , 300 ) với sự chính xác từ góc dưới .
+<i> Vui lòng di chuyển chiếc vòng tròn đỏ , có đường viền đậm , đường kính 30 pixel , từ vị trí góc dưới ( 50 , 60 ) đến vị trí mới tại ( 200 , 300 ) - điều chỉnh từ góc dưới một cách tinh tế .
+<i> Chuyển động hình tam giác màu xanh dương , với kích thước 20x20 cm , đến vị trí góc dưới mới là ( 50 , 80 ) - sự điều chỉnh tinh tế từ góc dưới !
+<i> Hãy dịch chuyển hình bình hành màu cam , kích thước 30x40 pixel , từ vị trí góc dưới là ( 200 , 150 ) đến điểm đến mới tại ( 300 , 250 ) để đạt được sự cân bằng hoàn hảo .
+<i> Thực hiện hành động dịch chuyển cho hình vuông màu tím , kích thước 25 pixel , đến vị trí góc dưới là ( 180 , 120 ) để tạo nên sự hoàn hảo .
+<i> Di chuyển hình tam giác màu đen , cạnh 35 pixel , đến vị trí góc dưới là ( 120 , 200 ) sao cho góc dưới trùng với vị trí đích .
+<i> Hãy di chuyển hình tròn màu xanh lá cây , bán kính 25 pixel , từ vị trí góc dưới là ( 200 , 100 ) đến vị trí mới tại ( 150 , 250 ) - sự điều chỉnh từ góc dưới một cách tinh tế .

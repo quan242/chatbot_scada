@@ -1,0 +1,11 @@
+<i> Hãy đưa hình tròn màu hồng , bán kính 30 pixel , đến vị trí có toạ độ góc phải là ( 80 , 120 ) .
+<i> Di chuyển hình bình hành màu tím , kích thước 20x30 pixel , từ vị trí hiện tại ở trên cùng bên trái đến vị trí mới tại ( 250 , 100 ) để góc phải trùng với vị trí đích .
+<i> Chuyển hình tam giác màu đỏ , cạnh 25 pixel , đến vị trí có toạ độ góc phải là ( 150 , 180 ) .
+<i> Thực hiện di chuyển hình vuông màu xanh lá cây , kích thước 15 pixel , đến vị trí góc phải ( 100 , 200 ) .
+<i> Di chuyển hình thoi màu cam , cạnh lớn 35 pixel và cạnh nhỏ 20 pixel , từ vị trí hiện tại ở góc phải trên đến vị trí mới tại ( 200 , 300 ) .
+<i> Hãy đưa hình vuông màu vàng , kích thước 25 pixel , đến vị trí có toạ độ góc phải là ( 150 , 250 ) .
+<i> Di chuyển hình chữ nhật màu đen , kích thước 50x60 pixel , từ vị trí hiện tại ở góc phải trên đến vị trí mới tại ( 200 , 300 ) .
+<i> Hãy đưa hình tròn đỏ , bán kính 40 pixel , đến vị trí có toạ độ góc phải là ( 150 , 200 ) .
+<i> Thực hiện di chuyển hình vuông màu vàng , kích thước 25 pixel , từ vị trí hiện tại ở trên cùng bên phải đến vị trí mới tại ( 400 , 100 ) để góc phải trùng với vị trí đích .
+<i> Di chuyển hình tam giác màu xanh lá cây , cạnh 30 pixel , đến vị trí có toạ độ góc phải là ( 300 , 250 ) sao cho góc phải trùng với vị trí đích .
+<i> Vui lòng đưa hình bình hành màu hồng , có chiều dài 70 pixel và chiều rộng 40 pixel , đến vị trí góc phải ( 100 , 150 ) .

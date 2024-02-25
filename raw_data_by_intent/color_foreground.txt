@@ -1,0 +1,10 @@
+<i> Xin vui lòng tô màu viền của đối tượng hình tròn thành màu xanh dương nhẹ nhàng .
+<i> Hãy thực hiện đổ màu viền vàng cho hình vuông đang được chọn với sự cẩn thận và chăm sóc .
+<i> Xin hãy tô màu viền đối tượng hình thoi thành màu cam để tạo ra một sự tươi mới và sôi động .
+<i> Thưa ngài , vui lòng thực hiện tô màu viền đối tượng hình chữ nhật thành màu hồng để tạo hiệu ứng nữ tính .
+<i> Hãy đổ màu viền xanh lá cho hình tam giác nằm giữa hai hình tròn với sự tỉ mỉ và kiên nhẫn .
+<i> Kính mong quý vị tô màu viền đối tượng hình ngôi sao thành màu tím nhạt với sự nhẹ nhàng và tôn trọng .
+<i> Xin hãy thực hiện tô màu viền của đối tượng hình bát giác thành màu đen để tạo ra một sự tương phản .
+<i> Hãy đổ màu viền đỏ cho hình bình hành đang chọn với sự cẩn thận và chính xác .
+<i> Thưa ngài , vui lòng tô màu viền đối tượng hình nón thành màu vàng để tạo hiệu ứng lấp lánh .
+<i> Xin hãy thực hiện đổ màu viền vàng cho hình học đang được chọn với sự nhẹ nhàng và chăm sóc .

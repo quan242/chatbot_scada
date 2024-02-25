@@ -1,0 +1,618 @@
+version: '3.1'
+intents:
+- greet
+- stop
+- affirm
+- deny
+- goodbye
+- bot_challenge
+- select_all_object
+- exit_select
+- delete_selected_objects
+- select_area
+- rotate_left
+- rotate_right
+- horizontal_flip
+- vertical_flip
+- move_left
+- move_right
+- move_up
+- move_down
+- color_background
+- color_foreground
+- change_width
+- change_height
+- change_length
+- change_radius
+- change_top
+- change_left
+- change_right
+- change_bottom
+- draw_line
+- draw_circle
+- draw_ellipse
+- draw_rectangle
+- draw_square
+- draw_rhombus
+- draw_parallelogram
+- draw_trapezoid
+- draw_arrow
+- copy_selected_objects
+- cut_selected_objects
+- paste
+- undo
+- redo
+- select_object
+
+responses:
+  utter_greet:
+  - text: Xin chào. Tớ có thể giúp được gì cho bạn ?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: Tớ là một con bot.
+  utter_ask_continue:
+  - text: Bạn có chắc chắn việc dừng tại đây ?
+  utter_ask_object_shape:
+  - text: Hãy cho biết hình dạng của vật thể.
+  utter_ask_position_source:
+  - text: Hãy cho biết vị trí của vật thể.
+  utter_ask_object_color:
+  - text: Hãy cho biết màu sắc của vật thể.
+  utter_ask_value_angle:
+  - text: Bạn muốn xoay vật thể này bao nhiêu độ ?
+  utter_please_rephrase:
+  - text: Xin lỗi bạn, yêu cầu này nằm ngoài khả năng đáp ứng của tớ. Tớ sẽ chuyển yêu cầu này cho bộ phận kĩ thuật xử lý.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+entities:
+
+  - object:
+      roles:
+      - shape
+      - height
+      - width
+      - length
+      - thickness
+      - color
+      - angle
+      - orientation
+      - size
+
+  - value:
+      roles:
+      - color
+      - change
+      - move
+      - angle
+
+  - position:
+      roles:
+      - source_x
+      - source_y
+      - source
+      - destination_x
+      - destination_y
+      - destination
+      - center_x
+      - center_y
+      - center
+    
+  - selected_area:
+      roles:
+      - height
+      - width
+      - length
+  
+  - change_action
+
+  - comparison
+  - aspect
+
+slots:
+  object_shape:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: object
+      role: shape
+    - type: from_entity
+      intent: nlu_fallback
+      entity: object
+      role: shape
+    - type: from_entity
+      intent: nlu_fallback
+      entity: value
+      role: shape
+    #   conditions:
+    #   - active_loop: rotate_left_form
+    #     requested_slot: object_shape
+    #   - active_loop: rotate_right_form
+    #     requested_slot: object_shape
+    #   - active_loop: select_object_form
+    #     requested_slot: object_shape
+    # - type: from_entity
+    #   intent: nlu_fallback
+    #   entity: value
+    #   role: shape
+    #   conditions:
+    #   - active_loop: rotate_left_form
+    #     requested_slot: object_shape
+    #   - active_loop: rotate_right_form
+    #     requested_slot: object_shape
+    #   - active_loop: select_object_form
+    #     requested_slot: object_shape
+      
+  object_width:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: object
+      role: width
+
+  object_height:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: object
+      role: height
+  
+  object_length:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: object
+      role: length
+
+  object_color:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: object
+      role: color
+    - type: from_entity
+      entity: value
+      role: color
+      not_intent: color_background
+    - type: from_entity
+      entity: value
+      role: color
+      not_intent: color_foreground
+    # - type: from_entity
+    #   intent: nlu_fallback
+    #   entity: object
+    #   role: color
+    #   conditions:
+    #   - active_loop: rotate_left_form
+    #     requested_slot: object_color
+    #   - active_loop: rotate_right_form
+    #     requested_slot: object_color
+    #   - active_loop: select_object_form
+    #     requested_slot: object_shape
+    # - type: from_entity
+    #   intent: nlu_fallback
+    #   entity: value
+    #   role: color
+    #   conditions:
+    #   - active_loop: rotate_left_form
+    #     requested_slot: object_color
+    #   - active_loop: rotate_right_form
+    #     requested_slot: object_color
+    #   - active_loop: select_object_form
+    #     requested_slot: object_color
+
+  object_orientation:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: object
+      role: orientation
+  
+  object_thickness:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: object
+      role: thickness
+  
+  object_angle:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: object
+      role: angle
+    - type: from_entity
+      not_intent: rotate_left
+      entity: value
+      role: angle
+    - type: from_entity
+      not_intent: rotate_right
+      entity: value
+      role: angle
+
+  # object_destination_x:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: object
+  #     role: destination_x
+  
+  # object_destination_y:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: object
+  #     role: destination_y
+
+  position_source_x:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: position
+      role: source_x
+
+  position_source_y:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: position
+      role: source_y
+
+  position_source:
+    type: text
+    mappings:
+    - type: custom
+    # - type: from_entity
+    #   entity: position
+    #   role: source   
+    # - type: from_entity
+    #   intent: nlu_fallback
+    #   entity: position
+    #   conditions:
+    #   - active_loop: rotate_left_form
+    #     requested_slot: position_source
+    #   - active_loop: rotate_right_form
+    #     requested_slot: position_source
+    #   - active_loop: select_object_form
+    #     requested_slot: position_source
+    # - type: custom
+      # action: action_set_position_source
+    
+  position_destination_x:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: position
+      role: destination_x
+
+  position_destination_y:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: position
+      role: destination_y
+
+  position_destination:
+    type: text
+    mappings:
+    - type: custom
+    # - type: from_entity
+    #   entity: position
+    #   role: destination
+
+  position_center_x:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: position
+      role: center_x
+
+  position_center_y:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: position
+      role: center_y
+
+  position_center:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: position
+      role: center
+
+  object_destination:
+    type: text
+    mappings:
+    - type: custom
+      
+  object_size:
+    type: any
+    mappings:
+    - type: custom
+    # - type: from_entity
+    #   entity: object
+    #   role: size
+
+  # value_shape:
+    # type: text
+    # mappings:
+    # - type: from_entity
+    #   entity: value
+    #   role: shape
+    # - type: from_entity
+    #   intent: nlu_fallback
+    #   entity: object
+    #   role: shape
+    # - type: from_entity
+    #   intent: nlu_fallback
+    #   entity: value
+    #   role: shape
+
+  value_angle:
+    type: text
+    mappings:
+    - type: from_entity
+      intent: rotate_left
+      entity: value
+      role: angle
+    - type: from_entity
+      intent: rotate_right
+      entity: value
+      role: angle
+  
+  # value_height:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: value
+  #     role: height
+
+  # value_width:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: value
+  #     role: width
+  
+  # value_length:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: value
+  #     role: length
+
+  value_color:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: value
+      role: color
+      intent: color_foreground
+    - type: from_entity
+      entity: value
+      role: color
+      intent: color_background
+
+  # value_orientation:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: value
+  #     role: orientation
+
+  # value_thickness:
+    # type: text
+    # mappings:
+    # - type: from_entity
+    #   entity: value
+    #   role: thickness
+  
+  # value_size:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: value
+  #     role: size
+
+  value_change:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: value
+      role: change
+      intent: change_height
+    - type: from_entity
+      entity: value
+      role: change
+      intent: change_length
+    - type: from_entity
+      entity: value
+      role: change
+      intent: change_width
+    - type: from_entity
+      entity: value
+      role: change
+      intent: change_radius      
+
+  value_move:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: value
+      role: move
+      intent: move_up
+    - type: from_entity
+      entity: value
+      role: move
+      intent: move_left
+    - type: from_entity
+      entity: value
+      role: move
+      intent: move_right
+    - type: from_entity
+      entity: value
+      role: move
+      intent: move_down
+
+  change_action:
+    type: categorical
+    values:
+      - increase
+      - decrease
+      - set
+    mappings:
+    - type: from_entity
+      entity: change_action
+    #   role: increase
+    #   value: increase
+    # - type: from_entity
+    #   entity: change_action
+    #   role: decrease
+    #   value: decrease
+    # - type: from_entity
+    #   entity: change_action
+    #   role: set
+    #   value: set
+  
+  # is_area:
+  #   type: bool
+  #   initial_value: false
+  #   mappings:
+  #   - type: from_intent
+  #     intent: select_area
+  #     value: true
+
+  selected_area_source:
+    type: text
+    mappings:
+    - type: custom
+  
+  selected_area_destination:
+    type: text
+    mappings:
+    - type: custom
+  
+  selected_area_width:
+    type: text
+    mappings:
+    - type: from_entity
+      intent: select_area
+      entity: selected_area
+      role: width
+
+  selected_area_length:
+    type: text
+    mappings:
+    - type: from_entity
+      intent: select_area
+      entity: selected_area
+      role: length
+
+  selected_area_height:
+    type: text
+    mappings:
+    - type: from_entity
+      intent: select_area
+      entity: selected_area
+      role: height
+
+  comparison:
+    type: categorical
+    values:
+      - bigger
+      - smaller
+      - equal
+      - different
+    mappings:
+    - type: from_entity
+      entity: comparison
+
+  last_action:
+    type: text
+    mappings:
+    - type: custom
+
+  last_memory:
+    type: any
+    mappings:
+    - type: custom
+    
+
+actions:
+- action_change_height
+- action_change_length
+- action_change_radius
+- action_change_width
+- action_color_background
+- action_color_foreground
+- action_deactivate_loop
+- action_delete_selected_objects
+- action_draw_circle
+- action_draw_ellipse
+- action_draw_line
+- action_draw_parallelogram
+- action_draw_rectangle
+- action_draw_rhombus
+- action_draw_square
+- action_draw_trapezoid
+- action_horizontal_flip
+- action_move_down
+- action_move_left
+- action_move_right
+- action_move_up
+- action_paste_object
+- action_rotate_left
+- action_rotate_right
+- action_select_area
+- action_select_object
+- action_select_all_object
+- action_vertical_flip
+- action_exit_select
+- action_change_top
+- action_change_left
+- action_change_right
+- action_change_bottom
+- action_draw_arrow
+- action_copy_selected_objects
+- action_cut_selected_objects
+- action_paste
+- action_validate_slot_mappings
+# - action_ask_is_all
+# - validate_rotate_left_form
+# - validate_rotate_right_form
+
+
+# forms:
+  # rotate_left_form:
+  #   required_slots:
+  #   - is_all
+  #   - object_shape
+  #   - position_source
+  #   - object_color
+  #   - value_angle
+    
+  # rotate_right_form:
+  #   required_slots:
+  #   - is_all
+  #   - object_shape
+  #   - position_source
+  #   - object_color
+  #   - value_angle
+
+  # select_object_form:
+  #   required_slots:
+  #   - is_all
+  #   - object_shape
+  #   - position_source
+  #   - object_color

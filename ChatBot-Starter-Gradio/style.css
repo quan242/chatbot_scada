@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  display: block;
+}
+
+#duplicate-button {
+  margin: auto;
+  color: white;
+  background: #1565c0;
+  border-radius: 100vh;
+}
+
+#component-6 {
+  height: 500px !important;
+}
+
+#component-1 {
+  height: 100px !important;
+}
+
+.contain {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 1.5rem;
+}

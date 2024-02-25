@@ -1,0 +1,122 @@
+ENTITY_LIST:
+  position:
+  - source
+  - source_x
+  - source_y
+  - destination
+  - destination_x
+  - destination_y
+  value:
+  - color
+  - width
+  - shape
+  - height
+  - angle
+  - thickness
+  - length
+color_backround:
+- 'tô [nền]{"entity": "aspect"} [xanh]{"entity": "value", "role": "color"}'
+- '[nền]{"entity": "aspect"} tô [đỏ]{"entity": "value", "role": "color"}'
+- '[background]{"entity": "aspect"} đổ [màu đỏ]{"entity": "value", "role": "color"}'
+- 'sơn [phông nền]{"entity": "aspect"} [màu vàng]{"entity": "value", "role": "color"}'
+- 'bạn tô [màu vàng]{"entity": "value", "role": "color"} trên cả [nền]{"entity": "aspect"}'
+- 'tôi cần [phông]{"entity": "aspect"} [màu tím]{"entity": "value", "role": "color"}'
+- 'tôi màu [đỏ cam]{"entity": "value", "role": "color"} cho tôi trên toàn bộ [phông nền]{"entity": "aspect"}'
+- 'bạn trợ lý tô cho tôi [nền]{"entity": "aspect"} màu [xanh dương]{"entity": "value", "role": "color"}'
+- '[nền]{"entity": "aspect"} [xanh lục]{"entity": "value", "role": "color"}'
+color_foreground:
+- 'sơn [vàng]{"entity": "value", "role": "color"}'
+- 'sơn tất cả [màu vàng]{"entity": "value", "role": "color"}'
+- 'những gì đã chọn sơn nó [màu xanh]{"entity": "value", "role": "color"}'
+- 'bạn đổ [màu xanh]{"entity": "value", "role": "color"}'
+- 'oke bạn hãy tô [màu tím]{"entity": "value", "role": "color"}'
+- 'tô [tím]{"entity": "value", "role": "color"}'
+- '[trăng]{"entity": "value", "role": "color"}'
+- 'tô [màu cam]{"entity": "value", "role": "color"}'
+- 'chọn [màu tim]{"entity": "value", "role": "color"}'
+copy_selected_objects: []
+draw_circle:
+- 'Vẽ [hình tròn]{"entity": "value", "role": "shape"} [màu đỏ]{"entity": "value", "role": "color"}'
+- '[Bán kính]{"entity": "aspect"} [25 pixel]{"entity": "value", "role": "width"}, vẽ [hình tròn]{"entity": "value", "role": "shape"} [màu cam]{"entity": "value", "role": "color"}'
+- '[Vị trí]{"entity": "aspect"} [góc trên bên trái]{"entity": "position", "role": "source"}, hãy vẽ [hình tròn]{"entity": "value", "role": "shape"} [màu xanh lam]{"entity": "value", "role": "color"} có [bán kính]{"entity": "aspect"} [30 pixel]{"entity": "value", "role": "width"}'
+- '[Bán kính]{"entity": "aspect"} [25 pixel]{"entity": "value", "role": "width"}, vẽ [hình tròn]{"entity": "value", "role": "shape"} [màu cam]{"entity": "value", "role": "color"} tại x = [50]{"entity": "position", "role": "source_x"}, y = [75]{"entity": "position", "role": "source_y"}'
+- 'Vẽ [hình tròn]{"entity": "value", "role": "shape"} [màu cam]{"entity": "value", "role": "color"} [bán kính]{"entity": "aspect"} [25 pixel]{"entity": "value", "role": "width"}'
+- '[Vị trí]{"entity": "aspect"} [góc dưới bên phải]{"entity": "position", "role": "source"}, [bán kính]{"entity": "aspect"} [55 pixel]{"entity": "value", "role": "width"}, vẽ [hình tròn]{"entity": "value", "role": "shape"} [màu tím]{"entity": "value", "role": "color"}'
+- 'Vẽ [hình tròn]{"entity": "value", "role": "shape"} [màu đen]{"entity": "value", "role": "color"} bán kính [45 pixel]{"entity": "value", "role": "width"} tại vị trí [trung tâm màn hình]{"entity": "position", "role": "source"}'
+- 'Vẽ hình tròn tại x = [700]{"entity": "position", "role": "source_x"}, y = [500]{"entity": "position", "role": "source_y"} màu nâu có bán kính [50 pixel]{"entity": "value", "role": "width"}'
+- 'Vẽ hình tròn màu đen có bán kính [45 pixel]{"entity": "value", "role": "width"} tại x = [400]{"entity": "position", "role": "source_x"}, y = [300]{"entity": "position", "role": "source_y"}'
+draw_ellipse:
+- 'Vui lòng vẽ một hình [ê-líp]{"entity": "value", "role": "shape"} [màu xanh]{"entity": "value", "role": "color"}, chiều rộng [60]{"entity": "value", "role": "width"} và chiều cao [35]{"entity": "value", "role": "height"} ở toạ độ ([100]{"entity": "position", "role": "source_x"}, [150]{"entity": "position", "role": "source_y"}'
+- 'Bạn trợ lý tài năng, tôi muốn [chiếc ê-líp]{"entity": "value", "role": "shape"} [màu vàng]{"entity": "value", "role": "color"}, [chiều rộng]{"entity": "aspect"} [55]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [30]{"entity": "value", "role": "height"}, nằm ở [bên trái]{"entity": "position", "role": "source"}'
+- 'Bạn trợ lý dễ thương, hãy làm một [hình ê-líp]{"entity": "value", "role": "shape"} [màu hồng]{"entity": "value", "role": "color"}, [chiều rộng]{"entity": "aspect"} [55 ]{"entity": "value", "role": "width"}và [chiều cao]{"entity": "aspect"} [30]{"entity": "value", "role": "height"}'
+- 'Anh trợ lý tốt bụng, hãy vẽ một [hình ê-líp]{"entity": "value", "role": "shape"} [màu cam]{"entity": "value", "role": "color"}, [chiều rộng]{"entity": "aspect"} [52]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [28]{"entity": "value", "role": "height"}, có lẽ ở [giữa trang]{"entity": "position", "role": "source"}'
+- 'Hãy tạo một [hình ê-líp]{"entity": "value", "role": "shape"} [màu xám]{"entity": "value", "role": "color"} ở [bên phải]{"entity": "position", "role": "source"} trang, [chiều rộng]{"entity": "aspect"} [40]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [25]{"entity": "value", "role": "height"}'
+- 'Anh trợ lý đẹp trai ơi, hãy vẽ một [hình ê-líp]{"entity": "value", "role": "shape"} [màu xanh dương]{"entity": "value", "role": "color"}, [chiều rộng]{"entity": "aspect"} [60]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [40]{"entity": "value", "role": "height"}'
+- 'Em trợ lý dễ thương, hãy bơi vào hồ nước trắng và vẽ một [hình ê-líp]{"entity": "value", "role": "shape"} [màu hồng]{"entity": "value", "role": "color"}, [chiều rộng]{"entity": "aspect"} [40]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [25]{"entity": "value", "role": "height"}, [ngay chính giữa]{"entity": "position", "role": "source"}'
+- 'Trợ lý ơi, hãy vẽ một[ hình ê-líp]{"entity": "value", "role": "shape"} [màu nâu]{"entity": "value", "role": "color"}, [chiều rộng]{"entity": "aspect"} [48]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [32]{"entity": "value", "role": "height"} ở [toạ độ]{"entity": "aspect"} ([120]{"entity": "position", "role": "source_x"}, [180]{"entity": "position", "role": "source_y"}'
+- 'Vẽ một [hình ê-líp]{"entity": "value", "role": "shape"} [ở giữa trang]{"entity": "position", "role": "source"}, [chiều rộng]{"entity": "aspect"} [55]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [28]{"entity": "value", "role": "height"}'
+draw_parallelogram:
+- 'Vẽ [bình hành]{"entity": "value", "role": "shape"} có [đáy]{"entity": "aspect"} dài [15]{"entity": "value", "role": "width"}, [góc xuất phát]{"entity": "aspect"} [nhọn]{"entity": "value", "role": "angle"} ở [bên phải dưới]{"entity": "position", "role": "source"}, [chiều cao]{"entity": "aspect"} [20]{"entity": "value", "role": "height"}, [màu]{"entity": "aspect"} [đen]{"entity": "value", "role": "color"} tại [vị trí]{"entity": "aspect"} ([8]{"entity": "position", "role": "source_x"}, [6]{"entity": "position", "role": "source_y"}'
+- 'Tạo một [hình bình hành]{"entity": "value", "role": "shape"} với độ lớn [góc xuất phát]{"entity": "aspect"} là [45 độ]{"entity": "value", "role": "angle"}, [vị trí]{"entity": "aspect"} [ở giữa]{"entity": "position", "role": "source"}, và [đáy]{"entity": "aspect"} [20]{"entity": "value", "role": "width"}, [chiều dài]{"entity": "aspect"} [15]{"entity": "value", "role": "height"}, [màu sắc]{"entity": "aspect"} [xanh dương]{"entity": "value", "role": "color"}'
+- 'Tạo [hình bình hành]{"entity": "value", "role": "shape"} với [đáy]{"entity": "aspect"} là [15]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [20]{"entity": "value", "role": "height"}, [góc xuất phát]{"entity": "aspect"} [tù]{"entity": "value", "role": "angle"}, [vị trí]{"entity": "aspect"} [ở giữa]{"entity": "position", "role": "source"}, và [màu sắc]{"entity": "aspect"} [đỏ]{"entity": "value", "role": "color"}'
+- 'Vẽ [hình bình hành]{"entity": "value", "role": "shape"} [màu]{"entity": "aspect"} [hồng]{"entity": "value", "role": "color"} có [đáy]{"entity": "aspect"} [20]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [16]{"entity": "value", "role": "height"}, [góc xuất phát]{"entity": "aspect"} [50 độ]{"entity": "value", "role": "angle"}, [vị trí]{"entity": "aspect"} ([200]{"entity": "position", "role": "source_x"}, [100]{"entity": "position", "role": "source_y"}'
+- 'Tạo [hình bình hành]{"entity": "value", "role": "shape"} có [đáy]{"entity": "aspect"} [13]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [9]{"entity": "value", "role": "height"}, [góc xuất phát]{"entity": "aspect"} [25 độ]{"entity": "value", "role": "angle"}, [màu]{"entity": "aspect"} [nâu]{"entity": "value", "role": "color"}, [vị trí]{"entity": "aspect"} ([150]{"entity": "position", "role": "source_x"}, [75]{"entity": "position", "role": "source_y"}'
+- 'Vẽ [hình bình hành]{"entity": "value", "role": "shape"} có [đáy]{"entity": "aspect"} [20]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [16]{"entity": "value", "role": "height"}, [màu hồng]{"entity": "value", "role": "color"}, [vị trí]{"entity": "aspect"} ([200]{"entity": "position", "role": "source_x"}, [100]{"entity": "position", "role": "source_y"}'
+- 'Vẽ [hình bình hành]{"entity": "value", "role": "shape"} có [đáy]{"entity": "aspect"} [15]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [20]{"entity": "value", "role": "height"}, [góc xuất phát]{"entity": "aspect"} [30 độ]{"entity": "value", "role": "angle"}, [vị trí]{"entity": "aspect"} ([100]{"entity": "position", "role": "source_x"}, [50]{"entity": "position", "role": "source_y"}'
+- 'Vẽ [hình bình hành]{"entity": "value", "role": "shape"} màu [xanh lá cây]{"entity": "value", "role": "color"} có [đáy]{"entity": "aspect"} [10]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [8]{"entity": "value", "role": "height"}, [góc xuất phát]{"entity": "aspect"} [45 độ]{"entity": "value", "role": "angle"}, [vị trí]{"entity": "aspect"} ở [góc trên bên trái của khung vẽ]{"entity": "position", "role": "source"}'
+- 'Vẽ [hình bình hành]{"entity": "value", "role": "shape"} có [đáy]{"entity": "aspect"} [10]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [8]{"entity": "value", "role": "width"}, [góc xuất phát]{"entity": "aspect"} [45 độ]{"entity": "value", "role": "angle"}, [màu]{"entity": "aspect"} [xanh lá cây]{"entity": "value", "role": "color"}'
+draw_rectangle:
+- 'Vẽ [hình chữ nhật]{"entity": "value", "role": "shape"} [màu vàng]{"entity": "value", "role": "color"} có độ dày [đường viền]{"entity": "aspect"} [3 pixel]{"entity": "value", "role": "thickness"}, [chiều rộng]{"entity": "aspect"} [75]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [50]{"entity": "value", "role": "height"} ở [toạ độ]{"entity": "aspect"} ([200]{"entity": "position", "role": "source_x"}, [200]{"entity": "position", "role": "source_y"}'
+- 'Vẽ [hình chữ nhật]{"entity": "value", "role": "shape"} [màu]{"entity": "aspect"} [xanh lá cây]{"entity": "value", "role": "color"} có độ dày [đường viền]{"entity": "aspect"} [3 pixel]{"entity": "value", "role": "thickness"}, [chiều rộng]{"entity": "aspect"} [75]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [50]{"entity": "value", "role": "height"} ở [toạ độ]{"entity": "aspect"} ([150]{"entity": "position", "role": "source_x"}, [150]{"entity": "position", "role": "source_y"}'
+- 'Vui lòng vẽ một [hình chữ nhật]{"entity": "value", "role": "shape"} [màu]{"entity": "aspect"} [cam]{"entity": "value", "role": "color"}, có [kích thước]{"entity": "aspect"} [70]{"entity": "value", "role": "width"}x[30]{"entity": "value", "role": "height"}, ở [phía trên bên phải]{"entity": "position", "role": "source"}'
+- 'Vẽ [hình chữ nhật]{"entity": "value", "role": "shape"} [màu]{"entity": "aspect"} [vàng]{"entity": "value", "role": "color"} có độ dày [đường viền]{"entity": "aspect"} [3 pixel]{"entity": "value", "role": "thickness"}, [chiều rộng]{"entity": "aspect"} [75]{"entity": "value", "role": "width"} và [chiều cao]{"entity": "aspect"} [50]{"entity": "value", "role": "height"} ở [toạ độ]{"entity": "aspect"} ([200]{"entity": "position", "role": "source_x"}, [200]{"entity": "position", "role": "source_y"}'
+- 'Hãy vẽ [hình chữ nhật]{"entity": "value", "role": "shape"} [màu]{"entity": "aspect"} [tím]{"entity": "value", "role": "color"} có [chiều rộng]{"entity": "aspect"} [80]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [60]{"entity": "value", "role": "height"}'
+- 'Vẽ[ hình chữ nhật]{"entity": "value", "role": "shape"} có [chiều rộng]{"entity": "aspect"} 55, [màu]{"entity": "aspect"} [xanh lá cây]{"entity": "value", "role": "color"}, [đường viền]{"entity": "aspect"} [màu xám]{"entity": "value", "role": "color"} ở [giữa màn hình]{"entity": "position", "role": "source"}'
+- 'Tạo [hình chữ nhật]{"entity": "value", "role": "shape"} có [chiều rộng]{"entity": "aspect"} [55]{"entity": "value", "role": "width"}, [màu tím]{"entity": "value", "role": "color"}, đường viền đen tại [vị trí]{"entity": "aspect"} [bên phải màn hình]{"entity": "position", "role": "source"}'
+- 'Tạo một [hình chữ nhật]{"entity": "value", "role": "shape"} [màu đỏ]{"entity": "value", "role": "color"}, [kích thước]{"entity": "aspect"} [90]{"entity": "value", "role": "width"}x[50]{"entity": "value", "role": "height"}, nằm ở [vị trí]{"entity": "aspect"} ([200]{"entity": "position", "role": "source_x"}, [250]{"entity": "position", "role": "source_y"}'
+- 'Tạo [hình chữ nhật]{"entity": "value", "role": "shape"} có [chiều rộng]{"entity": "aspect"} [55]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [45]{"entity": "value", "role": "height"}, [màu hồng]{"entity": "value", "role": "color"}, đường viền màu xanh dương, ở [vị trí]{"entity": "aspect"} ([350]{"entity": "position", "role": "source_x"}, [150]{"entity": "position", "role": "source_y"}'
+- 'Tạo [hình chữ nhật]{"entity": "value", "role": "shape"} với [chiều rộng]{"entity": "aspect"} [60]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [10]{"entity": "value", "role": "height"}, màu [xanh lục]{"entity": "value", "role": "color"}, đường viền màu đen, ở [giữa trang]{"entity": "position", "role": "source"}'
+draw_square:
+- 'Tạo [hình vuông]{"entity": "value", "role": "shape"} [màu xanh lá cây]{"entity": "value", "role": "color"} tại [điểm]{"entity": "aspect"} ([200]{"entity": "position", "role": "source_x"}, [100]{"entity": "position", "role": "source_y"}) với [chiều cao]{"entity": "aspect"} [70 pixel]{"entity": "value", "role": "height"}'
+- 'Vui lòng vẽ một [hình vuông]{"entity": "value", "role": "shape"} [màu xanh nước biển]{"entity": "value", "role": "color"} [chiều cao]{"entity": "aspect"} [55 pixel]{"entity": "value", "role": "height"} ở điểm ([250]{"entity": "position", "role": "source_x"}, [250]{"entity": "position", "role": "source_y"}'
+- 'Tạo một [hình vuông]{"entity": "value", "role": "shape"} [màu cam]{"entity": "value", "role": "color"} với [chiều cao]{"entity": "aspect"} [80 pixel]{"entity": "value", "role": "height"}, [toạ độ]{"entity": "aspect"} x = [300]{"entity": "position", "role": "source_x"}, y = [200]{"entity": "position", "role": "source_y"}'
+- 'Vui lòng vẽ một [hình vuông]{"entity": "value", "role": "shape"} [màu tím]{"entity": "value", "role": "color"} ở [góc trên bên phải]{"entity": "position", "role": "source"}, [chiều rộng]{"entity": "aspect"} [75 pixel]{"entity": "value", "role": "width"}'
+- 'Vẽ [hình vuông]{"entity": "value", "role": "shape"} [màu nâu]{"entity": "value", "role": "color"} [chiều cao]{"entity": "aspect"} [65 pixel]{"entity": "value", "role": "height"} ở [giữa trang]{"entity": "position", "role": "source"}'
+- 'Tạo [hình vuông]{"entity": "value", "role": "shape"} [màu cam]{"entity": "value", "role": "color"} ở [giữa trang]{"entity": "position", "role": "source"} với [chiều cao]{"entity": "aspect"} [80 pixel]{"entity": "value", "role": "height"}'
+- 'Vui lòng vẽ một [hình vuông]{"entity": "value", "role": "shape"} [màu xám]{"entity": "value", "role": "color"} [chiều cao]{"entity": "aspect"} [50 pixel]{"entity": "value", "role": "height"} ở [góc trên bên trái trang]{"entity": "position", "role": "source"}'
+- 'Tạo [hình vuông]{"entity": "value", "role": "shape"} [màu xanh nước biển]{"entity": "value", "role": "color"} ở [giữa trang]{"entity": "position", "role": "source"}, [chiều cao]{"entity": "aspect"} [55 pixel]{"entity": "value", "role": "height"}'
+draw_trapezoid:
+- 'Có thể bạn vẽ một [hình thang]{"entity": "value", "role": "shape"} với [đáy lớn]{"entity": "aspect"} là [130 pixel]{"entity": "value", "role": "length"}, [chiều cao]{"entity": "aspect"} là [55 pixel]{"entity": "value", "role": "height"}, [màu đen]{"entity": "value", "role": "color"}, ở [toạ độ]{"entity": "aspect"} ([500]{"entity": "position", "role": "source_x"}, [300]{"entity": "position", "role": "source_y"}'
+- 'Tạo [hình thang]{"entity": "value", "role": "shape"} với [đáy lớn]{"entity": "aspect"} là [70 pixel]{"entity": "value", "role": "length"}, [đảy nhỏ]{"entity": "aspect"} là [30 pixel]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} là [45 pixel]{"entity": "value", "role": "height"}, [màu xanh da trời]{"entity": "value", "role": "color"}, ở[ toạ độ]{"entity": "aspect"} ([200]{"entity": "position", "role": "source_x"}, [400]{"entity": "position", "role": "source_y"}'
+- 'Tạo một [hình thang]{"entity": "value", "role": "shape"} có [đáy nhỏ]{"entity": "aspect"} là [18]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} là [25]{"entity": "value", "role": "height"}, [màu tím]{"entity": "value", "role": "color"}, [vị trí]{"entity": "aspect"} ở điểm ([5]{"entity": "position", "role": "source_x"}, [10]{"entity": "position", "role": "source_y"}'
+- 'Tạo [hình thang]{"entity": "value", "role": "shape"} có [góc xuất phát]{"entity": "aspect"} [20 độ]{"entity": "value", "role": "angle"}, [đáy lớn]{"entity": "aspect"} là [22]{"entity": "value", "role": "length"}, [màu xanh dương]{"entity": "value", "role": "color"}, [chiều cao]{"entity": "aspect"} [28]{"entity": "value", "role": "height"}'
+- 'Hãy tạo [hình thang]{"entity": "value", "role": "shape"} với [chiều cao]{"entity": "aspect"} là [15]{"entity": "value", "role": "height"}, [đáy lớn]{"entity": "aspect"} là [28]{"entity": "value", "role": "length"}, [góc xuất phát]{"entity": "aspect"} [40 độ]{"entity": "value", "role": "angle"}, [vị trí]{"entity": "aspect"} [ở giữa]{"entity": "position", "role": "source"}, [màu đen]{"entity": "value", "role": "color"}'
+- 'Vẽ [hình thang]{"entity": "value", "role": "shape"} với [đáy lớn]{"entity": "aspect"} là [25]{"entity": "value", "role": "length"}, [đáy nhỏ]{"entity": "aspect"} là [15]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} là [30]{"entity": "value", "role": "height"}, [góc xuất phát]{"entity": "aspect"} [45 độ]{"entity": "value", "role": "angle"}, [tọa độ]{"entity": "aspect"} ([10]{"entity": "position", "role": "source_x"}, [20]{"entity": "position", "role": "source_y"}), [màu đỏ]{"entity": "value", "role": "color"}'
+- 'Hãy vẽ [hình thang]{"entity": "value", "role": "shape"} với [đáy nhỏ]{"entity": "aspect"} là [12]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} [18]{"entity": "value", "role": "height"}, [màu xanh lá cây]{"entity": "value", "role": "color"}, đặt ở [bên phải]{"entity": "position", "role": "source"}'
+- 'Hãy tạo một [hình thang]{"entity": "value", "role": "shape"} với [đáy lớn]{"entity": "aspect"} là [80 pixel]{"entity": "value", "role": "length"}, [màu nâu]{"entity": "value", "role": "color"}, [góc xuất phát]{"entity": "aspect"} ở [toạ độ]{"entity": "aspect"} ([350]{"entity": "position", "role": "source_x"}, [100]{"entity": "position", "role": "source_y"}'
+- 'Có thể bạn vẽ một [hình thang]{"entity": "value", "role": "shape"} có[ đáy lớn]{"entity": "aspect"} là [100 pixel]{"entity": "value", "role": "length"}, [đảy nhỏ]{"entity": "aspect"} là [30 pixel]{"entity": "value", "role": "width"}, [chiều cao]{"entity": "aspect"} là [50 pixel]{"entity": "value", "role": "height"}, ở [toạ độ]{"entity": "aspect"} ([50]{"entity": "position", "role": "source_x"}, [100]{"entity": "position", "role": "source_y"}), [màu xanh lá cây]{"entity": "value", "role": "color"}'
+paste:
+- dán
+- paste
+- in những cái đã copy
+- '[bên phải trên]{"entity": "position", "role": "destination"}'
+- 'oke dán vào [bên dưới]{"entity": "position", "role": "destination"}'
+- 'in vào ([23]{"entity": "position", "role": "destination_x"}, [54]{"entity": "position", "role": "destination_y"}'
+- 'dán lên [bên trên]{"entity": "position", "role": "destination"}'
+- 'chắc bạn dán vào [trung tâm]{"entity": "position", "role": "destination"}'
+- 'oke bạn dán vào [bên phải]{"entity": "position", "role": "destination"}'
+redo:
+- làm lại bước mới nhất
+- làm lại hành động vừa xong đi
+- không cần undo nữa, vẫn làm động tác như lúc nãy
+- bạn ctrl + Y cho tôi nhé
+undo:
+- quay lại bước trước
+- trở về trạng thái trước
+- undo
+- quay trở về lúc nãy
+- undo lại cho tôi
+- trợ lý ơi trạng thái trước đó ấy, quay lại cho tôi nhé
+- trở về bước vừa xong
+- từ từ undo lại đi đã
+- ôi không tôi cần quay lại bước lúc nãy

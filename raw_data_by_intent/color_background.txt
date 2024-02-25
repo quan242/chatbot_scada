@@ -1,0 +1,72 @@
+<i> Tô màu nền cho hình tròn màu xanh dương nằm ở toạ độ ( 50 , 50 ) bằng màu vàng chanh .
+<i> Xin hãy tô màu nền cho hình chữ nhật màu đỏ ở góc trên cùng bên phải của màn hình bằng màu xanh lá cây .
+<i> Thực hiện tô màu nền cho hình vuông màu cam đang nằm ở giữa màn hình bằng màu hồng nhạt .
+<i> Hãy chọn màu nền cho hình tam giác màu tím nằm ở góc dưới bên trái của hình chữ nhật bằng màu xanh nước biển .
+<i> Đề xuất tô màu nền cho hình elip màu hồng nằm ở góc dưới bên phải của màn hình bằng màu vàng .
+<i> Vui lòng thực hiện tô màu nền cho hình thoi màu đen ở góc trên cùng bên trái của hình vuông bằng màu trắng .
+<i> Hãy tô màu nền cho hình vuông màu xanh lá cây nằm ở phía dưới của hình chữ nhật bằng màu hồng .
+<i> Tô màu nền cho hình chữ nhật màu tím đang nằm ở góc dưới bên phải của hình tam giác bằng màu vàng chanh .
+<i> Xin vui lòng chọn màu nền cho hình tam giác màu vàng ở giữa màn hình bằng mã màu #ff69b4 .
+<i> Đề nghị tô màu nền cho hình vuông màu cam nằm ở góc dưới bên trái của hình thoi bằng mã màu #0000 ff .
+<i> Thực hiện tô màu nền cho hình chữ nhật màu vàng đang nằm ở góc trên cùng bên phải của màn hình bằng mã màu #ffff00 .
+<i> Vui lòng tô màu nền cho hình vuông màu hồng đang nằm ở giữa màn hình bằng tên màu là " đỏ nóng " .
+<i> Xin hãy chọn màu nền cho hình tròn màu vàng nằm ở góc trái dưới của màn hình bằng màu xanh dương .
+<i> Đề nghị tô màu nền cho hình vuông màu đỏ nằm ở góc phải dưới của hình chữ nhật bằng màu cam .
+<i> Thực hiện tô màu nền cho hình thoi màu xanh nước biển nằm ở giữa của màn hình bằng màu tím .
+<i> Hãy tô màu nền cho hình tam giác màu tím nằm ở giữa bên phải của hình vuông bằng màu hồng .
+<i> Vui lòng tô màu nền cho hình tròn màu xanh lá cây nằm ở góc trên bên trái của hình chữ nhật bằng màu vàng .
+<i> Thực hiện chọn màu nền cho hình vuông màu hồng nằm ở giữa bên dưới của màn hình bằng màu cam .
+<i> Xin hãy thực hiện tô màu nền cho hình chữ nhật màu cam nằm ở góc phải trên của hình tam giác bằng màu xanh nước biển .
+<i> Hãy tô màu nền cho hình tròn màu đỏ nằm ở giữa bên trên của màn hình bằng mã màu #00 ffff .
+<i> Đề xuất chọn màu nền cho hình vuông màu vàng nằm ở góc trên bên phải của hình thoi bằng mã màu #800080 .
+<i> Xin vui lòng tô màu nền cho hình chữ nhật màu hồng nằm ở giữa bên trái của hình tròn bằng mã màu #008000 .
+<i> Thực hiện tô màu nền cho hình tam giác màu cam nằm ở góc dưới bên phải của hình chữ nhật bằng mã màu #ffa500 .
+<i> Hãy chọn màu nền cho hình tròn màu xanh dương nằm ở góc trên bên trái của hình tam giác bằng tên màu là " đỏ tươi " .
+<i> Xin hãy thực hiện tô màu nền cho hình vuông màu vàng nằm ở giữa bên trên của màn hình bằng tên màu là " xanh da trời " .
+<i> Hãy tô màu nền cho hình tròn màu cam nằm ở góc dưới bên phải của hình vuông bằng tên màu là " vàng nắng " .
+<i> Đề xuất chọn màu nền cho hình thoi màu đỏ nằm ở giữa bên trái của hình chữ nhật bằng tên màu là " hồng phấn " .
+<i> Xin vui lòng tô màu nền cho hình tam giác màu xanh nước biển nằm ở giữa bên dưới của màn hình bằng tên màu là " xanh lơ " .
+<i> Thực hiện chọn màu nền cho hình chữ nhật màu hồng nằm ở góc trên bên phải của hình tam giác bằng tên màu là " đỏ tươi " .
+<i> Hãy tô màu nền cho hình vuông màu đỏ nằm ở giữa bên dưới của màn hình bằng tên màu là " tím than " .
+<i> Xin vui lòng tô màu nền cho hình chữ nhật màu cam nằm ở góc dưới bên trái của hình thoi bằng tên màu là " cam đậm " .
+<i> Thực hiện chọn màu nền cho hình tam giác màu vàng nằm ở giữa bên trên của màn hình bằng tên màu là " xanh lá cây " .
+<i> Xin hãy tô màu nền cho hình tròn màu hồng nằm ở trung tâm màn hình bằng tên màu là " tím dịu " .
+<i> Hãy thực hiện chọn màu nền cho hình vuông màu xanh lá cây nằm ở góc trên bên trái của màn hình bằng tên màu là " vàng nhạt " .
+<i> Đề nghị tô màu nền cho hình chữ nhật màu đỏ nằm ở góc dưới bên phải của hình vuông bằng tên màu là " hồng nhạt " .
+<i> Xin vui lòng chọn màu nền cho hình thoi màu vàng nằm ở giữa của màn hình bằng tên màu là " tím nhạt " .
+<i> Hãy tô màu nền cho hình tam giác màu xanh biển nằm ở góc dưới bên trái của màn hình bằng tên màu là " hồng phấn " .
+<i> Xin vui lòng chọn màu nền cho hình vuông màu cam nằm ở giữa bên trên của màn hình bằng tên màu là " xanh dương " .
+<i> Thực hiện tô màu nền cho hình tròn màu vàng nằm ở góc trên bên phải của hình chữ nhật bằng tên màu là " đỏ nhạt " .
+<i> Hãy chọn màu nền cho hình vuông màu hồng nằm ở giữa bên dưới của màn hình bằng tên màu là " xanh lá " .
+<i> Đề nghị tô màu nền cho hình thoi màu cam nằm ở góc dưới bên phải của màn hình bằng tên màu là " tím dịu " .
+<i> Xin vui lòng chọn màu nền cho hình chữ nhật màu đỏ nằm ở giữa bên trên của màn hình bằng tên màu là " xanh lơ " .
+<i> Bắt đầu bằng việc tô màu nền cho hình vuông màu xanh lá cây ở góc trên bên trái của màn hình bằng tên màu " màu lá ' tươi mát ' đó " .
+<i> Thực hiện việc chọn màu nền cho hình tròn màu hồng nằm ngay giữa màn hình bằng tên màu " màu hồng ' siêu dễ thương ' " .
+<i> Xin hãy tô màu nền cho hình chữ nhật màu cam nằm ở góc dưới bên phải của hình vuông bằng tên màu " màu cam ' rực rỡ ' " .
+<i> Đề xuất tô màu nền cho hình thoi màu vàng nằm ở góc trên bên phải của màn hình bằng tên màu " màu vàng ' vàng vang ' " .
+<i> Hãy chọn màu nền cho hình tam giác màu xanh biển nằm ở giữa bên trái của màn hình bằng tên màu " màu xanh biển ' siêu sảng khoái ' " .
+<i> Xin vui lòng tô màu nền cho hình tròn màu vàng nằm ở giữa bên dưới của màn hình bằng tên màu " màu vàng ' vàng óng ả ' " .
+<i> Hãy thực hiện việc chọn màu nền cho hình vuông màu cam nằm ở giữa bên trên của màn hình bằng tên màu " màu cam ' cực chill ' " .
+<i> Xin hãy chọn màu nền cho hình thoi màu đỏ nằm ở góc dưới bên trái của hình chữ nhật bằng tên màu " màu đỏ ' siêu hot ' " .
+<i> Đề nghị tô màu nền cho hình vuông màu hồng nằm ở giữa bên dưới của màn hình bằng tên màu " màu hồng ' siêu cute ' " .
+<i> Hãy chọn màu nền cho hình thoi màu cam nằm ở giữa bên trên của màn hình bằng tên màu " màu cam ' siêu trendy ' " .
+<i> Vui lòng đặt màu nền cho hình vuông màu xanh dương ở góc dưới bên trái của màn hình bằng màu " xanh dương ' biển trời xanh ' điệu đà " .
+<i> Thực hiện việc chọn màu nền cho hình tròn màu cam nằm ở góc trên bên phải của màn hình bằng màu " cam ' cực chất ' " .
+<i> Xin hãy tô màu nền cho hình chữ nhật màu hồng nằm ở góc trên bên trái của hình tròn bằng màu " hồng ' ngọt ngào ' " .
+<i> Đề xuất tô màu nền cho hình thoi màu vàng nằm ở giữa bên trái của màn hình bằng màu " vàng ' vàng óng ả ' " .
+<i> Hãy chọn màu nền cho hình tam giác màu đỏ nằm ở giữa bên dưới của màn hình bằng màu " đỏ ' cực nóng ' " .
+<i> Xin vui lòng tô màu nền cho hình tròn màu xanh lá cây nằm ở giữa bên trên của màn hình bằng màu " xanh lá cây ' mát lạnh ' " .
+<i> Hãy thực hiện việc chọn màu nền cho hình vuông màu vàng nằm ở giữa bên dưới của màn hình bằng màu " vàng ' rực rỡ ' " .
+<i> Xin hãy chọn màu nền cho hình thoi màu cam nằm ở góc dưới bên trái của hình chữ nhật bằng màu " cam ' siêu sôi động ' " .
+<i> Đề nghị tô màu nền cho hình vuông màu hồng nằm ở giữa bên trên của màn hình bằng màu " hồng ' siêu hót ' " .
+<i> Hãy chọn màu nền cho hình thoi màu xanh biển nằm ở giữa bên dưới của màn hình bằng màu " xanh biển ' siêu dễ thương ' " .
+<i> Thực hiện tô màu nền cho hình vuông màu xám ở góc trên bên trái của màn hình bằng màu " xám ' buồn bã ' " .
+<i> Hãy chọn màu nền cho hình tròn màu nâu nằm ở giữa bên phải của màn hình bằng màu " nâu ' u buồn ' " .
+<i> Xin vui lòng đặt màu nền cho hình chữ nhật màu đen nằm ở góc dưới bên phải của màn hình bằng màu " đen ' âm u ' " .
+<i> Đề nghị tô màu nền cho hình thoi màu trắng nằm ở giữa bên trái của màn hình bằng màu " trắng ' lạnh lẽo ' " .
+<i> Hãy thực hiện việc chọn màu nền cho hình tam giác màu xanh lục nằm ở giữa bên dưới của màn hình bằng màu " xanh lục ' ảm đạm ' " .
+<i> Xin hãy chọn màu nền cho hình tròn màu tím nằm ở góc trên bên trái của hình vuông bằng màu " tím ' buồn thiu ' " .
+<i> Thực hiện tô màu nền cho hình vuông màu xanh dương nằm ở giữa bên trên của màn hình bằng màu " xanh dương ' tĩnh lặng ' " .
+<i> Hãy chọn màu nền cho hình thoi màu hồng nằm ở giữa bên dưới của màn hình bằng màu " hồng ' buồn lắm ' " .
+<i> Xin vui lòng đặt màu nền cho hình vuông màu cam nằm ở góc dưới bên trái của màn hình bằng màu " cam ' buồn ngủ ' " .
+<i> Hãy thực hiện việc chọn màu nền cho hình tròn màu vàng nằm ở giữa bên trên của màn hình bằng màu " vàng ' buồn thảm ' " .

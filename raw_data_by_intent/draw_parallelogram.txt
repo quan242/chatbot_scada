@@ -1,0 +1,12 @@
+<i> Vẽ hình bình hành màu xanh dương , đáy 20 đơn vị , chiều cao 30 đơn vị , nằm ở vị trí tương đối trên cùng bên phải và không có góc xuất phát .
+<i> Tạo hình bình hành có chiều cao 35 đơn vị , đáy rộng 25 đơn vị , màu vàng chanh , đặt tại vị trí tuyệt đối ( 50 , 50 ) mà không có góc xuất phát .
+<i> Vẽ hình bình hành màu hồng , chiều dài 18 , chiều rộng 10 , với đường viền màu trắng , đặt tại vị trí tương đối dưới cùng bên trái và không có góc xuất phát .
+<i> Tạo hình bình hành màu tím , đáy 30 đơn vị , chiều cao 40 đơn vị , nằm ở vị trí tuyệt đối ( 100 , 200 ) và góc xuất phát nhọn từ góc dưới cùng bên phải .
+<i> Vẽ hình bình hành màu cam , đáy 25 đơn vị , chiều cao 35 đơn vị , đặt tại vị trí tương đối trên cùng bên trái và không có góc xuất phát .
+<i> Tạo hình bình hành màu xanh lá cây , đáy 28 đơn vị , chiều cao 32 đơn vị , nằm ở vị trí tuyệt đối ( 150 , 100 ) và không có góc xuất phát .
+<i> Vẽ hình bình hành màu vàng , đáy 22 đơn vị , chiều cao 38 đơn vị , đặt tại vị trí tương đối dưới cùng bên phải và không có góc xuất phát .
+<i> Tạo hình bình hành màu đỏ , đáy 26 đơn vị , chiều cao 36 đơn vị , nằm ở vị trí tuyệt đối ( 200 , 150 ) và góc xuất phát tù từ góc trên cùng bên trái .
+<i> Vẽ hình bình hành màu hổ phách , đáy 24 đơn vị , chiều cao 34 đơn vị , đặt tại vị trí tương đối trên cùng bên phải và không có góc xuất phát .
+<i> Tạo hình bình hành màu xanh da trời , đáy 30 đơn vị , chiều cao 40 đơn vị , nằm ở vị trí tuyệt đối ( 300 , 200 ) và không có góc xuất phát .
+<i> Vẽ hình bình hành màu cam , đáy 26 đơn vị , chiều cao 32 đơn vị , đặt tại vị trí tương đối dưới cùng bên trái và không có góc xuất phát .
+<i> Tạo hình bình hành màu hồng , đáy 20 đơn vị , chiều cao 30 đơn vị , nằm ở vị trí tuyệt đối ( 250 , 300 ) và góc xuất phát nhọn từ góc dưới cùng bên phải .

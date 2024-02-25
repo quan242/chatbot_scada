@@ -1,0 +1,24 @@
+ENTITY_LIST:
+  object:
+  - shape
+  - color
+  position:
+  - source_x
+  - source_y
+  value:
+  - move
+move_left:
+- 'Dịch [hình thoi]{"entity": "object", "role": "shape"} sang trái từ [tọa độ]{"entity": "aspect"} ( [5]{"entity": "position", "role": "source_x"} , [8]{"entity": "position", "role": "source_y"}'
+- 'Thực hiện di chuyển sang trái [hình chữ nhật]{"entity": "object", "role": "shape"} với khoảng cách [15 pixel]{"entity": "value", "role": "move"} từ [vị trí]{"entity": "aspect"}'
+- 'Dịch [hình vuông]{"entity": "object", "role": "shape"} màu [cam]{"entity": "object", "role": "color"} từ [vị trí]{"entity": "aspect"}'
+move_right:
+- 'Di chuyển sang phải [hình thoi]{"entity": "object", "role": "shape"} màu [xanh lá cây]{"entity": "object", "role": "color"} từ [tọa độ]{"entity": "aspect"} ( [10]{"entity": "position", "role": "source_x"} , [8]{"entity": "position", "role": "source_y"} ) với khoảng cách [20 pixel]{"entity": "value", "role": "move"}'
+- 'Thực hiện di chuyển sang phải [hình bình hành]{"entity": "object", "role": "shape"} màu [vàng]{"entity": "object", "role": "color"} từ [vị trí]{"entity": "aspect"}'
+- 'Dịch [hình chữ nhật]{"entity": "object", "role": "shape"} màu [cam]{"entity": "object", "role": "color"} sang phải từ [vị trí]{"entity": "aspect"} hiện tại với khoảng cách [12 pixel]{"entity": "value", "role": "move"}'
+- 'Di chuyển sang phải hình [tam giác]{"entity": "object", "role": "shape"} màu [hồng]{"entity": "object", "role": "color"} từ [tọa độ]{"entity": "aspect"} ( [5]{"entity": "position", "role": "source_x"} , [7]{"entity": "position", "role": "source_y"}'
+- 'Thực hiện di chuyển sang phải hình [ngôi sao]{"entity": "object", "role": "shape"} màu [tím]{"entity": "object", "role": "color"} từ [vị trí]{"entity": "aspect"} hiện tại với khoảng cách [18 pixel]{"entity": "value", "role": "move"}'
+move_up:
+- 'Thực hiện di chuyển lên trên [hình chữ nhật]{"entity": "object", "role": "shape"} màu [đỏ]{"entity": "object", "role": "color"} tại [tọa độ]{"entity": "aspect"} ( [8]{"entity": "position", "role": "source_x"} , [15]{"entity": "position", "role": "source_y"} ) với khoảng cách [12 pixel]{"entity": "value", "role": "move"}'
+- 'Dịch [hình thoi]{"entity": "object", "role": "shape"} màu [xanh lục]{"entity": "object", "role": "color"} lên trên từ [vị trí]{"entity": "aspect"}'
+- 'Di chuyển lên trên [hình bình hành]{"entity": "object", "role": "shape"} màu [tím]{"entity": "object", "role": "color"} tại [tọa độ]{"entity": "aspect"} ( [5]{"entity": "position", "role": "source_x"} , [9]{"entity": "position", "role": "source_y"} ) với khoảng cách [18 pixel]{"entity": "value", "role": "move"}'
+- 'Thực hiện di chuyển lên trên [hình tam giác]{"entity": "object", "role": "shape"} màu [cam]{"entity": "object", "role": "color"} từ [vị trí]{"entity": "aspect"}'

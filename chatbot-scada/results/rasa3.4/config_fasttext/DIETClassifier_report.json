@@ -1,0 +1,182 @@
+{
+  "change_action": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {}
+  },
+  "value.width": {
+    "precision": 0.125,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.14285714285714288,
+    "support": 12,
+    "confused_with": {
+      "value.length": 8,
+      "value.height": 2
+    }
+  },
+  "value.move": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 14,
+    "confused_with": {}
+  },
+  "value.size": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 5,
+    "confused_with": {}
+  },
+  "value.height": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "value.width": 8,
+      "value.length": 4
+    }
+  },
+  "value.color": {
+    "precision": 0.9411764705882353,
+    "recall": 0.9142857142857143,
+    "f1-score": 0.9275362318840579,
+    "support": 35,
+    "confused_with": {
+      "object.color": 2
+    }
+  },
+  "position.destination": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 15,
+    "confused_with": {
+      "position.source": 5
+    }
+  },
+  "selected_area.size": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 12,
+    "confused_with": {
+      "position.destination": 5,
+      "position.source": 5
+    }
+  },
+  "object.color": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 18,
+    "confused_with": {}
+  },
+  "selected_area.width": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "value.length": 2
+    }
+  },
+  "value.angle": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "value.length": 1
+    }
+  },
+  "value.change": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 16,
+    "confused_with": {
+      "value.move": 2,
+      "value.length": 2
+    }
+  },
+  "selected_area.length": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "value.length": 2
+    }
+  },
+  "value.length": {
+    "precision": 0.09523809523809523,
+    "recall": 0.25,
+    "f1-score": 0.13793103448275862,
+    "support": 8,
+    "confused_with": {
+      "value.width": 6
+    }
+  },
+  "object.size": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "value.size": 1
+    }
+  },
+  "value.orientation": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1,
+    "confused_with": {}
+  },
+  "position.source": {
+    "precision": 0.9230769230769231,
+    "recall": 0.9896907216494846,
+    "f1-score": 0.955223880597015,
+    "support": 194,
+    "confused_with": {}
+  },
+  "selected_area.shape": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "object.shape": 2
+    }
+  },
+  "object.shape": {
+    "precision": 0.8571428571428571,
+    "recall": 0.9473684210526315,
+    "f1-score": 0.9,
+    "support": 38,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.8255528255528255,
+    "recall": 0.8379052369077307,
+    "f1-score": 0.8316831683168316,
+    "support": 401
+  },
+  "macro avg": {
+    "precision": 0.5577677224736048,
+    "recall": 0.5342813082625174,
+    "f1-score": 0.5162804952255949,
+    "support": 401
+  },
+  "weighted avg": {
+    "precision": 0.8263662380355942,
+    "recall": 0.8379052369077307,
+    "f1-score": 0.8190672798485555,
+    "support": 401
+  },
+  "accuracy": 0.9106334841628959
+}

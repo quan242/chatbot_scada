@@ -1,0 +1,11 @@
+<i> Di chuyển sang trái hình vuông ở vị trí hiện tại với khoảng cách mặc định .
+<i> Dịch hình thoi sang trái từ toạ độ ( 5 , 8 ) để tạo hiệu ứng chuyển động .
+<i> Thực hiện di chuyển sang trái hình chữ nhật với khoảng cách 15 pixel từ vị trí hiện tại .
+<i> Dịch hình vuông màu cam từ vị trí hiện tại sang trái với khoảng cách mặc định .
+<i> Di chuyển sang trái hình bình hành ở vị trí hiện tại với khoảng cách mặc định .
+<i> Dịch hình ngôi sao sang trái từ toạ độ ( 3 , 10 ) với khoảng cách 20 pixel .
+<i> Thực hiện di chuyển sang trái hình tam giác từ vị trí hiện tại với khoảng cách mặc định .
+<i> Dịch hình thoi màu đỏ sang trái từ vị trí hiện tại để tạo hiệu ứng chuyển động .
+<i> Di chuyển sang trái hình chữ nhật ở vị trí hiện tại với khoảng cách mặc định .
+<i> Dịch hình tam giác màu xanh từ toạ độ ( 7 , 4 ) với khoảng cách mặc định .
+<i> Thực hiện di chuyển sang trái hình bình hành màu vàng từ vị trí hiện tại .
